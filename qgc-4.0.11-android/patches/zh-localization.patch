@@ -1,0 +1,83 @@
+diff --git a/src/FactSystem/Fact.cc b/src/FactSystem/Fact.cc
+index a57beae..bc77d86 100644
+--- a/src/FactSystem/Fact.cc
++++ b/src/FactSystem/Fact.cc
+@@ -16,6 +16,19 @@
+ #include <QtQml>
+ #include <QQmlEngine>
+ 
++// QGC 4.0.11 never translates the strings that come from the *.Fact.json files, so the fly
++// view instrument panel (and every other place displaying a Fact name) stays English even for
++// locales whose .ts file is complete.
++//
++// Translating them while loading the JSON does NOT work: the vehicle fact groups - including
++// the offline editing vehicle - are constructed by the toolbox before QGCApplication installs
++// the QTranslator, so the lookup misses and the English text is baked into the metadata.
++// Translating here, at display time, always happens after the translator is in place.
++static QString _translateFactJsonString(const QString& source)
++{
++    return QCoreApplication::translate("QGCJson", source.toUtf8().constData());
++}
++
+ static const char* kMissingMetadata = "Meta data pointer missing";
+ 
+ Fact::Fact(QObject* parent)
+@@ -406,7 +419,7 @@ FactMetaData::ValueType_t Fact::type(void) const
+ QString Fact::shortDescription(void) const
+ {
+     if (_metaData) {
+-        return _metaData->shortDescription();
++        return _translateFactJsonString(_metaData->shortDescription());
+     } else {
+         qWarning() << kMissingMetadata << name();
+         return QString();
+@@ -416,7 +429,7 @@ QString Fact::shortDescription(void) const
+ QString Fact::longDescription(void) const
+ {
+     if (_metaData) {
+-        return _metaData->longDescription();
++        return _translateFactJsonString(_metaData->longDescription());
+     } else {
+         qWarning() << kMissingMetadata << name();
+         return QString();
+diff --git a/src/FactSystem/FactMetaData.cc b/src/FactSystem/FactMetaData.cc
+index b4b8ce4..25de7c4 100644
+--- a/src/FactSystem/FactMetaData.cc
++++ b/src/FactSystem/FactMetaData.cc
+@@ -38,6 +38,16 @@ static const char* kDefaultGroup    = QT_TRANSLATE_NOOP("FactMetaData", "Misc");
+ const char* FactMetaData::_jsonMetaDataDefinesName =    "QGC.MetaData.Defines";
+ const char* FactMetaData::_jsonMetaDataFactsName =      "QGC.MetaData.Facts";
+ 
++// QGC 4.0.11 never translates the strings that come from the *.Fact.json files, so the fly
++// view instrument panel (and every other place that displays a Fact name) stays English even
++// for locales whose .ts file is complete. QGC 5.x fixed this with a dedicated
++// JsonHelper::translator() pass; the lightweight equivalent below routes those JSON strings
++// through the normal QTranslator under a single fixed context.
++static QString jsonFactTr(const QString& source)
++{
++    return QCoreApplication::translate("QGCJson", source.toUtf8().constData());
++}
++
+ // Built in translations for all Facts
+ const FactMetaData::BuiltInTranslation_s FactMetaData::_rgBuiltInTranslations[] = {
+     { "centi-degrees",  "deg",  FactMetaData::_centiDegreesToDegrees,                   FactMetaData::_degreesToCentiDegrees },
+@@ -1108,7 +1118,7 @@ FactMetaData* FactMetaData::createFromJsonObject(const QJsonObject& json, QMap<Q
+             QString     errorString;
+ 
+             if (metaData->convertAndValidateRaw(enumValues[i], false /* validate */, enumVariant, errorString)) {
+-                metaData->addEnumInfo(enumStrings[i], enumVariant);
++                metaData->addEnumInfo(jsonFactTr(enumStrings[i]), enumVariant);
+             } else {
+                 qWarning() << "Invalid enum value, name:" << metaData->name()
+                            << " type:" << metaData->type()
+@@ -1121,8 +1131,8 @@ FactMetaData* FactMetaData::createFromJsonObject(const QJsonObject& json, QMap<Q
+     }
+ 
+     metaData->setDecimalPlaces(json[_decimalPlacesJsonKey].toInt(0));
+-    metaData->setShortDescription(json[_shortDescriptionJsonKey].toString());
+-    metaData->setLongDescription(json[_longDescriptionJsonKey].toString());
++    metaData->setShortDescription(jsonFactTr(json[_shortDescriptionJsonKey].toString()));
++    metaData->setLongDescription(jsonFactTr(json[_longDescriptionJsonKey].toString()));
+ 
+     if (json.contains(_unitsJsonKey)) {
+         metaData->setRawUnits(json[_unitsJsonKey].toString());

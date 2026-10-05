@@ -142,6 +142,91 @@ NoSuchMethodError: 'boolean org.codehaus.groovy.runtime.StringGroovyMethods.cont
 - 清单里的 `package=` 属性不再被支持 → 改用 `build.gradle` 的 `namespace`。
 - `lintOptions {}` → `lint {}`；`resources.srcDirs` / `renderscript.srcDirs` 已移除。
 
+## 中文汉化（4.0.11）
+
+4.0.11 的汉化比 5.0 复杂：**翻译文件本身显示 99.6% 完成，界面却大面积英文**。排查后是三个独立问题叠加。
+
+### 1. `.ts` 与源码完全脱节（最严重）
+
+仓库里的 `localization/qgc_zh_CN.ts` **从未用 `lupdate` 跟随源码更新过**：
+
+```
+[lupdate 结果]
+Found 2773 source text(s) (430 new and 2343 already existing)
+Kept 391 obsolete entries
+```
+
+- **430 条源字符串根本不在 `.ts` 里** → 只能显示英文（界面上看到的 `Ground Speed`、`Flight Time`、`Take off` 就是这类）
+- **391 条因字符串换文件而失效** → 译文仍挂在旧 `context` 下，运行时查找必然失败。例如 `Waiting For Vehicle Connection` 在 `.ts` 里属于 `MainToolBarIndicators.qml`，实际源码已在 `MainToolBar.qml:318`
+
+处理流程（把 lupdate 标为 obsolete 的旧译文抢救回来）：
+
+```bash
+lupdate qgroundcontrol.pro -ts localization/qgc_zh_CN.ts          # 重新对齐源码
+python tools/ts_reuse_translations.py old.ts new.ts               # 回填 obsolete 条目里的旧译文
+python tools/zh_translate.py analyze localization/qgc_zh_CN.ts    # 统计剩余缺口
+python tools/zh_translate.py export  localization/qgc_zh_CN.ts --out todo.json
+python tools/zh_translate.py apply   localization/qgc_zh_CN.ts --out translated.json
+python tools/ts_fix_broken.py localization/qgc_zh_CN.ts           # 修复「返航Return」这类损坏译文
+python tools/json_facts_to_ts.py localization/qgc_zh_CN.ts        # 把 JSON 事实字符串并入 .ts
+```
+
+> `lupdate` 必须在设置好 `ANDROID_NDK_ROOT` 的环境下运行，否则 qmake 读不到
+> `mkspecs/android-clang/qmake.conf`，会扫描到 **0 个源字符串并把整份文件标记为 obsolete**。
+
+### 2. JSON 事实字符串从不参与翻译
+
+`src/Vehicle/VehicleFact.json` 等 23 个文件里的 `shortDescription` 由
+`FactMetaData` 直接读取（`FactMetaData.cc:1124`），**没有任何翻译处理**，
+所以「高度 / 地速 / 飞行时间」等始终是英文。QGC 5.x 为此引入了
+`JsonHelper::translator()` 通道，4.0.11 完全没有。
+
+### 3. 翻译时机不对（最容易踩）
+
+即使把 JSON 字符串纳入 `.ts`，**在解析 JSON 时翻译仍然无效**：
+
+```
+工具箱创建（含离线载具 → 解析 VehicleFact.json）
+    ↓
+QGCApplication 安装 QTranslator      ← 翻译器这时才存在
+    ↓
+界面加载
+```
+
+载具的 `FactGroup` 在翻译器安装**之前**就已构造，查找必然失败，英文名被永久写进元数据。
+因此补丁必须放在**显示时**：`Fact::shortDescription()` / `longDescription()`。
+
+### 补丁清单
+
+统一使用固定 context `"QGCJson"`，与 `qgc_zh_CN.ts` 中的 `QGCJson` 上下文对应。
+
+| 文件 | 改动 |
+|---|---|
+| `src/FactSystem/Fact.cc` | 新增 `_translateFactJsonString()`；`shortDescription()` / `longDescription()` 出口翻译 |
+| `src/FactSystem/FactMetaData.cc` | `jsonFactTr()` 包裹 `setShortDescription` / `setLongDescription` / `addEnumInfo` |
+
+完整 unified diff 见 `patches/zh-localization.patch`，改造后的源文件见 `patches/*.patched`。
+
+> 教训：编辑 `C:\qgc40` 下的源码时，编辑工具**偶尔会静默破坏文件**（有一次吃掉了
+> `Fact::type()` 和 `Fact::cookedDefaultValueString()`，表现为链接期
+> `undefined reference`）。**改完务必用 `git -C C:\qgc40 diff` 审计改动**，
+> 确认没有非预期的删除。
+
+### 最终结果
+
+```
+lrelease: Generated 3323 translation(s) (3311 finished, 12 unfinished)
+```
+
+| 项目 | 数值 |
+|---|---|
+| `.ts` 总条目 | 3342（含 176 条 JSON 字符串） |
+| 已翻译 | **3309 / 3342 = 99.0%** |
+| 剩余 33 条 | 全部不可翻译：JWT 代码片段、纯数字（`0.1`、`10,000`）、符号（`+`、`-`、`L`）、品牌名（`Sony DSC-RX0`）、缩写（`HDOP`、`VDOP`、`n/a`） |
+
+真机（HTC D820u / Android 4.4.4）实测：顶栏「返航 / 起飞 / 飞行」、右侧「正在等待飞机连接」、
+比例尺「2000 千米」、遥测面板「高度 (相对) / 地速 / 飞行时间」全部为中文。
+
 ## 已知限制
 
 - **无视频流**：构建时未安装 GStreamer 1.14.4，`androiddeployqt` 输出
