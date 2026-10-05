@@ -1,0 +1,47 @@
+# ---------------------------------------------------------------------------
+# Binary artefacts are distributed through GitHub Releases, not through git.
+# ---------------------------------------------------------------------------
+*.apk
+*.aab
+*.idsig
+
+# ---------------------------------------------------------------------------
+# Upstream QGroundControl source checkout.
+# It is its own git repository (with submodules), so it must not be nested here.
+# See the build scripts / README for the exact clone + tag used.
+# ---------------------------------------------------------------------------
+qgroundcontrol/
+
+# ---------------------------------------------------------------------------
+# Build trees (Qt qmake/make + Gradle). Only scripts and docs belong in git.
+# ---------------------------------------------------------------------------
+build/
+release/
+obj/
+moc/
+rcc/
+.qm/
+.gradle/
+local.properties
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+
+# ---------------------------------------------------------------------------
+# Scratch files used while generating the Chinese translations.
+# The final/curated copies live in backup-v5.0-android/translation-work/.
+# ---------------------------------------------------------------------------
+work/
+aqtinstall.log
+mirror-test.txt
+
+# ---------------------------------------------------------------------------
+# OS / editor noise
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+*.swp

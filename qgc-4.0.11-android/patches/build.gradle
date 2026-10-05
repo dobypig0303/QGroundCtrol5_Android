@@ -1,0 +1,97 @@
+/*
+ * Patched build.gradle for QGroundControl 4.0.11 (Qt 5.12.6, Android 4.4+).
+ *
+ * Why this file is needed:
+ *   Qt 5.12.6's androiddeployqt copies this template into <build>/android-build,
+ *   and androiddeployqt then copies the *application's* android/ directory
+ *   over it. QGC 4.0.11 ships an ancient build.gradle that requests
+ *   com.android.tools.build:gradle:1.1.0 together with the now-dead jcenter()
+ *   repository.
+ *
+ *   AGP 1.1.0 is a Groovy-compiled plugin whose BasePlugin.verifyRetirementAge()
+ *   calls StringGroovyMethods.contains(String, String) - a method that no longer
+ *   exists in the Groovy 3.0.22 that Gradle 8.x ships. Applying it therefore dies
+ *   with:  NoSuchMethodError: 'boolean ...StringGroovyMethods.contains(...)'
+ *
+ *   So we build with AGP 8.8.0 + Gradle 8.12.1 (the same combination that
+ *   already successfully built QGC 5.0 on this machine, so the artifacts are
+ *   already in ~/.gradle/caches and nothing new has to be downloaded).
+ *
+ * AGP 8 differences handled here:
+ *   - jcenter()            -> mavenCentral()
+ *   - `package=` in the manifest -> `namespace` (handled in AndroidManifest.xml)
+ *   - lintOptions {}       -> lint {}
+ *   - removed the obsolete `resources.srcDirs` / `renderscript.srcDirs`
+ *   - explicit minSdk 19 = Android 4.4 KitKat
+ */
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.8.0'
+    }
+}
+
+repositories {
+    google()
+    mavenCentral()
+}
+
+apply plugin: 'com.android.application'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
+}
+
+android {
+    namespace 'org.mavlink.qgroundcontrol'
+
+    // androidCompileSdkVersion / androidBuildToolsVersion come from gradle.properties
+    compileSdk androidCompileSdkVersion.toInteger()
+
+    defaultConfig {
+        // Android 4.4 KitKat = API 19
+        minSdkVersion 19
+        targetSdkVersion 28
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = [qt5AndroidDir + '/src', 'src', 'java']
+            aidl.srcDirs = [qt5AndroidDir + '/src', 'src', 'aidl']
+            res.srcDirs = [qt5AndroidDir + '/res', 'res']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['libs']
+       }
+    }
+
+    // REQUIRED for Android 4.4: native libraries must be extracted from the APK.
+    // AGP 8 defaults to extractNativeLibs=false, which only works on Android 6+.
+    packagingOptions.jniLibs.useLegacyPackaging = true
+
+    // AGP 8 turns these off by default, but Qt 5.12 needs both:
+    //  - buildConfig: the generated BuildConfig class
+    //  - aidl       : QtLoader.java references org.kde.necessitas.ministro.IMinistro
+    //                 and IMinistroCallback, which are generated from the .aidl
+    //                 files shipped in $qt5AndroidDir/src/org/kde/necessitas/ministro/
+    //                 (without this the build dies with 8x "找不到符号 IMinistro")
+    buildFeatures {
+        buildConfig = true
+        aidl = true
+    }
+
+    lint {
+        abortOnError false
+        checkReleaseBuilds false
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}

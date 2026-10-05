@@ -1,0 +1,2537 @@
+[
+ {
+  "i": 0,
+  "s": "Gimbal Roll",
+  "c": "GimbalFact.json"
+ },
+ {
+  "i": 1,
+  "s": "Gimbal Pitch",
+  "c": "GimbalFact.json"
+ },
+ {
+  "i": 2,
+  "s": "Gimbal Yaw",
+  "c": "GimbalFact.json"
+ },
+ {
+  "i": 3,
+  "s": "Azimuth",
+  "c": "GimbalFact.json"
+ },
+ {
+  "i": 4,
+  "s": "gimbal device Id",
+  "c": "GimbalFact.json"
+ },
+ {
+  "i": 5,
+  "s": "Minimum zoom level for downloads.",
+  "c": "OfflineMaps.SettingsGroup.json"
+ },
+ {
+  "i": 6,
+  "s": "Maximum zoom level for downloads.",
+  "c": "OfflineMaps.SettingsGroup.json"
+ },
+ {
+  "i": 7,
+  "s": "Maximum number of tiles for download.",
+  "c": "OfflineMaps.SettingsGroup.json"
+ },
+ {
+  "i": 8,
+  "s": "Minimum altitude for guided actions altitude slider.",
+  "c": "FlyView.SettingsGroup.json"
+ },
+ {
+  "i": 9,
+  "s": "Maximum altitude for guided actions altitude slider.",
+  "c": "FlyView.SettingsGroup.json"
+ },
+ {
+  "i": 10,
+  "s": "Show/Hide Log Replay status bar",
+  "c": "FlyView.SettingsGroup.json"
+ },
+ {
+  "i": 11,
+  "s": "Show additional heading indicators on Compass",
+  "c": "FlyView.SettingsGroup.json"
+ },
+ {
+  "i": 12,
+  "s": "Lock Compass Nose-Up",
+  "c": "FlyView.SettingsGroup.json"
+ },
+ {
+  "i": 13,
+  "s": "Keep map centered on vehicle",
+  "c": "FlyView.SettingsGroup.json"
+ },
+ {
+  "i": 14,
+  "s": "Show controls for camera triggering using MAV_CMD_DO_DIGICAM_CONTROL.",
+  "c": "FlyView.SettingsGroup.json"
+ },
+ {
+  "i": 15,
+  "s": "Show obstacle distance overlay on map and video.",
+  "c": "FlyView.SettingsGroup.json"
+ },
+ {
+  "i": 16,
+  "s": "Maximum distance allowed for Go To Location.",
+  "c": "FlyView.SettingsGroup.json"
+ },
+ {
+  "i": 17,
+  "s": "Loiter radius for orbiting the Go To Location during forward flight. This only applies if the firmware supports a radius in MAV_CMD_DO_REPOSITION commands.",
+  "c": "FlyView.SettingsGroup.json"
+ },
+ {
+  "i": 18,
+  "s": "Require slide confirmation for Go To Location when the vehicle is already in Guided mode.",
+  "c": "FlyView.SettingsGroup.json"
+ },
+ {
+  "i": 19,
+  "s": "Send updated GCS' home position to autopilot in case of change of the home position",
+  "c": "FlyView.SettingsGroup.json"
+ },
+ {
+  "i": 20,
+  "s": "Qml file for instrument panel",
+  "c": "FlyView.SettingsGroup.json"
+ },
+ {
+  "i": 21,
+  "s": "Integrated Compass & Attitude,Horizontal Compass & Attitude,Large Vertical",
+  "c": "FlyView.SettingsGroup.json"
+ },
+ {
+  "i": 22,
+  "s": "When requesting vehicle control, allow other GCS to override control automatically, or require this GCS to accept the request first.",
+  "c": "FlyView.SettingsGroup.json"
+ },
+ {
+  "i": 23,
+  "s": "Timeout in seconds before a request to a GCS to allow takeover is assumed to be rejected. This is used to display the timeout graphically on requestor and GCS in control.",
+  "c": "FlyView.SettingsGroup.json"
+ },
+ {
+  "i": 24,
+  "s": "Offline editing firmware class",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 26,
+  "s": "Offline editing vehicle class",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 28,
+  "s": "Offline editing cruise speed",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 29,
+  "s": "This value defines the default speed for calculating mission statistics for vehicles which do not support hover or VTOL vehicles in fixed wing mode. It does not modify the flight speed for a specific flight plan.",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 30,
+  "s": "Offline editing hover speed",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 31,
+  "s": "This value defines the default speed for calculating mission statistics for multi-rotor vehicles or VTOL vehicle in multi-rotor mode. It does not modify the flight speed for a specific flight plan.",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 32,
+  "s": "Offline editing ascent speed",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 33,
+  "s": "This value defines the ascent speed for multi-rotor vehicles for use in calculating mission duration.",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 34,
+  "s": "Offline editing descent speed",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 35,
+  "s": "This value defines the cruising speed for multi-rotor vehicles for use in calculating mission duration.",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 36,
+  "s": "Announce battery remaining percent",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 37,
+  "s": "Announce the remaining battery percent when it falls below the specified percentage.",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 38,
+  "s": "Default value for altitude",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 39,
+  "s": "This value specifies the default altitude for new items added to a mission.",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 40,
+  "s": "Mute audio output",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 41,
+  "s": "If this option is enabled all audio output will be muted.",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 42,
+  "s": "Show virtual joystick",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 43,
+  "s": "If this option is enabled the virtual joystick will be shown on the Fly view.",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 44,
+  "s": "Auto-Center Throttle",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 45,
+  "s": "If enabled the throttle stick will snap back to center when released.",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 46,
+  "s": "Left Handed Mode",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 47,
+  "s": "If this option is enabled the virtual joystick layout will be reversed",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 48,
+  "s": "Video streaming debug",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 49,
+  "s": "Sets the environment variable GST_DEBUG for all pipeline elements on boot.",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 51,
+  "s": "Use preflight checklist",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 52,
+  "s": "If this option is enabled the preflight checklist will be used.",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 55,
+  "s": "Enable Multi-Vehicle Panel",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 56,
+  "s": "Enable Multi-Vehicle Panel when multiple vehicles are connected.",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 58,
+  "s": "The point size for the default font used.",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 60,
+  "s": "The color scheme for the user interface.",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 63,
+  "s": "Directory to which all data files are saved/loaded from",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 64,
+  "s": "Save to SD card",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 66,
+  "s": "Access token to Mapbox maps",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 67,
+  "s": "Your personal access token for Mapbox maps",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 68,
+  "s": "Account name for Mapbox maps",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 69,
+  "s": "Your personal account name for Mapbox maps",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 70,
+  "s": "Map style ID",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 71,
+  "s": "Map design style ID for Mapbox maps",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 72,
+  "s": "Access token to Esri maps",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 73,
+  "s": "Your personal access token for Esri maps",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 74,
+  "s": "Custom Map URL",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 75,
+  "s": "URL for X Y Z map with {x} {y} {z} or {zoom} substitutions. Eg: https://basemaps.linz.govt.nz/v1/tiles/aerial/EPSG:3857/{z}/{x}/{y}.png?api=d01ev80nqcjxddfvc6amyvkk1ka",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 76,
+  "s": "VWorld Token",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 77,
+  "s": "Your personal access token for VWorld maps",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 78,
+  "s": "Stream GCS' coordinates to Autopilot",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 80,
+  "s": "Language",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 81,
+  "s": "Disable all data persistence",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 82,
+  "s": "If this option is set, nothing will be saved to disk.",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 83,
+  "s": "Comma separated list of first run prompt ids which have already been shown.",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 84,
+  "s": "AirLink User Name",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 85,
+  "s": "AirLink Password",
+  "c": "App.SettingsGroup.json"
+ },
+ {
+  "i": 86,
+  "s": "Name of JSON custom actions file for Fly View",
+  "c": "MavlinkActions.SettingsGroup.json"
+ },
+ {
+  "i": 87,
+  "s": "Name of JSON custom actions file for Joysticks",
+  "c": "MavlinkActions.SettingsGroup.json"
+ },
+ {
+  "i": 88,
+  "s": "Default firmware type for flashing",
+  "c": "FirmwareUpgrade.SettingsGroup.json"
+ },
+ {
+  "i": 91,
+  "s": "User-selected brand image",
+  "c": "BrandImage.SettingsGroup.json"
+ },
+ {
+  "i": 92,
+  "s": "Location in file system of user-selected brand image (indoor)",
+  "c": "BrandImage.SettingsGroup.json"
+ },
+ {
+  "i": 93,
+  "s": "Location in file system of user-selected brand image (outdoor)",
+  "c": "BrandImage.SettingsGroup.json"
+ },
+ {
+  "i": 94,
+  "s": "Comma separated list of hidden flight modes",
+  "c": "FlightMode.SettingsGroup.json"
+ },
+ {
+  "i": 95,
+  "s": "Comma separated list of hidden flight modes for MultiRotor",
+  "c": "FlightMode.SettingsGroup.json"
+ },
+ {
+  "i": 96,
+  "s": "Comma separated list of hidden flight modes for FixedWing",
+  "c": "FlightMode.SettingsGroup.json"
+ },
+ {
+  "i": 97,
+  "s": "Comma separated list of hidden flight modes for VTOL",
+  "c": "FlightMode.SettingsGroup.json"
+ },
+ {
+  "i": 98,
+  "s": "Comma separated list of hidden flight modes for RoverBoat",
+  "c": "FlightMode.SettingsGroup.json"
+ },
+ {
+  "i": 99,
+  "s": "Comma separated list of hidden flight modes for Sub",
+  "c": "FlightMode.SettingsGroup.json"
+ },
+ {
+  "i": 100,
+  "s": "Comma separated list of hidden flight modes for Airship",
+  "c": "FlightMode.SettingsGroup.json"
+ },
+ {
+  "i": 102,
+  "s": "The minimum accuracy value that Survey-In must achieve before it can complete.",
+  "c": "RTK.SettingsGroup.json"
+ },
+ {
+  "i": 103,
+  "s": "Min observation time",
+  "c": "RTK.SettingsGroup.json"
+ },
+ {
+  "i": 104,
+  "s": "Defines the minimum amount of observation time for the position calculation.",
+  "c": "RTK.SettingsGroup.json"
+ },
+ {
+  "i": 105,
+  "s": "Use specified base position",
+  "c": "RTK.SettingsGroup.json"
+ },
+ {
+  "i": 106,
+  "s": "Specify the values for the RTK base position without having to do a survey in.",
+  "c": "RTK.SettingsGroup.json"
+ },
+ {
+  "i": 107,
+  "s": "Base Position Latitude",
+  "c": "RTK.SettingsGroup.json"
+ },
+ {
+  "i": 108,
+  "s": "Defines the latitude of the fixed RTK base position.",
+  "c": "RTK.SettingsGroup.json"
+ },
+ {
+  "i": 109,
+  "s": "Base Position Longitude",
+  "c": "RTK.SettingsGroup.json"
+ },
+ {
+  "i": 110,
+  "s": "Defines the longitude of the fixed RTK base position.",
+  "c": "RTK.SettingsGroup.json"
+ },
+ {
+  "i": 111,
+  "s": "Base Position Alt (WGS84)",
+  "c": "RTK.SettingsGroup.json"
+ },
+ {
+  "i": 112,
+  "s": "Defines the altitude of the fixed RTK base position.",
+  "c": "RTK.SettingsGroup.json"
+ },
+ {
+  "i": 113,
+  "s": "Base Position Accuracy",
+  "c": "RTK.SettingsGroup.json"
+ },
+ {
+  "i": 114,
+  "s": "Defines the accuracy of the fixed RTK base position.",
+  "c": "RTK.SettingsGroup.json"
+ },
+ {
+  "i": 116,
+  "s": "Currently selected map provider for flight maps",
+  "c": "FlightMap.SettingsGroup.json"
+ },
+ {
+  "i": 117,
+  "s": "Currently selected map type for flight maps",
+  "c": "FlightMap.SettingsGroup.json"
+ },
+ {
+  "i": 118,
+  "s": "Currently selected elevation map provider",
+  "c": "FlightMap.SettingsGroup.json"
+ },
+ {
+  "i": 119,
+  "s": "Automatically open a connection over UDP",
+  "c": "AutoConnect.SettingsGroup.json"
+ },
+ {
+  "i": 120,
+  "s": "If this option is enabled GroundControl will automatically connect to a vehicle which is detected on a UDP communication link.",
+  "c": "AutoConnect.SettingsGroup.json"
+ },
+ {
+  "i": 121,
+  "s": "Automatically connect to a Pixhawk board",
+  "c": "AutoConnect.SettingsGroup.json"
+ },
+ {
+  "i": 122,
+  "s": "If this option is enabled GroundControl will automatically connect to a Pixhawk board which is connected via USB.",
+  "c": "AutoConnect.SettingsGroup.json"
+ },
+ {
+  "i": 123,
+  "s": "Automatically connect to a SiK Radio",
+  "c": "AutoConnect.SettingsGroup.json"
+ },
+ {
+  "i": 124,
+  "s": "If this option is enabled GroundControl will automatically connect to a vehicle which is detected on a SiK Radio communication link.",
+  "c": "AutoConnect.SettingsGroup.json"
+ },
+ {
+  "i": 125,
+  "s": "Automatically connect to an RTK GPS",
+  "c": "AutoConnect.SettingsGroup.json"
+ },
+ {
+  "i": 126,
+  "s": "If this option is enabled GroundControl will automatically connect to an RTK GPS which is connected via USB.",
+  "c": "AutoConnect.SettingsGroup.json"
+ },
+ {
+  "i": 127,
+  "s": "Automatically connect to a LibrePilot",
+  "c": "AutoConnect.SettingsGroup.json"
+ },
+ {
+  "i": 128,
+  "s": "If this option is enabled GroundControl will automatically connect to a LibrePilot board which is connected via USB.",
+  "c": "AutoConnect.SettingsGroup.json"
+ },
+ {
+  "i": 129,
+  "s": "NMEA GPS device for GCS position",
+  "c": "AutoConnect.SettingsGroup.json"
+ },
+ {
+  "i": 130,
+  "s": "NMEA GPS Baudrate",
+  "c": "AutoConnect.SettingsGroup.json"
+ },
+ {
+  "i": 131,
+  "s": "Automatically open a connection with Zero-Conf",
+  "c": "AutoConnect.SettingsGroup.json"
+ },
+ {
+  "i": 132,
+  "s": "If this option is enabled GroundControl will automatically connect to a vehicle which is detected over Zero-Conf.",
+  "c": "AutoConnect.SettingsGroup.json"
+ },
+ {
+  "i": 133,
+  "s": "UDP port for autoconnect",
+  "c": "AutoConnect.SettingsGroup.json"
+ },
+ {
+  "i": 134,
+  "s": "UDP target host IP for autoconnect",
+  "c": "AutoConnect.SettingsGroup.json"
+ },
+ {
+  "i": 135,
+  "s": "UDP target host port for autoconnect",
+  "c": "AutoConnect.SettingsGroup.json"
+ },
+ {
+  "i": 136,
+  "s": "Udp port to receive NMEA streams",
+  "c": "AutoConnect.SettingsGroup.json"
+ },
+ {
+  "i": 137,
+  "s": "Enable the 3D viewer",
+  "c": "Viewer3D.SettingsGroup.json"
+ },
+ {
+  "i": 138,
+  "s": "Path to the OSM file for the 3D viewer.",
+  "c": "Viewer3D.SettingsGroup.json"
+ },
+ {
+  "i": 139,
+  "s": "Average Height for each level of the buildings",
+  "c": "Viewer3D.SettingsGroup.json"
+ },
+ {
+  "i": 140,
+  "s": "Altitude bias for vehicles in the 3D View",
+  "c": "Viewer3D.SettingsGroup.json"
+ },
+ {
+  "i": 141,
+  "s": "Max disk cache",
+  "c": "Maps.SettingsGroup.json"
+ },
+ {
+  "i": 142,
+  "s": "Max memory cache",
+  "c": "Maps.SettingsGroup.json"
+ },
+ {
+  "i": 143,
+  "s": "Select values to display in indicator",
+  "c": "BatteryIndicator.SettingsGroup.json"
+ },
+ {
+  "i": 144,
+  "s": "Percentage,Voltage,Percentage and Voltage",
+  "c": "BatteryIndicator.SettingsGroup.json"
+ },
+ {
+  "i": 145,
+  "s": "Battery level threshold 1",
+  "c": "BatteryIndicator.SettingsGroup.json"
+ },
+ {
+  "i": 146,
+  "s": "Battery level threshold 2",
+  "c": "BatteryIndicator.SettingsGroup.json"
+ },
+ {
+  "i": 147,
+  "s": "Save telemetry Log after each flight",
+  "c": "Mavlink.SettingsGroup.json"
+ },
+ {
+  "i": 148,
+  "s": "If this option is enabled a telemetry will be saved after each flight completes.",
+  "c": "Mavlink.SettingsGroup.json"
+ },
+ {
+  "i": 149,
+  "s": "Save telemetry log even if vehicle was not armed",
+  "c": "Mavlink.SettingsGroup.json"
+ },
+ {
+  "i": 150,
+  "s": "If this option is enabled a telemtry log will be saved even if vehicle was never armed.",
+  "c": "Mavlink.SettingsGroup.json"
+ },
+ {
+  "i": 152,
+  "s": "Save CSV Telementry Logs",
+  "c": "Mavlink.SettingsGroup.json"
+ },
+ {
+  "i": 153,
+  "s": "If this option is enabled, all Facts will be written to a CSV file with a 1 Hertz frequency.",
+  "c": "Mavlink.SettingsGroup.json"
+ },
+ {
+  "i": 154,
+  "s": "Enable mavlink forwarding",
+  "c": "Mavlink.SettingsGroup.json"
+ },
+ {
+  "i": 155,
+  "s": "Host name",
+  "c": "Mavlink.SettingsGroup.json"
+ },
+ {
+  "i": 156,
+  "s": "Host name to forward mavlink to. i.e: localhost:14445",
+  "c": "Mavlink.SettingsGroup.json"
+ },
+ {
+  "i": 157,
+  "s": "Ardupilot Support Host name",
+  "c": "Mavlink.SettingsGroup.json"
+ },
+ {
+  "i": 158,
+  "s": "Ardupilot Support server to forward mavlink to. i.e: support.ardupilot.org:xxxx",
+  "c": "Mavlink.SettingsGroup.json"
+ },
+ {
+  "i": 159,
+  "s": "MAVLink 2.0 signing key",
+  "c": "Mavlink.SettingsGroup.json"
+ },
+ {
+  "i": 160,
+  "s": "Send GCS Heartbeat",
+  "c": "Mavlink.SettingsGroup.json"
+ },
+ {
+  "i": 161,
+  "s": "GCS MAVLink System ID",
+  "c": "Mavlink.SettingsGroup.json"
+ },
+ {
+  "i": 162,
+  "s": "Video source",
+  "c": "Video.SettingsGroup.json"
+ },
+ {
+  "i": 163,
+  "s": "Source for video. UDP, TCP, RTSP and UVC Cameras may be supported depending on Vehicle and ground station version.",
+  "c": "Video.SettingsGroup.json"
+ },
+ {
+  "i": 164,
+  "s": "Video UDP Url",
+  "c": "Video.SettingsGroup.json"
+ },
+ {
+  "i": 165,
+  "s": "UDP url address and port to bind to for video stream. Example: 0.0.0.0:5600",
+  "c": "Video.SettingsGroup.json"
+ },
+ {
+  "i": 166,
+  "s": "Video RTSP Url",
+  "c": "Video.SettingsGroup.json"
+ },
+ {
+  "i": 167,
+  "s": "RTSP url address and port to bind to for video stream. Example: rtsp://192.168.42.1:554/live",
+  "c": "Video.SettingsGroup.json"
+ },
+ {
+  "i": 168,
+  "s": "Video TCP Url",
+  "c": "Video.SettingsGroup.json"
+ },
+ {
+  "i": 169,
+  "s": "TCP url address and port to bind to for video stream. Example: 192.168.143.200:3001",
+  "c": "Video.SettingsGroup.json"
+ },
+ {
+  "i": 170,
+  "s": "Video save directory",
+  "c": "Video.SettingsGroup.json"
+ },
+ {
+  "i": 171,
+  "s": "Directory to save videos to.",
+  "c": "Video.SettingsGroup.json"
+ },
+ {
+  "i": 172,
+  "s": "Video Aspect Ratio",
+  "c": "Video.SettingsGroup.json"
+ },
+ {
+  "i": 173,
+  "s": "Video Aspect Ratio (width / height). Use 0.0 to ignore it.",
+  "c": "Video.SettingsGroup.json"
+ },
+ {
+  "i": 174,
+  "s": "Video Grid Lines",
+  "c": "Video.SettingsGroup.json"
+ },
+ {
+  "i": 177,
+  "s": "Handle Video Aspect Ratio.",
+  "c": "Video.SettingsGroup.json"
+ },
+ {
+  "i": 178,
+  "s": "Fit Width,Fit Height,Fill,No Crop",
+  "c": "Video.SettingsGroup.json"
+ },
+ {
+  "i": 179,
+  "s": "Show Video Record Control",
+  "c": "Video.SettingsGroup.json"
+ },
+ {
+  "i": 180,
+  "s": "Show recording control in the UI.",
+  "c": "Video.SettingsGroup.json"
+ },
+ {
+  "i": 181,
+  "s": "Video Recording Format",
+  "c": "Video.SettingsGroup.json"
+ },
+ {
+  "i": 182,
+  "s": "Video recording file format.",
+  "c": "Video.SettingsGroup.json"
+ },
+ {
+  "i": 184,
+  "s": "Max Video Storage Usage",
+  "c": "Video.SettingsGroup.json"
+ },
+ {
+  "i": 185,
+  "s": "Maximum amount of disk space used by video recording.",
+  "c": "Video.SettingsGroup.json"
+ },
+ {
+  "i": 186,
+  "s": "Enable/Disable Limits on Storage Usage",
+  "c": "Video.SettingsGroup.json"
+ },
+ {
+  "i": 187,
+  "s": "When enabled, old video files will be auto-deleted when the total size of QGC-recorded video exceeds the maximum video storage usage.",
+  "c": "Video.SettingsGroup.json"
+ },
+ {
+  "i": 188,
+  "s": "RTSP Video Timeout",
+  "c": "Video.SettingsGroup.json"
+ },
+ {
+  "i": 189,
+  "s": "How long to wait before assuming RTSP link is gone.",
+  "c": "Video.SettingsGroup.json"
+ },
+ {
+  "i": 190,
+  "s": "Video Stream Enabled",
+  "c": "Video.SettingsGroup.json"
+ },
+ {
+  "i": 191,
+  "s": "Start/Stop Video Stream.",
+  "c": "Video.SettingsGroup.json"
+ },
+ {
+  "i": 192,
+  "s": "Video Stream Disnabled When Armed",
+  "c": "Video.SettingsGroup.json"
+ },
+ {
+  "i": 193,
+  "s": "Disable Video Stream when disarmed.",
+  "c": "Video.SettingsGroup.json"
+ },
+ {
+  "i": 194,
+  "s": "Tweaks video for lower latency",
+  "c": "Video.SettingsGroup.json"
+ },
+ {
+  "i": 195,
+  "s": "If this option is enabled, the rtpjitterbuffer is removed and the video sink is set to assynchronous mode, reducing the latency by about 200 ms.",
+  "c": "Video.SettingsGroup.json"
+ },
+ {
+  "i": 196,
+  "s": "Force specific category of video decode",
+  "c": "Video.SettingsGroup.json"
+ },
+ {
+  "i": 197,
+  "s": "Force the change of prioritization between video decode methods, allowing the user to force some video hardware decode plugins if necessary.",
+  "c": "Video.SettingsGroup.json"
+ },
+ {
+  "i": 198,
+  "s": "Default,Force software decoder,Force NVIDIA decoder,Force VA-API decoder,Force DirectX3D 11 decoder,Force VideoToolbox decoder,Force Intel decoder,Force Vulkan decoder",
+  "c": "Video.SettingsGroup.json"
+ },
+ {
+  "i": 199,
+  "s": "Operator ID",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 200,
+  "s": "Operator ID. Maximum 20 characters.",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 201,
+  "s": "Operator ID is valid",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 202,
+  "s": "Operator ID has been checked using checksum.",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 203,
+  "s": "Operator ID type",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 204,
+  "s": "CAA",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 205,
+  "s": "Send Operator ID",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 206,
+  "s": "When enabled, sends operator ID message",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 207,
+  "s": "Flight Purpose",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 208,
+  "s": "Optional plain text for operator to specify operations data (Free Text). Maximum 23 characters.",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 209,
+  "s": "Emergency Text",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 210,
+  "s": "Optional plain text for operator to specify operations data (Emergency Text). Maximum 23 characters.",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 211,
+  "s": "Extended Status",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 212,
+  "s": "Optional plain text for operator to specify operations data (Extended Text). Maximum 23 characters.",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 213,
+  "s": "Self ID type",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 214,
+  "s": "Flight Purpose,Emergency,Extended Status",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 215,
+  "s": "Send Self ID",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 216,
+  "s": "When enabled, sends self ID message",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 217,
+  "s": "Basic ID",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 218,
+  "s": "Basic ID Type",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 219,
+  "s": "None,SerialNumber (ANSI/CTA-2063),CAA,UTM (RFC4122),Specific",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 220,
+  "s": "UA type",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 221,
+  "s": "Undefined,Airplane/FixedWing,Helicopter/Multirrotor,Gyroplane,VTOL,Ornithopter,Glider,Kite,Free Ballon,Captive Ballon,Airship,Parachute,Rocket,Tethered powered aircraft,Ground Obstacle,Other",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 222,
+  "s": "Send Basic ID",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 223,
+  "s": "When enabled, sends basic ID message",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 224,
+  "s": "Region of operation",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 225,
+  "s": "The region of operation the mission will take place in",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 226,
+  "s": "FAA,EU",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 227,
+  "s": "Location Type",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 228,
+  "s": "Operator location Type",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 229,
+  "s": "Takeoff(Not Supported),Live GNNS, Fixed (not for FAA)",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 230,
+  "s": "Latitude Fixed",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 231,
+  "s": "Fixed latitude to send on SYSTEM message",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 232,
+  "s": "Longitude Fixed",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 233,
+  "s": "Fixed Longitude to send on SYSTEM message",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 234,
+  "s": "Altitude Fixed",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 235,
+  "s": "Fixed Altitude to send on SYSTEM message",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 236,
+  "s": "Classification Type",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 237,
+  "s": "Classification Type of UAS",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 238,
+  "s": "Undeclared,EU",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 239,
+  "s": "Category",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 240,
+  "s": "Category of the UAS in the EU region",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 241,
+  "s": "Undeclared,Open,Specific,Certified",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 242,
+  "s": "Class",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 243,
+  "s": "Class of the UAS in the EU region",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 244,
+  "s": "Undeclared,Class 0,Class 1,Class 2,Class 3,Class 4,Class 5,Class 6",
+  "c": "RemoteID.SettingsGroup.json"
+ },
+ {
+  "i": 245,
+  "s": "Connect to ADSB SBS server",
+  "c": "ADSBVehicleManager.SettingsGroup.json"
+ },
+ {
+  "i": 246,
+  "s": "Connect to ADSB SBS-1 server using specified address/port",
+  "c": "ADSBVehicleManager.SettingsGroup.json"
+ },
+ {
+  "i": 247,
+  "s": "Host address",
+  "c": "ADSBVehicleManager.SettingsGroup.json"
+ },
+ {
+  "i": 248,
+  "s": "Server port",
+  "c": "ADSBVehicleManager.SettingsGroup.json"
+ },
+ {
+  "i": 249,
+  "s": "Enable on Screen Camera Control",
+  "c": "GimbalController.SettingsGroup.json"
+ },
+ {
+  "i": 250,
+  "s": "Type of on-screen control",
+  "c": "GimbalController.SettingsGroup.json"
+ },
+ {
+  "i": 251,
+  "s": "Click to point, click and drag",
+  "c": "GimbalController.SettingsGroup.json"
+ },
+ {
+  "i": 252,
+  "s": "Vertical camera field of view",
+  "c": "GimbalController.SettingsGroup.json"
+ },
+ {
+  "i": 253,
+  "s": "Horizontal camera field of view",
+  "c": "GimbalController.SettingsGroup.json"
+ },
+ {
+  "i": 254,
+  "s": "Maximum gimbal speed on click and drag (deg/sec)",
+  "c": "GimbalController.SettingsGroup.json"
+ },
+ {
+  "i": 255,
+  "s": "Show gimbal Azimuth indicator over vehicle icon in map",
+  "c": "GimbalController.SettingsGroup.json"
+ },
+ {
+  "i": 256,
+  "s": "Show Azimuth instead of local yaw on top toolbar gimbal indicator",
+  "c": "GimbalController.SettingsGroup.json"
+ },
+ {
+  "i": 257,
+  "s": "Show Azimuth Acquire/release buttons in the gimbal buttons panel",
+  "c": "GimbalController.SettingsGroup.json"
+ },
+ {
+  "i": 258,
+  "s": "Rate used for joystick button control (deg/sec)",
+  "c": "GimbalController.SettingsGroup.json"
+ },
+ {
+  "i": 259,
+  "s": "When a joystick button is set to gimbal left/right/up/down, it will send this rate when pressed, and it will stop moving when button is released",
+  "c": "GimbalController.SettingsGroup.json"
+ },
+ {
+  "i": 260,
+  "s": "Display the presets tab at start",
+  "c": "PlanView.SettingsGroup.json"
+ },
+ {
+  "i": 261,
+  "s": "Show/Hide the mission item status display",
+  "c": "PlanView.SettingsGroup.json"
+ },
+ {
+  "i": 262,
+  "s": "Allow missions to not require a takeoff item",
+  "c": "PlanView.SettingsGroup.json"
+ },
+ {
+  "i": 263,
+  "s": "Allow configuring multiple landing sequences if the firmware supports it. The first one will be used for the mission, but in the event of an RTL, the one that is closest will be used instead.",
+  "c": "PlanView.SettingsGroup.json"
+ },
+ {
+  "i": 264,
+  "s": "Use MAV_CMD_CONDITION_GATE for pattern generation",
+  "c": "PlanView.SettingsGroup.json"
+ },
+ {
+  "i": 266,
+  "s": "Amount of distance required for vehicle to complete a transition",
+  "c": "PlanView.SettingsGroup.json"
+ },
+ {
+  "i": 267,
+  "s": "Forward",
+  "c": "DistanceSensorFact.json"
+ },
+ {
+  "i": 268,
+  "s": "Forward/Right",
+  "c": "DistanceSensorFact.json"
+ },
+ {
+  "i": 269,
+  "s": "Right",
+  "c": "DistanceSensorFact.json"
+ },
+ {
+  "i": 270,
+  "s": "Rear/Right",
+  "c": "DistanceSensorFact.json"
+ },
+ {
+  "i": 271,
+  "s": "Rear",
+  "c": "DistanceSensorFact.json"
+ },
+ {
+  "i": 272,
+  "s": "Rear/Left",
+  "c": "DistanceSensorFact.json"
+ },
+ {
+  "i": 273,
+  "s": "Left",
+  "c": "DistanceSensorFact.json"
+ },
+ {
+  "i": 274,
+  "s": "Forward/Left",
+  "c": "DistanceSensorFact.json"
+ },
+ {
+  "i": 275,
+  "s": "Up",
+  "c": "DistanceSensorFact.json"
+ },
+ {
+  "i": 276,
+  "s": "Down",
+  "c": "DistanceSensorFact.json"
+ },
+ {
+  "i": 277,
+  "s": "Minimum distance sensor can detect",
+  "c": "DistanceSensorFact.json"
+ },
+ {
+  "i": 278,
+  "s": "Maximum distance sensor can detect",
+  "c": "DistanceSensorFact.json"
+ },
+ {
+  "i": 279,
+  "s": "Roll Setpoint",
+  "c": "SetpointFact.json"
+ },
+ {
+  "i": 280,
+  "s": "Pitch Setpoint",
+  "c": "SetpointFact.json"
+ },
+ {
+  "i": 281,
+  "s": "Yaw Setpoint",
+  "c": "SetpointFact.json"
+ },
+ {
+  "i": 282,
+  "s": "Roll Rate Setpoint",
+  "c": "SetpointFact.json"
+ },
+ {
+  "i": 283,
+  "s": "Pitch Rate Setpoint",
+  "c": "SetpointFact.json"
+ },
+ {
+  "i": 284,
+  "s": "Yaw Rate Setpoint",
+  "c": "SetpointFact.json"
+ },
+ {
+  "i": 285,
+  "s": "Battery Id",
+  "c": "BatteryFact.json"
+ },
+ {
+  "i": 286,
+  "s": "Battery Function",
+  "c": "BatteryFact.json"
+ },
+ {
+  "i": 288,
+  "s": "Battery Type",
+  "c": "BatteryFact.json"
+ },
+ {
+  "i": 290,
+  "s": "Voltage",
+  "c": "BatteryFact.json"
+ },
+ {
+  "i": 291,
+  "s": "Percent",
+  "c": "BatteryFact.json"
+ },
+ {
+  "i": 292,
+  "s": "Consumed",
+  "c": "BatteryFact.json"
+ },
+ {
+  "i": 293,
+  "s": "Current",
+  "c": "BatteryFact.json"
+ },
+ {
+  "i": 294,
+  "s": "Temperature",
+  "c": "BatteryFact.json"
+ },
+ {
+  "i": 295,
+  "s": "Watts",
+  "c": "BatteryFact.json"
+ },
+ {
+  "i": 296,
+  "s": "Time Remaining",
+  "c": "BatteryFact.json"
+ },
+ {
+  "i": 297,
+  "s": "Charge State",
+  "c": "BatteryFact.json"
+ },
+ {
+  "i": 299,
+  "s": "Status",
+  "c": "GeneratorFact.json"
+ },
+ {
+  "i": 300,
+  "s": "Generator Speed",
+  "c": "GeneratorFact.json"
+ },
+ {
+  "i": 301,
+  "s": "Battery Current",
+  "c": "GeneratorFact.json"
+ },
+ {
+  "i": 302,
+  "s": "Load Current",
+  "c": "GeneratorFact.json"
+ },
+ {
+  "i": 303,
+  "s": "Power Generated",
+  "c": "GeneratorFact.json"
+ },
+ {
+  "i": 304,
+  "s": "Bus Voltage",
+  "c": "GeneratorFact.json"
+ },
+ {
+  "i": 305,
+  "s": "Rectifier Temperature",
+  "c": "GeneratorFact.json"
+ },
+ {
+  "i": 306,
+  "s": "Battery Current Setpoint",
+  "c": "GeneratorFact.json"
+ },
+ {
+  "i": 307,
+  "s": "Generator Temperature",
+  "c": "GeneratorFact.json"
+ },
+ {
+  "i": 308,
+  "s": "runtime",
+  "c": "GeneratorFact.json"
+ },
+ {
+  "i": 309,
+  "s": "Time until Maintenance",
+  "c": "GeneratorFact.json"
+ },
+ {
+  "i": 312,
+  "s": "MGRS Position",
+  "c": "GPSFact.json"
+ },
+ {
+  "i": 313,
+  "s": "HDOP",
+  "c": "GPSFact.json"
+ },
+ {
+  "i": 314,
+  "s": "VDOP",
+  "c": "GPSFact.json"
+ },
+ {
+  "i": 315,
+  "s": "Course Over Ground",
+  "c": "GPSFact.json"
+ },
+ {
+  "i": 316,
+  "s": "GPS Lock",
+  "c": "GPSFact.json"
+ },
+ {
+  "i": 318,
+  "s": "Sat Count",
+  "c": "GPSFact.json"
+ },
+ {
+  "i": 319,
+  "s": "Vibe xAxis",
+  "c": "VibrationFact.json"
+ },
+ {
+  "i": 320,
+  "s": "Vibe yAxis",
+  "c": "VibrationFact.json"
+ },
+ {
+  "i": 321,
+  "s": "Vibe zAxis",
+  "c": "VibrationFact.json"
+ },
+ {
+  "i": 322,
+  "s": "Clip Count (1)",
+  "c": "VibrationFact.json"
+ },
+ {
+  "i": 324,
+  "s": "Clip Count (3)",
+  "c": "VibrationFact.json"
+ },
+ {
+  "i": 325,
+  "s": "Wind Direction",
+  "c": "WindFact.json"
+ },
+ {
+  "i": 326,
+  "s": "Wind Spd",
+  "c": "WindFact.json"
+ },
+ {
+  "i": 327,
+  "s": "Wind Spd (vert)",
+  "c": "WindFact.json"
+ },
+ {
+  "i": 328,
+  "s": "Index Of The First ESC In This Message",
+  "c": "EscStatusFactGroup.json"
+ },
+ {
+  "i": 329,
+  "s": "Rotation Per Minute",
+  "c": "EscStatusFactGroup.json"
+ },
+ {
+  "i": 330,
+  "s": "Current",
+  "c": "EscStatusFactGroup.json"
+ },
+ {
+  "i": 331,
+  "s": "Voltage",
+  "c": "EscStatusFactGroup.json"
+ },
+ {
+  "i": 332,
+  "s": "Blocks Pending",
+  "c": "TerrainFactGroup.json"
+ },
+ {
+  "i": 333,
+  "s": "Blocks Loaded",
+  "c": "TerrainFactGroup.json"
+ },
+ {
+  "i": 334,
+  "s": "Health",
+  "c": "EFIFact.json"
+ },
+ {
+  "i": 335,
+  "s": "Ecu Index",
+  "c": "EFIFact.json"
+ },
+ {
+  "i": 336,
+  "s": "Rpm",
+  "c": "EFIFact.json"
+ },
+ {
+  "i": 337,
+  "s": "Fuel Consumed",
+  "c": "EFIFact.json"
+ },
+ {
+  "i": 338,
+  "s": "Fuel Flow",
+  "c": "EFIFact.json"
+ },
+ {
+  "i": 339,
+  "s": "Engine Load",
+  "c": "EFIFact.json"
+ },
+ {
+  "i": 340,
+  "s": "Throttle Position",
+  "c": "EFIFact.json"
+ },
+ {
+  "i": 341,
+  "s": "Spark dwell time",
+  "c": "EFIFact.json"
+ },
+ {
+  "i": 342,
+  "s": "BarometricPressure",
+  "c": "EFIFact.json"
+ },
+ {
+  "i": 343,
+  "s": "Intake mainfold pressure",
+  "c": "EFIFact.json"
+ },
+ {
+  "i": 344,
+  "s": "Intake mainfold temperature",
+  "c": "EFIFact.json"
+ },
+ {
+  "i": 345,
+  "s": "Cylinder head temperature",
+  "c": "EFIFact.json"
+ },
+ {
+  "i": 346,
+  "s": "Ignition Timing",
+  "c": "EFIFact.json"
+ },
+ {
+  "i": 347,
+  "s": "Injection Time",
+  "c": "EFIFact.json"
+ },
+ {
+  "i": 348,
+  "s": "Exhaust gas Temperature",
+  "c": "EFIFact.json"
+ },
+ {
+  "i": 349,
+  "s": "Throttle Out",
+  "c": "EFIFact.json"
+ },
+ {
+  "i": 350,
+  "s": "Pt Compensation",
+  "c": "EFIFact.json"
+ },
+ {
+  "i": 351,
+  "s": "Temperature (1)",
+  "c": "TemperatureFact.json"
+ },
+ {
+  "i": 353,
+  "s": "Temperature (3)",
+  "c": "TemperatureFact.json"
+ },
+ {
+  "i": 354,
+  "s": "Camera Tilt",
+  "c": "SubmarineFact.json"
+ },
+ {
+  "i": 355,
+  "s": "Tether Turns",
+  "c": "SubmarineFact.json"
+ },
+ {
+  "i": 356,
+  "s": "Lights 1 level",
+  "c": "SubmarineFact.json"
+ },
+ {
+  "i": 357,
+  "s": "Lights 2 level",
+  "c": "SubmarineFact.json"
+ },
+ {
+  "i": 358,
+  "s": "Pilot Gain",
+  "c": "SubmarineFact.json"
+ },
+ {
+  "i": 359,
+  "s": "Input Hold",
+  "c": "SubmarineFact.json"
+ },
+ {
+  "i": 361,
+  "s": "Rangefinder",
+  "c": "SubmarineFact.json"
+ },
+ {
+  "i": 362,
+  "s": "RFTarget",
+  "c": "SubmarineFact.json"
+ },
+ {
+  "i": 363,
+  "s": "Roll/Pitch Toggle",
+  "c": "SubmarineFact.json"
+ },
+ {
+  "i": 368,
+  "s": "Roll Rate",
+  "c": "VehicleFact.json"
+ },
+ {
+  "i": 369,
+  "s": "Pitch Rate",
+  "c": "VehicleFact.json"
+ },
+ {
+  "i": 370,
+  "s": "Yaw Rate",
+  "c": "VehicleFact.json"
+ },
+ {
+  "i": 371,
+  "s": "Ground Speed",
+  "c": "VehicleFact.json"
+ },
+ {
+  "i": 372,
+  "s": "Air Speed",
+  "c": "VehicleFact.json"
+ },
+ {
+  "i": 373,
+  "s": "Climb Rate",
+  "c": "VehicleFact.json"
+ },
+ {
+  "i": 374,
+  "s": "Alt (Rel)",
+  "c": "VehicleFact.json"
+ },
+ {
+  "i": 375,
+  "s": "Alt (AMSL)",
+  "c": "VehicleFact.json"
+ },
+ {
+  "i": 376,
+  "s": "Alt (Above Terrain)",
+  "c": "VehicleFact.json"
+ },
+ {
+  "i": 377,
+  "s": "Flight Distance",
+  "c": "VehicleFact.json"
+ },
+ {
+  "i": 378,
+  "s": "Distance to Home",
+  "c": "VehicleFact.json"
+ },
+ {
+  "i": 379,
+  "s": "Time to Home",
+  "c": "VehicleFact.json"
+ },
+ {
+  "i": 380,
+  "s": "Heading to Home",
+  "c": "VehicleFact.json"
+ },
+ {
+  "i": 381,
+  "s": "Distance to GCS",
+  "c": "VehicleFact.json"
+ },
+ {
+  "i": 382,
+  "s": "Mission Item Index",
+  "c": "VehicleFact.json"
+ },
+ {
+  "i": 383,
+  "s": "Next WP Heading",
+  "c": "VehicleFact.json"
+ },
+ {
+  "i": 384,
+  "s": "Next WP distance",
+  "c": "VehicleFact.json"
+ },
+ {
+  "i": 385,
+  "s": "Flight Time",
+  "c": "VehicleFact.json"
+ },
+ {
+  "i": 386,
+  "s": "Hobbs Meter",
+  "c": "VehicleFact.json"
+ },
+ {
+  "i": 387,
+  "s": "Throttle %",
+  "c": "VehicleFact.json"
+ },
+ {
+  "i": 388,
+  "s": "Imu temperature",
+  "c": "VehicleFact.json"
+ },
+ {
+  "i": 390,
+  "s": "UTC Time",
+  "c": "ClockFact.json"
+ },
+ {
+  "i": 391,
+  "s": "Date",
+  "c": "ClockFact.json"
+ },
+ {
+  "i": 392,
+  "s": "X",
+  "c": "LocalPositionFact.json"
+ },
+ {
+  "i": 393,
+  "s": "Y",
+  "c": "LocalPositionFact.json"
+ },
+ {
+  "i": 394,
+  "s": "Z",
+  "c": "LocalPositionFact.json"
+ },
+ {
+  "i": 395,
+  "s": "VX",
+  "c": "LocalPositionFact.json"
+ },
+ {
+  "i": 396,
+  "s": "Vy",
+  "c": "LocalPositionFact.json"
+ },
+ {
+  "i": 397,
+  "s": "Vz",
+  "c": "LocalPositionFact.json"
+ },
+ {
+  "i": 398,
+  "s": "Temperature",
+  "c": "HygrometerFact.json"
+ },
+ {
+  "i": 399,
+  "s": "Humidity %",
+  "c": "HygrometerFact.json"
+ },
+ {
+  "i": 400,
+  "s": "ID",
+  "c": "HygrometerFact.json"
+ },
+ {
+  "i": 401,
+  "s": "RPM 1",
+  "c": "RPMFact.json"
+ },
+ {
+  "i": 402,
+  "s": "RPM 2",
+  "c": "RPMFact.json"
+ },
+ {
+  "i": 403,
+  "s": "RPM 3",
+  "c": "RPMFact.json"
+ },
+ {
+  "i": 404,
+  "s": "RPM 4",
+  "c": "RPMFact.json"
+ },
+ {
+  "i": 405,
+  "s": "Good Attitude Esimate",
+  "c": "EstimatorStatusFactGroup.json"
+ },
+ {
+  "i": 406,
+  "s": "Good Horiz Vel Estimate",
+  "c": "EstimatorStatusFactGroup.json"
+ },
+ {
+  "i": 407,
+  "s": "Good Vert Vel Estimate",
+  "c": "EstimatorStatusFactGroup.json"
+ },
+ {
+  "i": 408,
+  "s": "Good Horiz Pos Rel Estimate",
+  "c": "EstimatorStatusFactGroup.json"
+ },
+ {
+  "i": 409,
+  "s": "Good Horiz Pos Abs Estimate",
+  "c": "EstimatorStatusFactGroup.json"
+ },
+ {
+  "i": 410,
+  "s": "Good Vert Pos Abs Estimate",
+  "c": "EstimatorStatusFactGroup.json"
+ },
+ {
+  "i": 411,
+  "s": "Good Vert Pos AGL Estimate",
+  "c": "EstimatorStatusFactGroup.json"
+ },
+ {
+  "i": 412,
+  "s": "Good Const Pos Mode Estimate",
+  "c": "EstimatorStatusFactGroup.json"
+ },
+ {
+  "i": 413,
+  "s": "Good Pred Horiz Pos Rel Estimate",
+  "c": "EstimatorStatusFactGroup.json"
+ },
+ {
+  "i": 414,
+  "s": "Good Pred Horiz Pos Abs Estimate",
+  "c": "EstimatorStatusFactGroup.json"
+ },
+ {
+  "i": 415,
+  "s": "Gps Glitch",
+  "c": "EstimatorStatusFactGroup.json"
+ },
+ {
+  "i": 416,
+  "s": "Accel Error",
+  "c": "EstimatorStatusFactGroup.json"
+ },
+ {
+  "i": 417,
+  "s": "Vel Ratio",
+  "c": "EstimatorStatusFactGroup.json"
+ },
+ {
+  "i": 418,
+  "s": "Horiz Pos Ratio",
+  "c": "EstimatorStatusFactGroup.json"
+ },
+ {
+  "i": 419,
+  "s": "Vert Pos Ratio",
+  "c": "EstimatorStatusFactGroup.json"
+ },
+ {
+  "i": 420,
+  "s": "Mag Ratio",
+  "c": "EstimatorStatusFactGroup.json"
+ },
+ {
+  "i": 421,
+  "s": "HAGL Ratio",
+  "c": "EstimatorStatusFactGroup.json"
+ },
+ {
+  "i": 422,
+  "s": "TAS Ratio",
+  "c": "EstimatorStatusFactGroup.json"
+ },
+ {
+  "i": 423,
+  "s": "Horiz Pos Accuracy",
+  "c": "EstimatorStatusFactGroup.json"
+ },
+ {
+  "i": 424,
+  "s": "Vert Pos Accuracy",
+  "c": "EstimatorStatusFactGroup.json"
+ },
+ {
+  "i": 425,
+  "s": "Connected",
+  "c": "GPSRTKFact.json"
+ },
+ {
+  "i": 426,
+  "s": "Current Survey-In Accuracy",
+  "c": "GPSRTKFact.json"
+ },
+ {
+  "i": 427,
+  "s": "Current Survey-In Latitude",
+  "c": "GPSRTKFact.json"
+ },
+ {
+  "i": 428,
+  "s": "Current Survey-In Longitude",
+  "c": "GPSRTKFact.json"
+ },
+ {
+  "i": 429,
+  "s": "Current Survey-In Altitude",
+  "c": "GPSRTKFact.json"
+ },
+ {
+  "i": 430,
+  "s": "Current Survey-In Duration",
+  "c": "GPSRTKFact.json"
+ },
+ {
+  "i": 431,
+  "s": "Survey-In Valid",
+  "c": "GPSRTKFact.json"
+ },
+ {
+  "i": 432,
+  "s": "Survey-In Active",
+  "c": "GPSRTKFact.json"
+ },
+ {
+  "i": 433,
+  "s": "Number of Satellites",
+  "c": "GPSRTKFact.json"
+ },
+ {
+  "i": 434,
+  "s": "Scale the RC range",
+  "c": "RCToParamDialog.FactMetaData.json"
+ },
+ {
+  "i": 435,
+  "s": "Parameter value when RC output is 0",
+  "c": "RCToParamDialog.FactMetaData.json"
+ },
+ {
+  "i": 436,
+  "s": "Minimum parameter value",
+  "c": "RCToParamDialog.FactMetaData.json"
+ },
+ {
+  "i": 437,
+  "s": "Maximum parameter value",
+  "c": "RCToParamDialog.FactMetaData.json"
+ },
+ {
+  "i": 438,
+  "s": "Latitude of item position",
+  "c": "EditPositionDialog.FactMetaData.json"
+ },
+ {
+  "i": 439,
+  "s": "Longitude of item position",
+  "c": "EditPositionDialog.FactMetaData.json"
+ },
+ {
+  "i": 440,
+  "s": "Easting of item position",
+  "c": "EditPositionDialog.FactMetaData.json"
+ },
+ {
+  "i": 441,
+  "s": "Northing of item position",
+  "c": "EditPositionDialog.FactMetaData.json"
+ },
+ {
+  "i": 442,
+  "s": "UTM zone",
+  "c": "EditPositionDialog.FactMetaData.json"
+ },
+ {
+  "i": 443,
+  "s": "Hemisphere for position",
+  "c": "EditPositionDialog.FactMetaData.json"
+ },
+ {
+  "i": 445,
+  "s": "MGRS coordinate",
+  "c": "EditPositionDialog.FactMetaData.json"
+ },
+ {
+  "i": 446,
+  "s": "Radius for geofence circle.",
+  "c": "QGCMapCircle.Facts.json"
+ },
+ {
+  "i": 447,
+  "s": "Angle from ground station to vehicle",
+  "c": "APMFollowComponent.FactMetaData.json"
+ },
+ {
+  "i": 448,
+  "s": "Horizontal distance from ground station to vehicle",
+  "c": "APMFollowComponent.FactMetaData.json"
+ },
+ {
+  "i": 449,
+  "s": "Vertical distance from Launch (home) position to vehicle",
+  "c": "APMFollowComponent.FactMetaData.json"
+ },
+ {
+  "i": 450,
+  "s": "Amount of additional distance to add outside the survey area for vehicle turn around.",
+  "c": "TransectStyle.SettingsGroup.json"
+ },
+ {
+  "i": 451,
+  "s": "Camera continues taking images in turn arounds.",
+  "c": "TransectStyle.SettingsGroup.json"
+ },
+ {
+  "i": 452,
+  "s": "Stop and Hover at each image point before taking image",
+  "c": "TransectStyle.SettingsGroup.json"
+ },
+ {
+  "i": 453,
+  "s": "Refly the pattern at a 90 degree angle",
+  "c": "TransectStyle.SettingsGroup.json"
+ },
+ {
+  "i": 454,
+  "s": "Additional waypoints within the transect will be added if the terrain altitude difference grows larger than this tolerance.",
+  "c": "TransectStyle.SettingsGroup.json"
+ },
+ {
+  "i": 455,
+  "s": "The maximum climb rate from one waypoint to another when adjusting for terrain. Set to 0 for no max.",
+  "c": "TransectStyle.SettingsGroup.json"
+ },
+ {
+  "i": 456,
+  "s": "The maximum descent rate from one waypoint to another when adjusting for terrain. Set to 0 for no max.",
+  "c": "TransectStyle.SettingsGroup.json"
+ },
+ {
+  "i": 457,
+  "s": "Distance between landing and approach points.",
+  "c": "VTOLLandingPattern.FactMetaData.json"
+ },
+ {
+  "i": 458,
+  "s": "Heading from approach to land point.",
+  "c": "VTOLLandingPattern.FactMetaData.json"
+ },
+ {
+  "i": 459,
+  "s": "Altitude to begin landing approach from.",
+  "c": "VTOLLandingPattern.FactMetaData.json"
+ },
+ {
+  "i": 460,
+  "s": "Loiter radius.",
+  "c": "VTOLLandingPattern.FactMetaData.json"
+ },
+ {
+  "i": 461,
+  "s": "Loiter clockwise around the final approach point.",
+  "c": "VTOLLandingPattern.FactMetaData.json"
+ },
+ {
+  "i": 462,
+  "s": "Altitude for landing point on ground.",
+  "c": "VTOLLandingPattern.FactMetaData.json"
+ },
+ {
+  "i": 463,
+  "s": "Use a loiter to altitude item for final appoach. Otherwise use a regular waypoint.",
+  "c": "VTOLLandingPattern.FactMetaData.json"
+ },
+ {
+  "i": 464,
+  "s": "Stop taking photos",
+  "c": "VTOLLandingPattern.FactMetaData.json"
+ },
+ {
+  "i": 465,
+  "s": "Stop taking video",
+  "c": "VTOLLandingPattern.FactMetaData.json"
+ },
+ {
+  "i": 466,
+  "s": "Altitude for the bottom layer of the structure scan.",
+  "c": "CorridorScan.SettingsGroup.json"
+ },
+ {
+  "i": 467,
+  "s": "Corridor width. Specify 0 width for a single pass scan.",
+  "c": "CorridorScan.SettingsGroup.json"
+ },
+ {
+  "i": 468,
+  "s": "Distance between each triggering of the camera. 0 specifies not camera trigger.",
+  "c": "CorridorScan.SettingsGroup.json"
+ },
+ {
+  "i": 469,
+  "s": "Amount of spacing in between parallel grid lines.",
+  "c": "CorridorScan.SettingsGroup.json"
+ },
+ {
+  "i": 470,
+  "s": "Amount of additional distance to add outside the survey area for vehicle turnaround.",
+  "c": "CorridorScan.SettingsGroup.json"
+ },
+ {
+  "i": 471,
+  "s": "Gimbal pitch rotation.",
+  "c": "StructureScan.SettingsGroup.json"
+ },
+ {
+  "i": 472,
+  "s": "Vehicle will fly to/from the structure at this altitude.",
+  "c": "StructureScan.SettingsGroup.json"
+ },
+ {
+  "i": 473,
+  "s": "Altitude for the bottomost covered area of the scan. You can adjust this value such that the Bottom Layer Alt will fly above obstacles on the ground.",
+  "c": "StructureScan.SettingsGroup.json"
+ },
+ {
+  "i": 474,
+  "s": "Number of scan layers.",
+  "c": "StructureScan.SettingsGroup.json"
+ },
+ {
+  "i": 475,
+  "s": "Height of structure being scanned.",
+  "c": "StructureScan.SettingsGroup.json"
+ },
+ {
+  "i": 476,
+  "s": "Start scanning from top of structure.",
+  "c": "StructureScan.SettingsGroup.json"
+ },
+ {
+  "i": 478,
+  "s": "Launch position altitude",
+  "c": "MissionSettings.FactMetaData.json"
+ },
+ {
+  "i": 479,
+  "s": "Camera name.",
+  "c": "CameraSpec.FactMetaData.json"
+ },
+ {
+  "i": 480,
+  "s": "Width of camera image sensor.",
+  "c": "CameraSpec.FactMetaData.json"
+ },
+ {
+  "i": 481,
+  "s": "Height of camera image sensor.",
+  "c": "CameraSpec.FactMetaData.json"
+ },
+ {
+  "i": 482,
+  "s": "Camera image resolution width.",
+  "c": "CameraSpec.FactMetaData.json"
+ },
+ {
+  "i": 483,
+  "s": "Camera image resolution height.",
+  "c": "CameraSpec.FactMetaData.json"
+ },
+ {
+  "i": 484,
+  "s": "Focal length of camera lens.",
+  "c": "CameraSpec.FactMetaData.json"
+ },
+ {
+  "i": 485,
+  "s": "Camera on vehicle is in landscape orientation.",
+  "c": "CameraSpec.FactMetaData.json"
+ },
+ {
+  "i": 486,
+  "s": "Camera orientation ix fixed and cannot be changed.",
+  "c": "CameraSpec.FactMetaData.json"
+ },
+ {
+  "i": 487,
+  "s": "Minimum amount of time between each camera trigger.",
+  "c": "CameraSpec.FactMetaData.json"
+ },
+ {
+  "i": 489,
+  "s": "Camera name.",
+  "c": "CameraCalc.FactMetaData.json"
+ },
+ {
+  "i": 490,
+  "s": "Value specified is distance to surface.",
+  "c": "CameraCalc.FactMetaData.json"
+ },
+ {
+  "i": 491,
+  "s": "Distance vehicle is away from surface.",
+  "c": "CameraCalc.FactMetaData.json"
+ },
+ {
+  "i": 492,
+  "s": "Image desity at surface.",
+  "c": "CameraCalc.FactMetaData.json"
+ },
+ {
+  "i": 493,
+  "s": "Amount of overlap between images in the forward facing direction.",
+  "c": "CameraCalc.FactMetaData.json"
+ },
+ {
+  "i": 494,
+  "s": "Amount of overlap between images in the side facing direction.",
+  "c": "CameraCalc.FactMetaData.json"
+ },
+ {
+  "i": 495,
+  "s": "Set the current flight speed",
+  "c": "SpeedSection.FactMetaData.json"
+ },
+ {
+  "i": 496,
+  "s": "Distance between approach and land points.",
+  "c": "FWLandingPattern.FactMetaData.json"
+ },
+ {
+  "i": 497,
+  "s": "Heading from approach to land point.",
+  "c": "FWLandingPattern.FactMetaData.json"
+ },
+ {
+  "i": 498,
+  "s": "Altitude to begin landing approach from.",
+  "c": "FWLandingPattern.FactMetaData.json"
+ },
+ {
+  "i": 499,
+  "s": "Command a specific speed for the approach, useful for reducing energy before the glide slope.",
+  "c": "FWLandingPattern.FactMetaData.json"
+ },
+ {
+  "i": 500,
+  "s": "Speed to perform the approach at.",
+  "c": "FWLandingPattern.FactMetaData.json"
+ },
+ {
+  "i": 501,
+  "s": "Loiter radius.",
+  "c": "FWLandingPattern.FactMetaData.json"
+ },
+ {
+  "i": 502,
+  "s": "Loiter clockwise around the final approach point.",
+  "c": "FWLandingPattern.FactMetaData.json"
+ },
+ {
+  "i": 503,
+  "s": "Altitude for landing point.",
+  "c": "FWLandingPattern.FactMetaData.json"
+ },
+ {
+  "i": 504,
+  "s": "The glide slope between the loiter and landing point.",
+  "c": "FWLandingPattern.FactMetaData.json"
+ },
+ {
+  "i": 505,
+  "s": "Value controller approach point is distance",
+  "c": "FWLandingPattern.FactMetaData.json"
+ },
+ {
+  "i": 506,
+  "s": "Use a loiter to altitude item for final appoach. Otherwise use a regular waypoint.",
+  "c": "FWLandingPattern.FactMetaData.json"
+ },
+ {
+  "i": 507,
+  "s": "Stop taking photos",
+  "c": "FWLandingPattern.FactMetaData.json"
+ },
+ {
+  "i": 508,
+  "s": "Stop taking video",
+  "c": "FWLandingPattern.FactMetaData.json"
+ },
+ {
+  "i": 509,
+  "s": "Latitude of rally point position",
+  "c": "RallyPoint.FactMetaData.json"
+ },
+ {
+  "i": 510,
+  "s": "Longitude of rally point position",
+  "c": "RallyPoint.FactMetaData.json"
+ },
+ {
+  "i": 511,
+  "s": "Altitude of rally point position (home relative)",
+  "c": "RallyPoint.FactMetaData.json"
+ },
+ {
+  "i": 512,
+  "s": "Latitude of breach return point position",
+  "c": "BreachReturn.FactMetaData.json"
+ },
+ {
+  "i": 513,
+  "s": "Longitude of breach return point position",
+  "c": "BreachReturn.FactMetaData.json"
+ },
+ {
+  "i": 514,
+  "s": "Altitude of breach return point position (Rel)",
+  "c": "BreachReturn.FactMetaData.json"
+ },
+ {
+  "i": 584,
+  "s": "Delay until the specified time is reached.",
+  "c": "MavCmdInfoCommon.json"
+ },
+ {
+  "i": 601,
+  "s": "Clockwise,Shortest,Counter-Clockwise",
+  "c": "MavCmdInfoCommon.json"
+ },
+ {
+  "i": 616,
+  "s": "Airspeed,Ground Speed,Ascend Speed,Descend Speed",
+  "c": "MavCmdInfoCommon.json"
+ },
+ {
+  "i": 636,
+  "s": "Set actuator",
+  "c": "MavCmdInfoCommon.json"
+ },
+ {
+  "i": 637,
+  "s": "Set actuator to specified output value (range [-1, 1]).",
+  "c": "MavCmdInfoCommon.json"
+ },
+ {
+  "i": 638,
+  "s": "Actuator 1",
+  "c": "MavCmdInfoCommon.json"
+ },
+ {
+  "i": 639,
+  "s": "Actuator 2",
+  "c": "MavCmdInfoCommon.json"
+ },
+ {
+  "i": 640,
+  "s": "Actuator 3",
+  "c": "MavCmdInfoCommon.json"
+ },
+ {
+  "i": 641,
+  "s": "Actuator 4",
+  "c": "MavCmdInfoCommon.json"
+ },
+ {
+  "i": 694,
+  "s": "Gimbal Manager PitchYaw",
+  "c": "MavCmdInfoCommon.json"
+ },
+ {
+  "i": 695,
+  "s": "Control the gimbal during the mission",
+  "c": "MavCmdInfoCommon.json"
+ },
+ {
+  "i": 697,
+  "s": "Pitch rate",
+  "c": "MavCmdInfoCommon.json"
+ },
+ {
+  "i": 698,
+  "s": "Yaw rate",
+  "c": "MavCmdInfoCommon.json"
+ },
+ {
+  "i": 699,
+  "s": "Follow yaw",
+  "c": "MavCmdInfoCommon.json"
+ },
+ {
+  "i": 700,
+  "s": "Follow yaw, Lock yaw",
+  "c": "MavCmdInfoCommon.json"
+ },
+ {
+  "i": 701,
+  "s": "Gimbal",
+  "c": "MavCmdInfoCommon.json"
+ },
+ {
+  "i": 702,
+  "s": "Primary,first gimbal,second gimbal",
+  "c": "MavCmdInfoCommon.json"
+ },
+ {
+  "i": 713,
+  "s": "Enable/Disable auto-release or Release a parachute",
+  "c": "MavCmdInfoCommon.json"
+ },
+ {
+  "i": 720,
+  "s": "Gripper Mechanism",
+  "c": "MavCmdInfoCommon.json"
+ },
+ {
+  "i": 721,
+  "s": "Control a gripper mechanism.",
+  "c": "MavCmdInfoCommon.json"
+ },
+ {
+  "i": 774,
+  "s": "Specify whether the camera should take photos or video",
+  "c": "CameraSection.FactMetaData.json"
+ },
+ {
+  "i": 776,
+  "s": "Specify the distance between each photo",
+  "c": "CameraSection.FactMetaData.json"
+ },
+ {
+  "i": 777,
+  "s": "Specify the time between each photo",
+  "c": "CameraSection.FactMetaData.json"
+ },
+ {
+  "i": 778,
+  "s": "Gimbal pitch rotation.",
+  "c": "CameraSection.FactMetaData.json"
+ },
+ {
+  "i": 779,
+  "s": "Gimbal yaw rotation.",
+  "c": "CameraSection.FactMetaData.json"
+ },
+ {
+  "i": 780,
+  "s": "Specify whether the camera should switch to Photo, Video or Survey mode",
+  "c": "CameraSection.FactMetaData.json"
+ },
+ {
+  "i": 782,
+  "s": "Angle for parallel lines of grid.",
+  "c": "Survey.SettingsGroup.json"
+ },
+ {
+  "i": 783,
+  "s": "Fly every other transect in each pass.",
+  "c": "Survey.SettingsGroup.json"
+ },
+ {
+  "i": 784,
+  "s": "Split mission concave polygons into separate regular, convex polygons.",
+  "c": "Survey.SettingsGroup.json"
+ }
+]

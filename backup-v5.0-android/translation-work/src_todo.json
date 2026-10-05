@@ -1,0 +1,6672 @@
+[
+ {
+  "i": 4,
+  "s": " To change this configuration, select the desired frame class below and then reboot the vehicle.",
+  "c": "APMAirframeComponent"
+ },
+ {
+  "i": 57,
+  "s": "Channel 15",
+  "c": "APMCameraSubComponent"
+ },
+ {
+  "i": 58,
+  "s": "Channel 16",
+  "c": "APMCameraSubComponent"
+ },
+ {
+  "i": 59,
+  "s": "Show all settings (advanced)",
+  "c": "APMCameraSubComponent"
+ },
+ {
+  "i": 60,
+  "s": "Camera mount tilt speed:",
+  "c": "APMCameraSubComponent"
+ },
+ {
+  "i": 108,
+  "s": "Unable to pause vehicle.",
+  "c": "APMFirmwarePlugin"
+ },
+ {
+  "i": 109,
+  "s": "Vehicle does not support guided rotate",
+  "c": "APMFirmwarePlugin"
+ },
+ {
+  "i": 114,
+  "s": "Unable to start takeoff: Vehicle is already in the air.",
+  "c": "APMFirmwarePlugin"
+ },
+ {
+  "i": 115,
+  "s": "Unable to start takeoff: Vehicle failed to change to Takeoff mode.",
+  "c": "APMFirmwarePlugin"
+ },
+ {
+  "i": 116,
+  "s": "Unable to start takeoff: Vehicle failed to arm.",
+  "c": "APMFirmwarePlugin"
+ },
+ {
+  "i": 121,
+  "s": "Return At",
+  "c": "APMFlightModeIndicator"
+ },
+ {
+  "i": 122,
+  "s": "Current alttiude",
+  "c": "APMFlightModeIndicator"
+ },
+ {
+  "i": 123,
+  "s": "Specified altitude",
+  "c": "APMFlightModeIndicator"
+ },
+ {
+  "i": 172,
+  "s": "Follow Enabled",
+  "c": "APMFollowComponentSummary"
+ },
+ {
+  "i": 173,
+  "s": "Follow System ID",
+  "c": "APMFollowComponentSummary"
+ },
+ {
+  "i": 174,
+  "s": "Max Distance",
+  "c": "APMFollowComponentSummary"
+ },
+ {
+  "i": 175,
+  "s": "Offset X",
+  "c": "APMFollowComponentSummary"
+ },
+ {
+  "i": 176,
+  "s": "Offset Y",
+  "c": "APMFollowComponentSummary"
+ },
+ {
+  "i": 177,
+  "s": "Offset Z",
+  "c": "APMFollowComponentSummary"
+ },
+ {
+  "i": 178,
+  "s": "Offset Type",
+  "c": "APMFollowComponentSummary"
+ },
+ {
+  "i": 179,
+  "s": "Altitude Type",
+  "c": "APMFollowComponentSummary"
+ },
+ {
+  "i": 180,
+  "s": "Yaw Behavior",
+  "c": "APMFollowComponentSummary"
+ },
+ {
+  "i": 201,
+  "s": "",
+  "c": "APMHeliComponent"
+ },
+ {
+  "i": 226,
+  "s": "Ground Control Comm Loss Failsafe",
+  "c": "APMMainStatusIndicatorContentItem"
+ },
+ {
+  "i": 228,
+  "s": "Loss Timeout",
+  "c": "APMMainStatusIndicatorContentItem"
+ },
+ {
+  "i": 229,
+  "s": "Failsafe Options",
+  "c": "APMMainStatusIndicatorContentItem"
+ },
+ {
+  "i": 235,
+  "s": "Training",
+  "c": "APMPlaneMode"
+ },
+ {
+  "i": 237,
+  "s": "FBW A",
+  "c": "APMPlaneMode"
+ },
+ {
+  "i": 238,
+  "s": "FBW B",
+  "c": "APMPlaneMode"
+ },
+ {
+  "i": 239,
+  "s": "Cruise",
+  "c": "APMPlaneMode"
+ },
+ {
+  "i": 247,
+  "s": "Initializing",
+  "c": "APMPlaneMode"
+ },
+ {
+  "i": 248,
+  "s": "QuadPlane Stabilize",
+  "c": "APMPlaneMode"
+ },
+ {
+  "i": 249,
+  "s": "QuadPlane Hover",
+  "c": "APMPlaneMode"
+ },
+ {
+  "i": 250,
+  "s": "QuadPlane Loiter",
+  "c": "APMPlaneMode"
+ },
+ {
+  "i": 251,
+  "s": "QuadPlane Land",
+  "c": "APMPlaneMode"
+ },
+ {
+  "i": 252,
+  "s": "QuadPlane RTL",
+  "c": "APMPlaneMode"
+ },
+ {
+  "i": 253,
+  "s": "QuadPlane AutoTune",
+  "c": "APMPlaneMode"
+ },
+ {
+  "i": 254,
+  "s": "QuadPlane Acro",
+  "c": "APMPlaneMode"
+ },
+ {
+  "i": 255,
+  "s": "Thermal",
+  "c": "APMPlaneMode"
+ },
+ {
+  "i": 256,
+  "s": "Loiter to QLand",
+  "c": "APMPlaneMode"
+ },
+ {
+  "i": 257,
+  "s": "Autoland",
+  "c": "APMPlaneMode"
+ },
+ {
+  "i": 294,
+  "s": "Blue Robotics Power Sense Module",
+  "c": "APMPowerComponent"
+ },
+ {
+  "i": 295,
+  "s": "Navigator w/ Blue Robotics Power Sense Module",
+  "c": "APMPowerComponent"
+ },
+ {
+  "i": 319,
+  "s": "Host name:",
+  "c": "APMRemoteSupportComponent"
+ },
+ {
+  "i": 321,
+  "s": "Forwarding traffic: Mavlink traffic will keep being forwarded until application restarts",
+  "c": "APMRemoteSupportComponent"
+ },
+ {
+  "i": 322,
+  "s": "Remote Support",
+  "c": "APMRemoteSupportComponent"
+ },
+ {
+  "i": 323,
+  "s": "On this menu you can forward mavlink telemetry to an ardupilot support engineer.",
+  "c": "APMRemoteSupportComponent"
+ },
+ {
+  "i": 326,
+  "s": "Learning",
+  "c": "APMRoverMode"
+ },
+ {
+  "i": 327,
+  "s": "Steering",
+  "c": "APMRoverMode"
+ },
+ {
+  "i": 332,
+  "s": "Dock",
+  "c": "APMRoverMode"
+ },
+ {
+  "i": 338,
+  "s": "Initializing",
+  "c": "APMRoverMode"
+ },
+ {
+  "i": 363,
+  "s": "Maximum Altitude",
+  "c": "APMSafetyComponent"
+ },
+ {
+  "i": 364,
+  "s": "Circle centered on Home",
+  "c": "APMSafetyComponent"
+ },
+ {
+  "i": 365,
+  "s": "Inclusion/Exclusion Circles+Polygons",
+  "c": "APMSafetyComponent"
+ },
+ {
+  "i": 366,
+  "s": "Breach action",
+  "c": "APMSafetyComponent"
+ },
+ {
+  "i": 367,
+  "s": "Fence margin",
+  "c": "APMSafetyComponent"
+ },
+ {
+  "i": 430,
+  "s": "Logic when Dry:",
+  "c": "APMSafetyComponentSub"
+ },
+ {
+  "i": 432,
+  "s": "Power module not set up",
+  "c": "APMSafetyComponentSub"
+ },
+ {
+  "i": 433,
+  "s": "Voltage:",
+  "c": "APMSafetyComponentSub"
+ },
+ {
+  "i": 434,
+  "s": "Remaining Capacity:",
+  "c": "APMSafetyComponentSub"
+ },
+ {
+  "i": 437,
+  "s": "Timeout:",
+  "c": "APMSafetyComponentSub"
+ },
+ {
+  "i": 530,
+  "s": ", ",
+  "c": "APMSensorsComponent"
+ },
+ {
+  "i": 544,
+  "s": "Simple accelerometer calibration is less precise but allows calibrating without rotating the vehicle. Check this if you have a large/heavy vehicle.",
+  "c": "APMSensorsComponent"
+ },
+ {
+  "i": 545,
+  "s": "Magnetic Declination",
+  "c": "APMSensorsComponent"
+ },
+ {
+  "i": 546,
+  "s": "Manual Magnetic Declination",
+  "c": "APMSensorsComponent"
+ },
+ {
+  "i": 547,
+  "s": "Fast compass calibration given vehicle position and yaw. This ",
+  "c": "APMSensorsComponent"
+ },
+ {
+  "i": 548,
+  "s": "results in zero diagonal and off-diagonal elements, so is only ",
+  "c": "APMSensorsComponent"
+ },
+ {
+  "i": 549,
+  "s": "suitable for vehicles where the field is close to spherical. It is ",
+  "c": "APMSensorsComponent"
+ },
+ {
+  "i": 550,
+  "s": "useful for large vehicles where moving the vehicle to calibrate it ",
+  "c": "APMSensorsComponent"
+ },
+ {
+  "i": 551,
+  "s": "is difficult. Point the vehicle North before using it.",
+  "c": "APMSensorsComponent"
+ },
+ {
+  "i": 552,
+  "s": "Fast Calibration",
+  "c": "APMSensorsComponent"
+ },
+ {
+  "i": 553,
+  "s": "Vehicle has no Valid positon, please provide it",
+  "c": "APMSensorsComponent"
+ },
+ {
+  "i": 554,
+  "s": "Use GCS position instead",
+  "c": "APMSensorsComponent"
+ },
+ {
+  "i": 555,
+  "s": "Use current map position instead",
+  "c": "APMSensorsComponent"
+ },
+ {
+  "i": 556,
+  "s": "Lat: ",
+  "c": "APMSensorsComponent"
+ },
+ {
+  "i": 557,
+  "s": "Compass Motor Interference Calibration",
+  "c": "APMSensorsComponent"
+ },
+ {
+  "i": 600,
+  "s": "In progress",
+  "c": "APMSensorsComponentController"
+ },
+ {
+  "i": 608,
+  "s": "Compasses:",
+  "c": "APMSensorsComponentSummary"
+ },
+ {
+  "i": 611,
+  "s": "Accelerometer(s):",
+  "c": "APMSensorsComponentSummary"
+ },
+ {
+  "i": 612,
+  "s": "Barometer(s):",
+  "c": "APMSensorsComponentSummary"
+ },
+ {
+  "i": 613,
+  "s": "Not Supported(Over APM 4.1)",
+  "c": "APMSensorsComponentSummary"
+ },
+ {
+  "i": 616,
+  "s": "Frame setup allows you to choose your vehicle's motor configuration. Install <b>clockwise</b><br>propellers on the <b>green thrusters</b> and <b>counter-clockwise</b> propellers on the <b>blue thrusters</b><br>(or vice-versa). The flight controller will need to be rebooted to apply changes.<br>When selecting a frame, you can choose to load the default parameter set for that frame configuration if available.",
+  "c": "APMSubFrameComponent"
+ },
+ {
+  "i": 617,
+  "s": "Frame selection",
+  "c": "APMSubFrameComponent"
+ },
+ {
+  "i": 618,
+  "s": "Would you like to load the default parameters for the frame?",
+  "c": "APMSubFrameComponent"
+ },
+ {
+  "i": 619,
+  "s": "Would you like to set the desired frame?",
+  "c": "APMSubFrameComponent"
+ },
+ {
+  "i": 620,
+  "s": "Yes, Load default parameter set for %1",
+  "c": "APMSubFrameComponent"
+ },
+ {
+  "i": 621,
+  "s": "No, set frame only",
+  "c": "APMSubFrameComponent"
+ },
+ {
+  "i": 622,
+  "s": "Confirm frame %1",
+  "c": "APMSubFrameComponent"
+ },
+ {
+  "i": 630,
+  "s": "Depth Hold",
+  "c": "APMSubMode"
+ },
+ {
+  "i": 634,
+  "s": "Surface",
+  "c": "APMSubMode"
+ },
+ {
+  "i": 636,
+  "s": "Motor Detection",
+  "c": "APMSubMode"
+ },
+ {
+  "i": 637,
+  "s": "Surftrak",
+  "c": "APMSubMode"
+ },
+ {
+  "i": 644,
+  "s": "Mavlink traffic is being forwarded to a support server",
+  "c": "APMSupportForwardingIndicator"
+ },
+ {
+  "i": 645,
+  "s": "Server name:",
+  "c": "APMSupportForwardingIndicator"
+ },
+ {
+  "i": 675,
+  "s": "Roll axis angle controller P gain",
+  "c": "APMTuningComponentCopter"
+ },
+ {
+  "i": 676,
+  "s": "Roll axis rate controller P gain",
+  "c": "APMTuningComponentCopter"
+ },
+ {
+  "i": 677,
+  "s": "Roll axis rate controller I gain",
+  "c": "APMTuningComponentCopter"
+ },
+ {
+  "i": 678,
+  "s": "Roll axis rate controller D gain",
+  "c": "APMTuningComponentCopter"
+ },
+ {
+  "i": 680,
+  "s": "Pitch axis angle controller P gain",
+  "c": "APMTuningComponentCopter"
+ },
+ {
+  "i": 681,
+  "s": "Pitch axis rate controller P gain",
+  "c": "APMTuningComponentCopter"
+ },
+ {
+  "i": 682,
+  "s": "Pitch axis rate controller I gain",
+  "c": "APMTuningComponentCopter"
+ },
+ {
+  "i": 683,
+  "s": "Pitch axis rate controller D gain",
+  "c": "APMTuningComponentCopter"
+ },
+ {
+  "i": 685,
+  "s": "Yaw axis angle controller P gain",
+  "c": "APMTuningComponentCopter"
+ },
+ {
+  "i": 686,
+  "s": "Yaw axis rate controller P gain",
+  "c": "APMTuningComponentCopter"
+ },
+ {
+  "i": 687,
+  "s": "Yaw axis rate controller I gain",
+  "c": "APMTuningComponentCopter"
+ },
+ {
+  "i": 691,
+  "s": "Beep",
+  "c": "ActuatorAction"
+ },
+ {
+  "i": 692,
+  "s": "3D mode: On",
+  "c": "ActuatorAction"
+ },
+ {
+  "i": 693,
+  "s": "3D mode: Off",
+  "c": "ActuatorAction"
+ },
+ {
+  "i": 694,
+  "s": "Set Spin Direction 1",
+  "c": "ActuatorAction"
+ },
+ {
+  "i": 695,
+  "s": "Set Spin Direction 2",
+  "c": "ActuatorAction"
+ },
+ {
+  "i": 696,
+  "s": "Actuator action command failed",
+  "c": "ActuatorActions::Action"
+ },
+ {
+  "i": 697,
+  "s": "Geometry",
+  "c": "ActuatorComponent"
+ },
+ {
+  "i": 698,
+  "s": "Actuator Testing",
+  "c": "ActuatorComponent"
+ },
+ {
+  "i": 699,
+  "s": "Configure some outputs in order to test them.",
+  "c": "ActuatorComponent"
+ },
+ {
+  "i": 700,
+  "s": "Careful: Actuator sliders are enabled",
+  "c": "ActuatorComponent"
+ },
+ {
+  "i": 701,
+  "s": "Propellers are removed - Enable sliders",
+  "c": "ActuatorComponent"
+ },
+ {
+  "i": 702,
+  "s": "Actuator Outputs",
+  "c": "ActuatorComponent"
+ },
+ {
+  "i": 703,
+  "s": "One or more actuator still needs to be assigned to an output.",
+  "c": "ActuatorComponent"
+ },
+ {
+  "i": 704,
+  "s": "Identify & Assign Motors",
+  "c": "ActuatorComponent"
+ },
+ {
+  "i": 705,
+  "s": "Motor Order Identification and Assignment",
+  "c": "ActuatorComponent"
+ },
+ {
+  "i": 707,
+  "s": "Spin Motor Again",
+  "c": "ActuatorComponent"
+ },
+ {
+  "i": 708,
+  "s": "Abort",
+  "c": "ActuatorComponent"
+ },
+ {
+  "i": 710,
+  "s": "(Param not available)",
+  "c": "ActuatorFact"
+ },
+ {
+  "i": 711,
+  "s": "All Motors",
+  "c": "ActuatorTesting::ActuatorTest"
+ },
+ {
+  "i": 712,
+  "s": "Actuator test command temporarily rejected",
+  "c": "ActuatorTesting::ActuatorTest"
+ },
+ {
+  "i": 713,
+  "s": "Actuator test command denied",
+  "c": "ActuatorTesting::ActuatorTest"
+ },
+ {
+  "i": 714,
+  "s": "Actuator test command not supported",
+  "c": "ActuatorTesting::ActuatorTest"
+ },
+ {
+  "i": 715,
+  "s": "Actuator test command failed",
+  "c": "ActuatorTesting::ActuatorTest"
+ },
+ {
+  "i": 716,
+  "s": "AirLink Link Settings",
+  "c": "AirLinkConfiguration"
+ },
+ {
+  "i": 717,
+  "s": "Login:",
+  "c": "AirLinkSettings"
+ },
+ {
+  "i": 718,
+  "s": "Password:",
+  "c": "AirLinkSettings"
+ },
+ {
+  "i": 719,
+  "s": "Don't have an account?",
+  "c": "AirLinkSettings"
+ },
+ {
+  "i": 720,
+  "s": "Register",
+  "c": "AirLinkSettings"
+ },
+ {
+  "i": 721,
+  "s": "List of available devices",
+  "c": "AirLinkSettings"
+ },
+ {
+  "i": 723,
+  "s": "Click \"Refresh\" to authorize",
+  "c": "AirLinkSettings"
+ },
+ {
+  "i": 728,
+  "s": "Clicking 'Apply' will save the changes you have made to your airframe configuration.<br><br>                                                                        All vehicle parameters other than Radio Calibration will be reset.<br><br>                                                                        Your vehicle will also be restarted in order to complete the process.",
+  "c": "AirframeComponent"
+ },
+ {
+  "i": 743,
+  "s": "",
+  "c": "AirmapSettings"
+ },
+ {
+  "i": 744,
+  "s": "Select Altitude Mode",
+  "c": "AltModeDialog"
+ },
+ {
+  "i": 745,
+  "s": "Relative To Launch",
+  "c": "AltModeDialog"
+ },
+ {
+  "i": 746,
+  "s": "Specified altitudes are relative to launch position height.",
+  "c": "AltModeDialog"
+ },
+ {
+  "i": 747,
+  "s": "AMSL",
+  "c": "AltModeDialog"
+ },
+ {
+  "i": 748,
+  "s": "Specified altitudes are Above Mean Sea Level.",
+  "c": "AltModeDialog"
+ },
+ {
+  "i": 749,
+  "s": "Calculated Above Terrain",
+  "c": "AltModeDialog"
+ },
+ {
+  "i": 750,
+  "s": "Specified altitudes are distance above terrain. Actual altitudes sent to vehicle are calculated from terrain data and sent as AMSL values.",
+  "c": "AltModeDialog"
+ },
+ {
+  "i": 751,
+  "s": "Terrain Frame",
+  "c": "AltModeDialog"
+ },
+ {
+  "i": 752,
+  "s": "Specified altitudes are distance above terrain. The actual altitude flown is controlled by the vehicle either from terrain height maps being sent to vehicle or a distance sensor.",
+  "c": "AltModeDialog"
+ },
+ {
+  "i": 753,
+  "s": "Mixed Modes",
+  "c": "AltModeDialog"
+ },
+ {
+  "i": 754,
+  "s": "The altitude mode can differ for each individual item.",
+  "c": "AltModeDialog"
+ },
+ {
+  "i": 755,
+  "s": "GStreamer Debug Level",
+  "c": "AppMessages"
+ },
+ {
+  "i": 756,
+  "s": "Logging categories",
+  "c": "AppMessages"
+ },
+ {
+  "i": 772,
+  "s": "CrashLogs",
+  "c": "AppSettings"
+ },
+ {
+  "i": 773,
+  "s": "MavlinkActions",
+  "c": "AppSettings"
+ },
+ {
+  "i": 774,
+  "s": "Save to SD card specified for application data. But no SD card present. Using internal storage.",
+  "c": "AppSettings"
+ },
+ {
+  "i": 775,
+  "s": "Save to SD card specified for application data. But SD card is write protected. Using internal storage.",
+  "c": "AppSettings"
+ },
+ {
+  "i": 776,
+  "s": " (Partial)",
+  "c": "AppSettings"
+ },
+ {
+  "i": 777,
+  "s": " (Test Only)",
+  "c": "AppSettings"
+ },
+ {
+  "i": 782,
+  "s": "%1",
+  "c": "AudioOutput"
+ },
+ {
+  "i": 784,
+  "s": "Autotune: In progress",
+  "c": "Autotune"
+ },
+ {
+  "i": 785,
+  "s": "Autotune: initializing",
+  "c": "Autotune"
+ },
+ {
+  "i": 786,
+  "s": "Autotune: roll",
+  "c": "Autotune"
+ },
+ {
+  "i": 787,
+  "s": "Autotune: pitch",
+  "c": "Autotune"
+ },
+ {
+  "i": 788,
+  "s": "Autotune: yaw",
+  "c": "Autotune"
+ },
+ {
+  "i": 789,
+  "s": "Wait for disarm",
+  "c": "Autotune"
+ },
+ {
+  "i": 790,
+  "s": "Land and disarm the vehicle in order to apply the parameters.",
+  "c": "Autotune"
+ },
+ {
+  "i": 791,
+  "s": "Autotune: in progress",
+  "c": "Autotune"
+ },
+ {
+  "i": 792,
+  "s": "Autotune: Success",
+  "c": "Autotune"
+ },
+ {
+  "i": 793,
+  "s": "Autotune successful.",
+  "c": "Autotune"
+ },
+ {
+  "i": 794,
+  "s": "Autotune: Unknown error",
+  "c": "Autotune"
+ },
+ {
+  "i": 795,
+  "s": "Autotune: Failed",
+  "c": "Autotune"
+ },
+ {
+  "i": 796,
+  "s": "Autotune: Ack error %1",
+  "c": "Autotune"
+ },
+ {
+  "i": 797,
+  "s": "Autotune: Not performed",
+  "c": "Autotune"
+ },
+ {
+  "i": 798,
+  "s": "Start AutoTune",
+  "c": "AutotuneUI"
+ },
+ {
+  "i": 799,
+  "s": "WARNING!        \n\nThe auto-tuning procedure should be executed with caution and requires the vehicle to fly stable enough before attempting the procedure!         \n\nBefore starting the auto-tuning process, make sure that:         \n1. You have read the auto-tuning guide and have followed the preliminary steps         \n2. The current control gains are good enough to stabilize the drone in presence of medium disturbances         \n3. You are ready to abort the auto-tuning sequence by moving the RC sticks, if anything unexpected happens.         \n\nClick Ok to start the auto-tuning process.\n",
+  "c": "AutotuneUI"
+ },
+ {
+  "i": 802,
+  "s": "n/a",
+  "c": "BatteryIndicator"
+ },
+ {
+  "i": 803,
+  "s": "Battery %1",
+  "c": "BatteryIndicator"
+ },
+ {
+  "i": 806,
+  "s": "Remaining",
+  "c": "BatteryIndicator"
+ },
+ {
+  "i": 808,
+  "s": "Consumed",
+  "c": "BatteryIndicator"
+ },
+ {
+  "i": 811,
+  "s": "Battery Display",
+  "c": "BatteryIndicator"
+ },
+ {
+  "i": 813,
+  "s": "Coloring",
+  "c": "BatteryIndicator"
+ },
+ {
+  "i": 814,
+  "s": "Low",
+  "c": "BatteryIndicator"
+ },
+ {
+  "i": 815,
+  "s": "Critical",
+  "c": "BatteryIndicator"
+ },
+ {
+  "i": 816,
+  "s": "Vehicle Power",
+  "c": "BatteryIndicator"
+ },
+ {
+  "i": 817,
+  "s": "Configure",
+  "c": "BatteryIndicator"
+ },
+ {
+  "i": 818,
+  "s": "Empty Plan",
+  "c": "BlankPlanCreator"
+ },
+ {
+  "i": 822,
+  "s": "Link %1: (Device: %2) %3",
+  "c": "BluetoothLink"
+ },
+ {
+  "i": 823,
+  "s": "Device",
+  "c": "BluetoothSettings"
+ },
+ {
+  "i": 825,
+  "s": "Bluetooth Devices",
+  "c": "BluetoothSettings"
+ },
+ {
+  "i": 828,
+  "s": "Data to Send is Empty",
+  "c": "BluetoothWorker"
+ },
+ {
+  "i": 829,
+  "s": "Socket is not connected",
+  "c": "BluetoothWorker"
+ },
+ {
+  "i": 830,
+  "s": "Socket is not Writable",
+  "c": "BluetoothWorker"
+ },
+ {
+  "i": 831,
+  "s": "Could Not Send Data - Write Failed: %1",
+  "c": "BluetoothWorker"
+ },
+ {
+  "i": 832,
+  "s": "Could Not Send Data - Write Returned 0 Bytes",
+  "c": "BluetoothWorker"
+ },
+ {
+  "i": 854,
+  "s": "Unable to put radio into command mode +++",
+  "c": "Bootloader"
+ },
+ {
+  "i": 855,
+  "s": "Radio did not respond to command mode",
+  "c": "Bootloader"
+ },
+ {
+  "i": 856,
+  "s": "Radio did not respond to ATI2 command",
+  "c": "Bootloader"
+ },
+ {
+  "i": 857,
+  "s": "Radio did not return board id",
+  "c": "Bootloader"
+ },
+ {
+  "i": 859,
+  "s": "Unable to reboot radio (ready read)",
+  "c": "Bootloader"
+ },
+ {
+  "i": 861,
+  "s": "Get Device: ",
+  "c": "Bootloader"
+ },
+ {
+  "i": 898,
+  "s": "Component %1",
+  "c": "CompInfoParam"
+ },
+ {
+  "i": 899,
+  "s": "Internal Error: Parameter MetaData major must be 1",
+  "c": "CompInfoParam"
+ },
+ {
+  "i": 902,
+  "s": "File open failed: file:error %1 %2",
+  "c": "ComponentInformationTranslation"
+ },
+ {
+  "i": 912,
+  "s": "Qt Platform:",
+  "c": "DebugWindow"
+ },
+ {
+  "i": 913,
+  "s": "Font Point Size 10",
+  "c": "DebugWindow"
+ },
+ {
+  "i": 914,
+  "s": "Default font width:",
+  "c": "DebugWindow"
+ },
+ {
+  "i": 915,
+  "s": "Font Point Size 10.5",
+  "c": "DebugWindow"
+ },
+ {
+  "i": 916,
+  "s": "Default font height:",
+  "c": "DebugWindow"
+ },
+ {
+  "i": 917,
+  "s": "Font Point Size 11",
+  "c": "DebugWindow"
+ },
+ {
+  "i": 918,
+  "s": "Default font pixel size:",
+  "c": "DebugWindow"
+ },
+ {
+  "i": 919,
+  "s": "Font Point Size 11.5",
+  "c": "DebugWindow"
+ },
+ {
+  "i": 920,
+  "s": "Default font point size:",
+  "c": "DebugWindow"
+ },
+ {
+  "i": 921,
+  "s": "Font Point Size 12",
+  "c": "DebugWindow"
+ },
+ {
+  "i": 922,
+  "s": "QML Screen Desktop:",
+  "c": "DebugWindow"
+ },
+ {
+  "i": 923,
+  "s": "Font Point Size 12.5",
+  "c": "DebugWindow"
+ },
+ {
+  "i": 924,
+  "s": "QML Screen Size:",
+  "c": "DebugWindow"
+ },
+ {
+  "i": 925,
+  "s": "Font Point Size 13",
+  "c": "DebugWindow"
+ },
+ {
+  "i": 926,
+  "s": "QML Pixel Density:",
+  "c": "DebugWindow"
+ },
+ {
+  "i": 927,
+  "s": "Font Point Size 13.5",
+  "c": "DebugWindow"
+ },
+ {
+  "i": 928,
+  "s": "QML Pixel Ratio:",
+  "c": "DebugWindow"
+ },
+ {
+  "i": 929,
+  "s": "Font Point Size 14",
+  "c": "DebugWindow"
+ },
+ {
+  "i": 930,
+  "s": "Default Point:",
+  "c": "DebugWindow"
+ },
+ {
+  "i": 931,
+  "s": "Font Point Size 14.5",
+  "c": "DebugWindow"
+ },
+ {
+  "i": 932,
+  "s": "Computed Font Height:",
+  "c": "DebugWindow"
+ },
+ {
+  "i": 933,
+  "s": "Font Point Size 15",
+  "c": "DebugWindow"
+ },
+ {
+  "i": 934,
+  "s": "Computed Screen Height:",
+  "c": "DebugWindow"
+ },
+ {
+  "i": 935,
+  "s": "Font Point Size 15.5",
+  "c": "DebugWindow"
+ },
+ {
+  "i": 936,
+  "s": "Computed Screen Width:",
+  "c": "DebugWindow"
+ },
+ {
+  "i": 937,
+  "s": "Font Point Size 16",
+  "c": "DebugWindow"
+ },
+ {
+  "i": 938,
+  "s": "Desktop Available Width:",
+  "c": "DebugWindow"
+ },
+ {
+  "i": 939,
+  "s": "Font Point Size 16.5",
+  "c": "DebugWindow"
+ },
+ {
+  "i": 940,
+  "s": "Desktop Available Height:",
+  "c": "DebugWindow"
+ },
+ {
+  "i": 941,
+  "s": "Font Point Size 17",
+  "c": "DebugWindow"
+ },
+ {
+  "i": 986,
+  "s": "AP Mode",
+  "c": "ESP8266ComponentSummary"
+ },
+ {
+  "i": 987,
+  "s": "Station Mode",
+  "c": "ESP8266ComponentSummary"
+ },
+ {
+  "i": 992,
+  "s": "Edit Position",
+  "c": "EditPositionDialog"
+ },
+ {
+  "i": 993,
+  "s": "Coordinate System",
+  "c": "EditPositionDialog"
+ },
+ {
+  "i": 994,
+  "s": "Geographic",
+  "c": "EditPositionDialog"
+ },
+ {
+  "i": 995,
+  "s": "Universal Transverse Mercator",
+  "c": "EditPositionDialog"
+ },
+ {
+  "i": 996,
+  "s": "Military Grid Reference",
+  "c": "EditPositionDialog"
+ },
+ {
+  "i": 1000,
+  "s": "Set position",
+  "c": "EditPositionDialog"
+ },
+ {
+  "i": 1001,
+  "s": "Move",
+  "c": "EditPositionDialog"
+ },
+ {
+  "i": 1007,
+  "s": "Invalid Nak format",
+  "c": "FTPManager"
+ },
+ {
+  "i": 1008,
+  "s": "errno %1",
+  "c": "FTPManager"
+ },
+ {
+  "i": 1009,
+  "s": "List directory failed",
+  "c": "FTPManager"
+ },
+ {
+  "i": 1025,
+  "s": "Final approach",
+  "c": "FWLandingPatternEditor"
+ },
+ {
+  "i": 1026,
+  "s": "Use loiter to altitude",
+  "c": "FWLandingPatternEditor"
+ },
+ {
+  "i": 1034,
+  "s": "Approach",
+  "c": "FWLandingPatternMapVisual"
+ },
+ {
+  "i": 1040,
+  "s": "Reboot vehicle for changes to take effect.",
+  "c": "Fact"
+ },
+ {
+  "i": 1041,
+  "s": "Restart application for changes to take effect.",
+  "c": "Fact"
+ },
+ {
+  "i": 1047,
+  "s": "Value: ",
+  "c": "FactTextFieldSlider"
+ },
+ {
+  "i": 1055,
+  "s": "PX4 Pro",
+  "c": "Firmware Class"
+ },
+ {
+  "i": 1057,
+  "s": "Generic",
+  "c": "Firmware Class"
+ },
+ {
+  "i": 1063,
+  "s": "Firmware file missing required key: %1",
+  "c": "FirmwareImage"
+ },
+ {
+  "i": 1086,
+  "s": "%1 can upgrade the firmware on Pixhawk devices and SiK Radios.",
+  "c": "FirmwareUpgrade"
+ },
+ {
+  "i": 1087,
+  "s": "Plug in your device",
+  "c": "FirmwareUpgrade"
+ },
+ {
+  "i": 1088,
+  "s": " via USB to ",
+  "c": "FirmwareUpgrade"
+ },
+ {
+  "i": 1089,
+  "s": "start",
+  "c": "FirmwareUpgrade"
+ },
+ {
+  "i": 1090,
+  "s": " firmware upgrade.",
+  "c": "FirmwareUpgrade"
+ },
+ {
+  "i": 1091,
+  "s": "If upgrade failed, make sure to connect ",
+  "c": "FirmwareUpgrade"
+ },
+ {
+  "i": 1092,
+  "s": "directly",
+  "c": "FirmwareUpgrade"
+ },
+ {
+  "i": 1093,
+  "s": " to a powered USB port on your computer, not through a USB hub. ",
+  "c": "FirmwareUpgrade"
+ },
+ {
+  "i": 1094,
+  "s": "Also make sure you are only powered via USB ",
+  "c": "FirmwareUpgrade"
+ },
+ {
+  "i": 1095,
+  "s": "not battery",
+  "c": "FirmwareUpgrade"
+ },
+ {
+  "i": 1096,
+  "s": " disconnected ",
+  "c": "FirmwareUpgrade"
+ },
+ {
+  "i": 1097,
+  "s": "prior to firmware upgrade.",
+  "c": "FirmwareUpgrade"
+ },
+ {
+  "i": 1098,
+  "s": "Please unplug your Pixhawk and/or Radio from USB.",
+  "c": "FirmwareUpgrade"
+ },
+ {
+  "i": 1105,
+  "s": "Either firmware list is still downloading, or no firmware is available for current selection.",
+  "c": "FirmwareUpgrade"
+ },
+ {
+  "i": 1106,
+  "s": "You must choose a board type.",
+  "c": "FirmwareUpgrade"
+ },
+ {
+  "i": 1107,
+  "s": "No firmware was found for the current selection.",
+  "c": "FirmwareUpgrade"
+ },
+ {
+  "i": 1130,
+  "s": "Follow the forums actively when using it.",
+  "c": "FirmwareUpgrade"
+ },
+ {
+  "i": 1166,
+  "s": "Fixed Wing Landing",
+  "c": "FixedWingLandingComplexItem"
+ },
+ {
+  "i": 1172,
+  "s": "Some Modes Hidden",
+  "c": "FlightModeIndicator"
+ },
+ {
+  "i": 1173,
+  "s": "Edit Displayed Flight Modes",
+  "c": "FlightModeIndicator"
+ },
+ {
+  "i": 1175,
+  "s": "Configure",
+  "c": "FlightModeIndicator"
+ },
+ {
+  "i": 1178,
+  "s": "RTL Altitude",
+  "c": "FlightModeMenuIndicator"
+ },
+ {
+  "i": 1179,
+  "s": "Land Descent Rate:",
+  "c": "FlightModeMenuIndicator"
+ },
+ {
+  "i": 1180,
+  "s": "Precision Landing",
+  "c": "FlightModeMenuIndicator"
+ },
+ {
+  "i": 1186,
+  "s": "Actions",
+  "c": "FlyViewAdditionalActionsButton"
+ },
+ {
+  "i": 1191,
+  "s": "Go to location",
+  "c": "FlyViewMap"
+ },
+ {
+  "i": 1192,
+  "s": "Orbit at location",
+  "c": "FlyViewMap"
+ },
+ {
+  "i": 1193,
+  "s": "ROI at location",
+  "c": "FlyViewMap"
+ },
+ {
+  "i": 1194,
+  "s": "Set home here",
+  "c": "FlyViewMap"
+ },
+ {
+  "i": 1195,
+  "s": "Set Estimator Origin",
+  "c": "FlyViewMap"
+ },
+ {
+  "i": 1196,
+  "s": "Set Heading",
+  "c": "FlyViewMap"
+ },
+ {
+  "i": 1197,
+  "s": "Lat: %1",
+  "c": "FlyViewMap"
+ },
+ {
+  "i": 1198,
+  "s": "Lon: %1",
+  "c": "FlyViewMap"
+ },
+ {
+  "i": 1199,
+  "s": "Edit ROI Position",
+  "c": "FlyViewMap"
+ },
+ {
+  "i": 1201,
+  "s": "Edit Position",
+  "c": "FlyViewMap"
+ },
+ {
+  "i": 1209,
+  "s": "Pre-Flight Checklist",
+  "c": "FlyViewPreFlightChecklistPopup"
+ },
+ {
+  "i": 1210,
+  "s": "<None>",
+  "c": "FlyViewSettings"
+ },
+ {
+  "i": 1212,
+  "s": "Use Preflight Checklist",
+  "c": "FlyViewSettings"
+ },
+ {
+  "i": 1213,
+  "s": "Enforce Preflight Checklist",
+  "c": "FlyViewSettings"
+ },
+ {
+  "i": 1214,
+  "s": "Enable Multi-Vehicle Panel",
+  "c": "FlyViewSettings"
+ },
+ {
+  "i": 1215,
+  "s": "Keep Map Centered On Vehicle",
+  "c": "FlyViewSettings"
+ },
+ {
+  "i": 1216,
+  "s": "Show Telemetry Log Replay Status Bar",
+  "c": "FlyViewSettings"
+ },
+ {
+  "i": 1217,
+  "s": "Show simple camera controls (DIGICAM_CONTROL)",
+  "c": "FlyViewSettings"
+ },
+ {
+  "i": 1218,
+  "s": "Update return to home position based on device location.",
+  "c": "FlyViewSettings"
+ },
+ {
+  "i": 1219,
+  "s": "Guided Commands",
+  "c": "FlyViewSettings"
+ },
+ {
+  "i": 1220,
+  "s": "Minimum Altitude",
+  "c": "FlyViewSettings"
+ },
+ {
+  "i": 1221,
+  "s": "Maximum Altitude",
+  "c": "FlyViewSettings"
+ },
+ {
+  "i": 1222,
+  "s": "Go To Location Max Distance",
+  "c": "FlyViewSettings"
+ },
+ {
+  "i": 1223,
+  "s": "Loiter Radius in Forward Flight Guided Mode",
+  "c": "FlyViewSettings"
+ },
+ {
+  "i": 1224,
+  "s": "Require Confirmation for Go To Location in Guided Mode",
+  "c": "FlyViewSettings"
+ },
+ {
+  "i": 1225,
+  "s": "MAVLink Actions",
+  "c": "FlyViewSettings"
+ },
+ {
+  "i": 1226,
+  "s": "Action JSON files should be created in the '%1' folder.",
+  "c": "FlyViewSettings"
+ },
+ {
+  "i": 1227,
+  "s": "Fly View Actions",
+  "c": "FlyViewSettings"
+ },
+ {
+  "i": 1228,
+  "s": "Joystick Actions",
+  "c": "FlyViewSettings"
+ },
+ {
+  "i": 1229,
+  "s": "Virtual Joystick",
+  "c": "FlyViewSettings"
+ },
+ {
+  "i": 1231,
+  "s": "Auto-Center Throttle",
+  "c": "FlyViewSettings"
+ },
+ {
+  "i": 1232,
+  "s": "Left-Handed Mode (swap sticks)",
+  "c": "FlyViewSettings"
+ },
+ {
+  "i": 1233,
+  "s": "Instrument Panel",
+  "c": "FlyViewSettings"
+ },
+ {
+  "i": 1234,
+  "s": "Show additional heading indicators on Compass",
+  "c": "FlyViewSettings"
+ },
+ {
+  "i": 1235,
+  "s": "Lock Compass Nose-Up",
+  "c": "FlyViewSettings"
+ },
+ {
+  "i": 1236,
+  "s": "3D View",
+  "c": "FlyViewSettings"
+ },
+ {
+  "i": 1237,
+  "s": "3D Map File:",
+  "c": "FlyViewSettings"
+ },
+ {
+  "i": 1239,
+  "s": "Select File",
+  "c": "FlyViewSettings"
+ },
+ {
+  "i": 1240,
+  "s": "OpenStreetMap files (*.osm)",
+  "c": "FlyViewSettings"
+ },
+ {
+  "i": 1241,
+  "s": "Select map file",
+  "c": "FlyViewSettings"
+ },
+ {
+  "i": 1242,
+  "s": "Average Building Level Height",
+  "c": "FlyViewSettings"
+ },
+ {
+  "i": 1243,
+  "s": "Vehicles Altitude Bias",
+  "c": "FlyViewSettings"
+ },
+ {
+  "i": 1245,
+  "s": "Downloading",
+  "c": "FlyViewToolBar"
+ },
+ {
+  "i": 1246,
+  "s": "Click anywhere to hide",
+  "c": "FlyViewToolBar"
+ },
+ {
+  "i": 1247,
+  "s": "3D View",
+  "c": "FlyViewToolStripActionList"
+ },
+ {
+  "i": 1248,
+  "s": "Fly",
+  "c": "FlyViewToolStripActionList"
+ },
+ {
+  "i": 1249,
+  "s": "Selected: ",
+  "c": "FlyViewTopRightPanel"
+ },
+ {
+  "i": 1250,
+  "s": "Multi Vehicle Selection",
+  "c": "FlyViewTopRightPanel"
+ },
+ {
+  "i": 1251,
+  "s": "Select All",
+  "c": "FlyViewTopRightPanel"
+ },
+ {
+  "i": 1252,
+  "s": "Deselect All",
+  "c": "FlyViewTopRightPanel"
+ },
+ {
+  "i": 1253,
+  "s": "Multi Vehicle Actions",
+  "c": "FlyViewTopRightPanel"
+ },
+ {
+  "i": 1258,
+  "s": "Double-click to exit full screen",
+  "c": "FlyViewVideo"
+ },
+ {
+  "i": 1259,
+  "s": "GCS ",
+  "c": "GCSControlIndicator"
+ },
+ {
+  "i": 1260,
+  "s": " is requesting control",
+  "c": "GCSControlIndicator"
+ },
+ {
+  "i": 1261,
+  "s": "Allow <br> takeover",
+  "c": "GCSControlIndicator"
+ },
+ {
+  "i": 1262,
+  "s": "Ignoring automatically in ",
+  "c": "GCSControlIndicator"
+ },
+ {
+  "i": 1263,
+  "s": " seconds",
+  "c": "GCSControlIndicator"
+ },
+ {
+  "i": 1264,
+  "s": "Ignore",
+  "c": "GCSControlIndicator"
+ },
+ {
+  "i": 1265,
+  "s": "Reverting back to takeover not allowed if GCS ",
+  "c": "GCSControlIndicator"
+ },
+ {
+  "i": 1266,
+  "s": " doesn't take control in ",
+  "c": "GCSControlIndicator"
+ },
+ {
+  "i": 1267,
+  "s": " seconds ...",
+  "c": "GCSControlIndicator"
+ },
+ {
+  "i": 1268,
+  "s": "System in control: ",
+  "c": "GCSControlIndicator"
+ },
+ {
+  "i": 1269,
+  "s": "This GCS",
+  "c": "GCSControlIndicator"
+ },
+ {
+  "i": 1270,
+  "s": "Takeover allowed",
+  "c": "GCSControlIndicator"
+ },
+ {
+  "i": 1271,
+  "s": "Takeover NOT allowed",
+  "c": "GCSControlIndicator"
+ },
+ {
+  "i": 1272,
+  "s": "Send Control Request:",
+  "c": "GCSControlIndicator"
+ },
+ {
+  "i": 1273,
+  "s": "Change takeover condition:",
+  "c": "GCSControlIndicator"
+ },
+ {
+  "i": 1274,
+  "s": "Request sent: ",
+  "c": "GCSControlIndicator"
+ },
+ {
+  "i": 1275,
+  "s": "Allow takeover",
+  "c": "GCSControlIndicator"
+ },
+ {
+  "i": 1276,
+  "s": "Adquire Control",
+  "c": "GCSControlIndicator"
+ },
+ {
+  "i": 1277,
+  "s": "Send Request",
+  "c": "GCSControlIndicator"
+ },
+ {
+  "i": 1278,
+  "s": "Request Timeout (sec):",
+  "c": "GCSControlIndicator"
+ },
+ {
+  "i": 1279,
+  "s": "Change",
+  "c": "GCSControlIndicator"
+ },
+ {
+  "i": 1280,
+  "s": "This GCS Mavlink System ID: ",
+  "c": "GCSControlIndicator"
+ },
+ {
+  "i": 1281,
+  "s": "RTK",
+  "c": "GPSIndicator"
+ },
+ {
+  "i": 1283,
+  "s": "--.--",
+  "c": "GPSIndicatorPage"
+ },
+ {
+  "i": 1284,
+  "s": "Vehicle GPS Status",
+  "c": "GPSIndicatorPage"
+ },
+ {
+  "i": 1285,
+  "s": "Satellites",
+  "c": "GPSIndicatorPage"
+ },
+ {
+  "i": 1286,
+  "s": "GPS Lock",
+  "c": "GPSIndicatorPage"
+ },
+ {
+  "i": 1287,
+  "s": "HDOP",
+  "c": "GPSIndicatorPage"
+ },
+ {
+  "i": 1288,
+  "s": "VDOP",
+  "c": "GPSIndicatorPage"
+ },
+ {
+  "i": 1289,
+  "s": "Course Over Ground",
+  "c": "GPSIndicatorPage"
+ },
+ {
+  "i": 1290,
+  "s": "RTK GPS Status",
+  "c": "GPSIndicatorPage"
+ },
+ {
+  "i": 1291,
+  "s": "Survey-in Active",
+  "c": "GPSIndicatorPage"
+ },
+ {
+  "i": 1292,
+  "s": "RTK Streaming",
+  "c": "GPSIndicatorPage"
+ },
+ {
+  "i": 1293,
+  "s": "Duration",
+  "c": "GPSIndicatorPage"
+ },
+ {
+  "i": 1294,
+  "s": "Accuracy",
+  "c": "GPSIndicatorPage"
+ },
+ {
+  "i": 1295,
+  "s": "Current Accuracy",
+  "c": "GPSIndicatorPage"
+ },
+ {
+  "i": 1296,
+  "s": "RTK GPS Settings",
+  "c": "GPSIndicatorPage"
+ },
+ {
+  "i": 1297,
+  "s": "AutoConnect",
+  "c": "GPSIndicatorPage"
+ },
+ {
+  "i": 1298,
+  "s": "Survey-In",
+  "c": "GPSIndicatorPage"
+ },
+ {
+  "i": 1299,
+  "s": "Specify position",
+  "c": "GPSIndicatorPage"
+ },
+ {
+  "i": 1300,
+  "s": "Accuracy (u-blox only)",
+  "c": "GPSIndicatorPage"
+ },
+ {
+  "i": 1301,
+  "s": "Min Duration",
+  "c": "GPSIndicatorPage"
+ },
+ {
+  "i": 1302,
+  "s": "Current Base Position",
+  "c": "GPSIndicatorPage"
+ },
+ {
+  "i": 1304,
+  "s": "Not Yet Valid",
+  "c": "GPSIndicatorPage"
+ },
+ {
+  "i": 1316,
+  "s": "Save application data to SD Card",
+  "c": "GeneralSettings"
+ },
+ {
+  "i": 1317,
+  "s": "<default location>",
+  "c": "GeneralSettings"
+ },
+ {
+  "i": 1322,
+  "s": "Reset Images",
+  "c": "GeneralSettings"
+ },
+ {
+  "i": 1350,
+  "s": "Empty Filename.",
+  "c": "GeoTagController"
+ },
+ {
+  "i": 1351,
+  "s": "Invalid Filename.",
+  "c": "GeoTagController"
+ },
+ {
+  "i": 1352,
+  "s": "Invalid Directory.",
+  "c": "GeoTagController"
+ },
+ {
+  "i": 1353,
+  "s": "Images have already been tagged. Existing images will be removed.",
+  "c": "GeoTagController"
+ },
+ {
+  "i": 1358,
+  "s": "Used to tag a set of images from a survey mission with gps coordinates. You must provide the binary log from the flight as well as the directory which contains the images to tag.",
+  "c": "GeoTagPage"
+ },
+ {
+  "i": 1366,
+  "s": "/TAGGED folder in your image folder",
+  "c": "GeoTagPage"
+ },
+ {
+  "i": 1367,
+  "s": "/TAGGED",
+  "c": "GeoTagPage"
+ },
+ {
+  "i": 1371,
+  "s": "Geotagging failed. Couldn't open image: %1",
+  "c": "GeoTagWorker"
+ },
+ {
+  "i": 1372,
+  "s": "Geotagging failed. Couldn't extract time from image: %1",
+  "c": "GeoTagWorker"
+ },
+ {
+  "i": 1373,
+  "s": "Calibration failed: No triggers or images available.",
+  "c": "GeoTagWorker"
+ },
+ {
+  "i": 1374,
+  "s": "Calibration failed: No matching triggers found for images.",
+  "c": "GeoTagWorker"
+ },
+ {
+  "i": 1376,
+  "s": "Geotagging failed. Couldn't write to image: %1",
+  "c": "GeoTagWorker"
+ },
+ {
+  "i": 1382,
+  "s": "<br> Controls",
+  "c": "GimbalIndicator"
+ },
+ {
+  "i": 1383,
+  "s": "Yaw <br> Follow",
+  "c": "GimbalIndicator"
+ },
+ {
+  "i": 1384,
+  "s": "Yaw <br> Lock",
+  "c": "GimbalIndicator"
+ },
+ {
+  "i": 1386,
+  "s": "Tilt 90",
+  "c": "GimbalIndicator"
+ },
+ {
+  "i": 1387,
+  "s": "Point <br> Home",
+  "c": "GimbalIndicator"
+ },
+ {
+  "i": 1388,
+  "s": "Retract",
+  "c": "GimbalIndicator"
+ },
+ {
+  "i": 1389,
+  "s": "Release <br> Control",
+  "c": "GimbalIndicator"
+ },
+ {
+  "i": 1390,
+  "s": "Acquire <br> Control",
+  "c": "GimbalIndicator"
+ },
+ {
+  "i": 1391,
+  "s": "Active <br> Gimbal: ",
+  "c": "GimbalIndicator"
+ },
+ {
+  "i": 1392,
+  "s": "Select <br> Gimbal",
+  "c": "GimbalIndicator"
+ },
+ {
+  "i": 1393,
+  "s": "Settings",
+  "c": "GimbalIndicator"
+ },
+ {
+  "i": 1394,
+  "s": "Control type: ",
+  "c": "GimbalIndicator"
+ },
+ {
+  "i": 1395,
+  "s": "Horizontal FOV",
+  "c": "GimbalIndicator"
+ },
+ {
+  "i": 1396,
+  "s": "Vertical FOV",
+  "c": "GimbalIndicator"
+ },
+ {
+  "i": 1397,
+  "s": "Max speed:",
+  "c": "GimbalIndicator"
+ },
+ {
+  "i": 1398,
+  "s": "Joystick buttons speed:",
+  "c": "GimbalIndicator"
+ },
+ {
+  "i": 1399,
+  "s": "Show gimbal Azimuth indicator in map",
+  "c": "GimbalIndicator"
+ },
+ {
+  "i": 1400,
+  "s": "Use Azimuth instead of local yaw on top toolbar indicator",
+  "c": "GimbalIndicator"
+ },
+ {
+  "i": 1401,
+  "s": "Show Acquire/Release control button",
+  "c": "GimbalIndicator"
+ },
+ {
+  "i": 1402,
+  "s": "Retracted",
+  "c": "GimbalIndicator"
+ },
+ {
+  "i": 1403,
+  "s": "Yaw locked",
+  "c": "GimbalIndicator"
+ },
+ {
+  "i": 1404,
+  "s": "Yaw follow",
+  "c": "GimbalIndicator"
+ },
+ {
+  "i": 1405,
+  "s": "P: ",
+  "c": "GimbalIndicator"
+ },
+ {
+  "i": 1406,
+  "s": "Az: ",
+  "c": "GimbalIndicator"
+ },
+ {
+  "i": 1407,
+  "s": "Y: ",
+  "c": "GimbalIndicator"
+ },
+ {
+  "i": 1409,
+  "s": "Slide or hold spacebar",
+  "c": "GuidedActionConfirm"
+ },
+ {
+  "i": 1412,
+  "s": "Arm (MV)",
+  "c": "GuidedActionsController"
+ },
+ {
+  "i": 1414,
+  "s": "Disarm (MV)",
+  "c": "GuidedActionsController"
+ },
+ {
+  "i": 1431,
+  "s": "Force Arm",
+  "c": "GuidedActionsController"
+ },
+ {
+  "i": 1432,
+  "s": "Gripper Function",
+  "c": "GuidedActionsController"
+ },
+ {
+  "i": 1433,
+  "s": "Change Loiter Radius",
+  "c": "GuidedActionsController"
+ },
+ {
+  "i": 1434,
+  "s": "Change Max Ground Speed",
+  "c": "GuidedActionsController"
+ },
+ {
+  "i": 1435,
+  "s": "Change Airspeed",
+  "c": "GuidedActionsController"
+ },
+ {
+  "i": 1437,
+  "s": "Set Home",
+  "c": "GuidedActionsController"
+ },
+ {
+  "i": 1438,
+  "s": "Set Estimator origin",
+  "c": "GuidedActionsController"
+ },
+ {
+  "i": 1439,
+  "s": "Set Flight Mode",
+  "c": "GuidedActionsController"
+ },
+ {
+  "i": 1440,
+  "s": "Change Heading",
+  "c": "GuidedActionsController"
+ },
+ {
+  "i": 1442,
+  "s": "Arm selected vehicles.",
+  "c": "GuidedActionsController"
+ },
+ {
+  "i": 1443,
+  "s": "WARNING: This will force arming of the vehicle bypassing any safety checks.",
+  "c": "GuidedActionsController"
+ },
+ {
+  "i": 1445,
+  "s": "Disarm selected vehicles.",
+  "c": "GuidedActionsController"
+ },
+ {
+  "i": 1448,
+  "s": "Grab or Release the cargo",
+  "c": "GuidedActionsController"
+ },
+ {
+  "i": 1450,
+  "s": "Takeoff from ground and start the current mission for selected vehicles.",
+  "c": "GuidedActionsController"
+ },
+ {
+  "i": 1455,
+  "s": "Change the forward flight loiter radius.",
+  "c": "GuidedActionsController"
+ },
+ {
+  "i": 1456,
+  "s": "Change the maximum horizontal cruise speed.",
+  "c": "GuidedActionsController"
+ },
+ {
+  "i": 1457,
+  "s": "Change the equivalent airspeed setpoint.",
+  "c": "GuidedActionsController"
+ },
+ {
+  "i": 1463,
+  "s": "Pause selected vehicles at their current position.",
+  "c": "GuidedActionsController"
+ },
+ {
+  "i": 1467,
+  "s": "Set vehicle home as the specified location. This will affect Return to Home position",
+  "c": "GuidedActionsController"
+ },
+ {
+  "i": 1468,
+  "s": "Make the specified location the estimator origin.",
+  "c": "GuidedActionsController"
+ },
+ {
+  "i": 1469,
+  "s": "Set the vehicle flight mode to %1",
+  "c": "GuidedActionsController"
+ },
+ {
+  "i": 1470,
+  "s": "Set the vehicle heading towards the specified location.",
+  "c": "GuidedActionsController"
+ },
+ {
+  "i": 1471,
+  "s": "_activeVehicle(%1) _vehicleArmed(%2) guidedModeSupported(%3) _vehicleFlying(%4) _vehicleWasFlying(%5) _vehicleInRTLMode(%6) pauseVehicleSupported(%7) _vehiclePaused(%8) _flightMode(%9) _missionItemCount(%10) roiSupported(%11) orbitSupported(%12) _missionActive(%13) _hideROI(%14) _hideOrbit(%15)",
+  "c": "GuidedActionsController"
+ },
+ {
+  "i": 1472,
+  "s": "Height (rel)",
+  "c": "GuidedActionsController"
+ },
+ {
+  "i": 1475,
+  "s": "Alt (rel)",
+  "c": "GuidedActionsController"
+ },
+ {
+  "i": 1478,
+  "s": "30 ft",
+  "c": "HeightIndicator"
+ },
+ {
+  "i": 1482,
+  "s": "QGroundControl Discord Channel",
+  "c": "HelpSettings"
+ },
+ {
+  "i": 1489,
+  "s": "Valuec requires a connected vehicle for setup.",
+  "c": "InstrumentValueEditDialog"
+ },
+ {
+  "i": 1493,
+  "s": "Telemetry Display",
+  "c": "InstrumentValueEditDialog"
+ },
+ {
+  "i": 1495,
+  "s": "Group",
+  "c": "InstrumentValueEditDialog"
+ },
+ {
+  "i": 1497,
+  "s": "Change",
+  "c": "InstrumentValueEditDialog"
+ },
+ {
+  "i": 1500,
+  "s": "Value range",
+  "c": "InstrumentValueEditDialog"
+ },
+ {
+  "i": 1507,
+  "s": "--.--",
+  "c": "InstrumentValueValue"
+ },
+ {
+  "i": 1527,
+  "s": "Gimbal Yaw Lock",
+  "c": "Joystick"
+ },
+ {
+  "i": 1528,
+  "s": "Gimbal Yaw Follow",
+  "c": "Joystick"
+ },
+ {
+  "i": 1530,
+  "s": "Gripper Close",
+  "c": "Joystick"
+ },
+ {
+  "i": 1531,
+  "s": "Gripper Open",
+  "c": "Joystick"
+ },
+ {
+  "i": 1532,
+  "s": "Landing gear deploy",
+  "c": "Joystick"
+ },
+ {
+  "i": 1533,
+  "s": "Landing gear retract",
+  "c": "Joystick"
+ },
+ {
+  "i": 1534,
+  "s": "Motor Interlock enable",
+  "c": "Joystick"
+ },
+ {
+  "i": 1535,
+  "s": "Motor Interlock disable",
+  "c": "Joystick"
+ },
+ {
+  "i": 1559,
+  "s": " Multiple buttons that have the same action must be pressed simultaneously to invoke the action.",
+  "c": "JoystickConfigButtons"
+ },
+ {
+  "i": 1564,
+  "s": "QGC functions do not support shift actions",
+  "c": "JoystickConfigButtons"
+ },
+ {
+  "i": 1565,
+  "s": "No firmware support",
+  "c": "JoystickConfigButtons"
+ },
+ {
+  "i": 1584,
+  "s": "Yes",
+  "c": "JoystickIndicator"
+ },
+ {
+  "i": 1585,
+  "s": "No",
+  "c": "JoystickIndicator"
+ },
+ {
+  "i": 1587,
+  "s": "File not found: %1",
+  "c": "KML"
+ },
+ {
+  "i": 1588,
+  "s": "Unable to open file: %1 error: $%2",
+  "c": "KML"
+ },
+ {
+  "i": 1589,
+  "s": "Unable to parse KML file: %1 error: %2 line: %3",
+  "c": "KML"
+ },
+ {
+  "i": 1590,
+  "s": "No supported type found in KML file.",
+  "c": "KML"
+ },
+ {
+  "i": 1591,
+  "s": "Unable to find Polygon node in KML",
+  "c": "KML"
+ },
+ {
+  "i": 1592,
+  "s": "Internal error: Unable to find coordinates node in KML",
+  "c": "KML"
+ },
+ {
+  "i": 1593,
+  "s": "Unable to find LineString node in KML",
+  "c": "KML"
+ },
+ {
+  "i": 1595,
+  "s": "Select File",
+  "c": "KMLOrSHPFileDialog"
+ },
+ {
+  "i": 1597,
+  "s": "Fixed Wing Landing Pattern: Setting the loiter and landing altitudes with different settings for altitude relative is no longer supported. Both have been set to relative altitude. Be sure to adjust/check your plan prior to flight.",
+  "c": "LandingComplexItem"
+ },
+ {
+  "i": 1598,
+  "s": "Signing Failure",
+  "c": "LinkInterface"
+ },
+ {
+  "i": 1599,
+  "s": "Signing signature mismatch",
+  "c": "LinkInterface"
+ },
+ {
+  "i": 1606,
+  "s": "Bluetooth",
+  "c": "LinkManager"
+ },
+ {
+  "i": 1608,
+  "s": "AirLink",
+  "c": "LinkManager"
+ },
+ {
+  "i": 1612,
+  "s": "AutoConnect",
+  "c": "LinkSettings"
+ },
+ {
+  "i": 1613,
+  "s": "Pixhawk",
+  "c": "LinkSettings"
+ },
+ {
+  "i": 1614,
+  "s": "SiK Radio",
+  "c": "LinkSettings"
+ },
+ {
+  "i": 1615,
+  "s": "LibrePilot",
+  "c": "LinkSettings"
+ },
+ {
+  "i": 1617,
+  "s": "Zero-Conf",
+  "c": "LinkSettings"
+ },
+ {
+  "i": 1618,
+  "s": "RTK",
+  "c": "LinkSettings"
+ },
+ {
+  "i": 1619,
+  "s": "NMEA GPS",
+  "c": "LinkSettings"
+ },
+ {
+  "i": 1620,
+  "s": "Device",
+  "c": "LinkSettings"
+ },
+ {
+  "i": 1622,
+  "s": "UDP Port",
+  "c": "LinkSettings"
+ },
+ {
+  "i": 1623,
+  "s": "Serial <none available>",
+  "c": "LinkSettings"
+ },
+ {
+  "i": 1624,
+  "s": "Baudrate",
+  "c": "LinkSettings"
+ },
+ {
+  "i": 1625,
+  "s": "NMEA stream UDP port",
+  "c": "LinkSettings"
+ },
+ {
+  "i": 1626,
+  "s": "Links",
+  "c": "LinkSettings"
+ },
+ {
+  "i": 1627,
+  "s": "Delete Link",
+  "c": "LinkSettings"
+ },
+ {
+  "i": 1628,
+  "s": "Are you sure you want to delete '%1'?",
+  "c": "LinkSettings"
+ },
+ {
+  "i": 1630,
+  "s": "Add New Link",
+  "c": "LinkSettings"
+ },
+ {
+  "i": 1631,
+  "s": "Edit Link",
+  "c": "LinkSettings"
+ },
+ {
+  "i": 1633,
+  "s": "Enter name",
+  "c": "LinkSettings"
+ },
+ {
+  "i": 1653,
+  "s": "You must select at least one log file to download.",
+  "c": "LogDownloadPage"
+ },
+ {
+  "i": 1659,
+  "s": "Log Replay Link Settings",
+  "c": "LogReplayConfiguration"
+ },
+ {
+  "i": 1660,
+  "s": "Log Replay Link Error",
+  "c": "LogReplayLink"
+ },
+ {
+  "i": 1661,
+  "s": "Link: %1, %2.",
+  "c": "LogReplayLink"
+ },
+ {
+  "i": 1662,
+  "s": "Log File",
+  "c": "LogReplaySettings"
+ },
+ {
+  "i": 1675,
+  "s": "Close",
+  "c": "LogReplayStatusBar"
+ },
+ {
+  "i": 1677,
+  "s": "Connect not allowed during Flight Data replay.",
+  "c": "LogReplayWorker"
+ },
+ {
+  "i": 1678,
+  "s": "Unable to seek to new position",
+  "c": "LogReplayWorker"
+ },
+ {
+  "i": 1679,
+  "s": "Attempt to load new log while log being played",
+  "c": "LogReplayWorker"
+ },
+ {
+  "i": 1680,
+  "s": "Unable to open log file: '%1', error: %2",
+  "c": "LogReplayWorker"
+ },
+ {
+  "i": 1681,
+  "s": "The log file '%1' is corrupt or empty.",
+  "c": "LogReplayWorker"
+ },
+ {
+  "i": 1684,
+  "s": "Magnetometer",
+  "c": "MAVLink SYS_STATUS_SENSOR value"
+ },
+ {
+  "i": 1685,
+  "s": "Absolute pressure",
+  "c": "MAVLink SYS_STATUS_SENSOR value"
+ },
+ {
+  "i": 1686,
+  "s": "Differential pressure",
+  "c": "MAVLink SYS_STATUS_SENSOR value"
+ },
+ {
+  "i": 1688,
+  "s": "Optical flow",
+  "c": "MAVLink SYS_STATUS_SENSOR value"
+ },
+ {
+  "i": 1689,
+  "s": "Computer vision position",
+  "c": "MAVLink SYS_STATUS_SENSOR value"
+ },
+ {
+  "i": 1690,
+  "s": "Laser based position",
+  "c": "MAVLink SYS_STATUS_SENSOR value"
+ },
+ {
+  "i": 1691,
+  "s": "External ground truth",
+  "c": "MAVLink SYS_STATUS_SENSOR value"
+ },
+ {
+  "i": 1692,
+  "s": "Angular rate control",
+  "c": "MAVLink SYS_STATUS_SENSOR value"
+ },
+ {
+  "i": 1693,
+  "s": "Attitude stabilization",
+  "c": "MAVLink SYS_STATUS_SENSOR value"
+ },
+ {
+  "i": 1694,
+  "s": "Yaw position",
+  "c": "MAVLink SYS_STATUS_SENSOR value"
+ },
+ {
+  "i": 1695,
+  "s": "Z/altitude control",
+  "c": "MAVLink SYS_STATUS_SENSOR value"
+ },
+ {
+  "i": 1696,
+  "s": "X/Y position control",
+  "c": "MAVLink SYS_STATUS_SENSOR value"
+ },
+ {
+  "i": 1697,
+  "s": "Motor outputs / control",
+  "c": "MAVLink SYS_STATUS_SENSOR value"
+ },
+ {
+  "i": 1698,
+  "s": "RC receiver",
+  "c": "MAVLink SYS_STATUS_SENSOR value"
+ },
+ {
+  "i": 1699,
+  "s": "Gyro 2",
+  "c": "MAVLink SYS_STATUS_SENSOR value"
+ },
+ {
+  "i": 1700,
+  "s": "Accelerometer 2",
+  "c": "MAVLink SYS_STATUS_SENSOR value"
+ },
+ {
+  "i": 1701,
+  "s": "Magnetometer 2",
+  "c": "MAVLink SYS_STATUS_SENSOR value"
+ },
+ {
+  "i": 1703,
+  "s": "AHRS",
+  "c": "MAVLink SYS_STATUS_SENSOR value"
+ },
+ {
+  "i": 1704,
+  "s": "Terrain",
+  "c": "MAVLink SYS_STATUS_SENSOR value"
+ },
+ {
+  "i": 1705,
+  "s": "Motors reversed",
+  "c": "MAVLink SYS_STATUS_SENSOR value"
+ },
+ {
+  "i": 1706,
+  "s": "Logging",
+  "c": "MAVLink SYS_STATUS_SENSOR value"
+ },
+ {
+  "i": 1708,
+  "s": "Proximity",
+  "c": "MAVLink SYS_STATUS_SENSOR value"
+ },
+ {
+  "i": 1709,
+  "s": "Satellite Communication",
+  "c": "MAVLink SYS_STATUS_SENSOR value"
+ },
+ {
+  "i": 1710,
+  "s": "Pre-Arm Check",
+  "c": "MAVLink SYS_STATUS_SENSOR value"
+ },
+ {
+  "i": 1711,
+  "s": "Avoidance/collision prevention",
+  "c": "MAVLink SYS_STATUS_SENSOR value"
+ },
+ {
+  "i": 1712,
+  "s": "Propulsion",
+  "c": "MAVLink SYS_STATUS_SENSOR value"
+ },
+ {
+  "i": 1713,
+  "s": "Unknown sensor",
+  "c": "MAVLink unknown SYS_STATUS_SENSOR value"
+ },
+ {
+  "i": 1716,
+  "s": "Provides a connection to the vehicle's system shell.",
+  "c": "MAVLinkConsolePage"
+ },
+ {
+  "i": 1717,
+  "s": "Enter Commands here...",
+  "c": "MAVLinkConsolePage"
+ },
+ {
+  "i": 1718,
+  "s": "Send",
+  "c": "MAVLinkConsolePage"
+ },
+ {
+  "i": 1733,
+  "s": "System %1",
+  "c": "MAVLinkInspectorController"
+ },
+ {
+  "i": 1738,
+  "s": "Actual Rate:",
+  "c": "MAVLinkInspectorPage"
+ },
+ {
+  "i": 1739,
+  "s": "Hz",
+  "c": "MAVLinkInspectorPage"
+ },
+ {
+  "i": 1740,
+  "s": "Set Rate:",
+  "c": "MAVLinkInspectorPage"
+ },
+ {
+  "i": 1743,
+  "s": "1Hz",
+  "c": "MAVLinkInspectorPage"
+ },
+ {
+  "i": 1744,
+  "s": "2Hz",
+  "c": "MAVLinkInspectorPage"
+ },
+ {
+  "i": 1745,
+  "s": "3Hz",
+  "c": "MAVLinkInspectorPage"
+ },
+ {
+  "i": 1746,
+  "s": "4Hz",
+  "c": "MAVLinkInspectorPage"
+ },
+ {
+  "i": 1747,
+  "s": "5Hz",
+  "c": "MAVLinkInspectorPage"
+ },
+ {
+  "i": 1748,
+  "s": "6Hz",
+  "c": "MAVLinkInspectorPage"
+ },
+ {
+  "i": 1749,
+  "s": "7Hz",
+  "c": "MAVLinkInspectorPage"
+ },
+ {
+  "i": 1750,
+  "s": "8Hz",
+  "c": "MAVLinkInspectorPage"
+ },
+ {
+  "i": 1751,
+  "s": "9Hz",
+  "c": "MAVLinkInspectorPage"
+ },
+ {
+  "i": 1752,
+  "s": "10Hz",
+  "c": "MAVLinkInspectorPage"
+ },
+ {
+  "i": 1753,
+  "s": "25Hz",
+  "c": "MAVLinkInspectorPage"
+ },
+ {
+  "i": 1754,
+  "s": "50Hz",
+  "c": "MAVLinkInspectorPage"
+ },
+ {
+  "i": 1755,
+  "s": "100Hz",
+  "c": "MAVLinkInspectorPage"
+ },
+ {
+  "i": 1761,
+  "s": "Unable to save telemetry log. Error copying telemetry to '%1': '%2'.",
+  "c": "MAVLinkProtocol"
+ },
+ {
+  "i": 1762,
+  "s": "Unable to save telemetry log. Application save directory is not set.",
+  "c": "MAVLinkProtocol"
+ },
+ {
+  "i": 1763,
+  "s": "Unable to save telemetry log. Telemetry save directory \"%1\" does not exist.",
+  "c": "MAVLinkProtocol"
+ },
+ {
+  "i": 1764,
+  "s": "Ready To Fly",
+  "c": "MainStatusIndicator"
+ },
+ {
+  "i": 1765,
+  "s": "Not Ready",
+  "c": "MainStatusIndicator"
+ },
+ {
+  "i": 1767,
+  "s": "Flying",
+  "c": "MainStatusIndicator"
+ },
+ {
+  "i": 1768,
+  "s": "Landing",
+  "c": "MainStatusIndicator"
+ },
+ {
+  "i": 1769,
+  "s": "FW(vtol)",
+  "c": "MainStatusIndicator"
+ },
+ {
+  "i": 1770,
+  "s": "MR(vtol)",
+  "c": "MainStatusIndicator"
+ },
+ {
+  "i": 1771,
+  "s": "Sensor Status",
+  "c": "MainStatusIndicator"
+ },
+ {
+  "i": 1773,
+  "s": "Comms Lost",
+  "c": "MainStatusIndicator"
+ },
+ {
+  "i": 1774,
+  "s": "Disconnected - Click to manually connect",
+  "c": "MainStatusIndicator"
+ },
+ {
+  "i": 1775,
+  "s": "Force Arm",
+  "c": "MainStatusIndicator"
+ },
+ {
+  "i": 1777,
+  "s": "Vehicle Messages",
+  "c": "MainStatusIndicator"
+ },
+ {
+  "i": 1778,
+  "s": "Overall Status",
+  "c": "MainStatusIndicator"
+ },
+ {
+  "i": 1779,
+  "s": "Edit Parameter",
+  "c": "MainStatusIndicator"
+ },
+ {
+  "i": 1780,
+  "s": "Vehicle Parameters",
+  "c": "MainStatusIndicator"
+ },
+ {
+  "i": 1781,
+  "s": "Configure",
+  "c": "MainStatusIndicator"
+ },
+ {
+  "i": 1782,
+  "s": "Vehicle Configuration",
+  "c": "MainStatusIndicator"
+ },
+ {
+  "i": 1783,
+  "s": "Transition to Multi-Rotor",
+  "c": "MainStatusIndicator"
+ },
+ {
+  "i": 1784,
+  "s": "Transition to Fixed Wing",
+  "c": "MainStatusIndicator"
+ },
+ {
+  "i": 1785,
+  "s": "Select Link to Connect",
+  "c": "MainStatusIndicatorOfflinePage"
+ },
+ {
+  "i": 1786,
+  "s": "No Links Configured",
+  "c": "MainStatusIndicatorOfflinePage"
+ },
+ {
+  "i": 1787,
+  "s": "Connected",
+  "c": "MainStatusIndicatorOfflinePage"
+ },
+ {
+  "i": 1788,
+  "s": "Communication Links",
+  "c": "MainStatusIndicatorOfflinePage"
+ },
+ {
+  "i": 1789,
+  "s": "Configure",
+  "c": "MainStatusIndicatorOfflinePage"
+ },
+ {
+  "i": 1790,
+  "s": "Comm Links",
+  "c": "MainStatusIndicatorOfflinePage"
+ },
+ {
+  "i": 1791,
+  "s": "AutoConnect",
+  "c": "MainStatusIndicatorOfflinePage"
+ },
+ {
+  "i": 1792,
+  "s": "Pixhawk",
+  "c": "MainStatusIndicatorOfflinePage"
+ },
+ {
+  "i": 1793,
+  "s": "SiK Radio",
+  "c": "MainStatusIndicatorOfflinePage"
+ },
+ {
+  "i": 1794,
+  "s": "LibrePilot",
+  "c": "MainStatusIndicatorOfflinePage"
+ },
+ {
+  "i": 1796,
+  "s": "Zero-Conf",
+  "c": "MainStatusIndicatorOfflinePage"
+ },
+ {
+  "i": 1797,
+  "s": "RTK",
+  "c": "MainStatusIndicatorOfflinePage"
+ },
+ {
+  "i": 1798,
+  "s": "Analyze Tools",
+  "c": "MainWindow"
+ },
+ {
+  "i": 1799,
+  "s": "Vehicle Configuration",
+  "c": "MainWindow"
+ },
+ {
+  "i": 1800,
+  "s": "Application Settings",
+  "c": "MainWindow"
+ },
+ {
+  "i": 1801,
+  "s": "Close %1",
+  "c": "MainWindow"
+ },
+ {
+  "i": 1802,
+  "s": "You have a mission edit in progress which has not been saved/sent. If you close you will lose changes. Are you sure you want to close?",
+  "c": "MainWindow"
+ },
+ {
+  "i": 1803,
+  "s": "You have pending parameter updates to a vehicle. If you close you will lose changes. Are you sure you want to close?",
+  "c": "MainWindow"
+ },
+ {
+  "i": 1804,
+  "s": "There are still active connections to vehicles. Are you sure you want to exit?",
+  "c": "MainWindow"
+ },
+ {
+  "i": 1805,
+  "s": "Debug Touch Areas",
+  "c": "MainWindow"
+ },
+ {
+  "i": 1806,
+  "s": "Touch Area display toggled",
+  "c": "MainWindow"
+ },
+ {
+  "i": 1807,
+  "s": "Advanced Mode",
+  "c": "MainWindow"
+ },
+ {
+  "i": 1808,
+  "s": "Turn off Advanced Mode?",
+  "c": "MainWindow"
+ },
+ {
+  "i": 1809,
+  "s": "Plan Flight",
+  "c": "MainWindow"
+ },
+ {
+  "i": 1810,
+  "s": "%1 Version",
+  "c": "MainWindow"
+ },
+ {
+  "i": 1811,
+  "s": "Exit",
+  "c": "MainWindow"
+ },
+ {
+  "i": 1812,
+  "s": "Vehicle Error",
+  "c": "MainWindow"
+ },
+ {
+  "i": 1813,
+  "s": "Additional errors received",
+  "c": "MainWindow"
+ },
+ {
+  "i": 1821,
+  "s": "Provider",
+  "c": "MapSettings"
+ },
+ {
+  "i": 1823,
+  "s": "Elevation Provider",
+  "c": "MapSettings"
+ },
+ {
+  "i": 1824,
+  "s": "Offline Maps",
+  "c": "MapSettings"
+ },
+ {
+  "i": 1825,
+  "s": "Download map tiles for use when offline",
+  "c": "MapSettings"
+ },
+ {
+  "i": 1826,
+  "s": "Add New Set",
+  "c": "MapSettings"
+ },
+ {
+  "i": 1828,
+  "s": "Import Map Tiles",
+  "c": "MapSettings"
+ },
+ {
+  "i": 1829,
+  "s": "Import",
+  "c": "MapSettings"
+ },
+ {
+  "i": 1830,
+  "s": "Export Map Tiles",
+  "c": "MapSettings"
+ },
+ {
+  "i": 1831,
+  "s": "Export",
+  "c": "MapSettings"
+ },
+ {
+  "i": 1832,
+  "s": "Exporting",
+  "c": "MapSettings"
+ },
+ {
+  "i": 1833,
+  "s": "Importing",
+  "c": "MapSettings"
+ },
+ {
+  "i": 1834,
+  "s": "Tokens",
+  "c": "MapSettings"
+ },
+ {
+  "i": 1835,
+  "s": "Allows access to additional providers",
+  "c": "MapSettings"
+ },
+ {
+  "i": 1836,
+  "s": "Mapbox",
+  "c": "MapSettings"
+ },
+ {
+  "i": 1837,
+  "s": "Esri",
+  "c": "MapSettings"
+ },
+ {
+  "i": 1838,
+  "s": "VWorld",
+  "c": "MapSettings"
+ },
+ {
+  "i": 1839,
+  "s": "Mapbox Login",
+  "c": "MapSettings"
+ },
+ {
+  "i": 1840,
+  "s": "Account",
+  "c": "MapSettings"
+ },
+ {
+  "i": 1841,
+  "s": "Map Style",
+  "c": "MapSettings"
+ },
+ {
+  "i": 1842,
+  "s": "Custom Map URL",
+  "c": "MapSettings"
+ },
+ {
+  "i": 1843,
+  "s": "URL with {x} {y} {z} or {zoom} substitutions",
+  "c": "MapSettings"
+ },
+ {
+  "i": 1844,
+  "s": "Server URL",
+  "c": "MapSettings"
+ },
+ {
+  "i": 1845,
+  "s": "Tile Cache",
+  "c": "MapSettings"
+ },
+ {
+  "i": 1846,
+  "s": "Tile Sets (*.%1)",
+  "c": "MapSettings"
+ },
+ {
+  "i": 1847,
+  "s": "Export Selected Tile Sets",
+  "c": "MapSettings"
+ },
+ {
+  "i": 1848,
+  "s": "Export Tiles",
+  "c": "MapSettings"
+ },
+ {
+  "i": 1849,
+  "s": "Import TileSets",
+  "c": "MapSettings"
+ },
+ {
+  "i": 1850,
+  "s": "Import Tiles",
+  "c": "MapSettings"
+ },
+ {
+  "i": 1851,
+  "s": "Append to existing sets",
+  "c": "MapSettings"
+ },
+ {
+  "i": 1852,
+  "s": "Replace existing sets",
+  "c": "MapSettings"
+ },
+ {
+  "i": 1853,
+  "s": "Error Message",
+  "c": "MapSettings"
+ },
+ {
+  "i": 1854,
+  "s": "Failed to load custom actions file: `%1` error: `%2`",
+  "c": "MavlinkActionManager"
+ },
+ {
+  "i": 1855,
+  "s": "Custom actions file - incorrect format: %1",
+  "c": "MavlinkActionManager"
+ },
+ {
+  "i": 1856,
+  "s": "Custom actions file - incorrect format: JsonValue not an object",
+  "c": "MavlinkActionManager"
+ },
+ {
+  "i": 1857,
+  "s": "Support for Fly View custom actions has changed. The location of the files has changed. You will need to setup up your settings again from Fly View Settings.",
+  "c": "MavlinkActionsSettings"
+ },
+ {
+  "i": 1858,
+  "s": "Support for Joystick custom actions has changed. The format and location of the files has changed. New setting is available from Fly View Settings. File format is documented in user guide. Delete the %1 file to disable this warning",
+  "c": "MavlinkActionsSettings"
+ },
+ {
+  "i": 1859,
+  "s": "Select Mission Command",
+  "c": "MissionCommandDialog"
+ },
+ {
+  "i": 1889,
+  "s": "All Altitudes",
+  "c": "MissionSettingsEditor"
+ },
+ {
+  "i": 1890,
+  "s": "Initial Waypoint Alt",
+  "c": "MissionSettingsEditor"
+ },
+ {
+  "i": 1891,
+  "s": "The following speed values are used to calculate total mission time. They do not affect the flight speed for the mission.",
+  "c": "MissionSettingsEditor"
+ },
+ {
+  "i": 1898,
+  "s": "Mission Start",
+  "c": "MissionSettingsItem"
+ },
+ {
+  "i": 1900,
+  "s": "Upwards",
+  "c": "Mixer::ChannelConfigInstanceVirtualAxis"
+ },
+ {
+  "i": 1901,
+  "s": "Downwards",
+  "c": "Mixer::ChannelConfigInstanceVirtualAxis"
+ },
+ {
+  "i": 1902,
+  "s": "Forwards",
+  "c": "Mixer::ChannelConfigInstanceVirtualAxis"
+ },
+ {
+  "i": 1903,
+  "s": "Backwards",
+  "c": "Mixer::ChannelConfigInstanceVirtualAxis"
+ },
+ {
+  "i": 1904,
+  "s": "Leftwards",
+  "c": "Mixer::ChannelConfigInstanceVirtualAxis"
+ },
+ {
+  "i": 1905,
+  "s": "Rightwards",
+  "c": "Mixer::ChannelConfigInstanceVirtualAxis"
+ },
+ {
+  "i": 1906,
+  "s": "Axis",
+  "c": "Mixer::Mixers"
+ },
+ {
+  "i": 1908,
+  "s": "Send status text + voice",
+  "c": "MockLink"
+ },
+ {
+  "i": 1909,
+  "s": "PX4 Vehicle",
+  "c": "MockLink"
+ },
+ {
+  "i": 1910,
+  "s": "APM ArduCopter Vehicle",
+  "c": "MockLink"
+ },
+ {
+  "i": 1911,
+  "s": "APM ArduPlane Vehicle",
+  "c": "MockLink"
+ },
+ {
+  "i": 1912,
+  "s": "APM ArduSub Vehicle",
+  "c": "MockLink"
+ },
+ {
+  "i": 1913,
+  "s": "APM ArduRover Vehicle",
+  "c": "MockLink"
+ },
+ {
+  "i": 1914,
+  "s": "Generic Vehicle",
+  "c": "MockLink"
+ },
+ {
+  "i": 1915,
+  "s": "Stop One MockLink",
+  "c": "MockLink"
+ },
+ {
+  "i": 1916,
+  "s": "Send Status Text and Voice",
+  "c": "MockLinkSettings"
+ },
+ {
+  "i": 1917,
+  "s": "Increment Vehicle Id",
+  "c": "MockLinkSettings"
+ },
+ {
+  "i": 1919,
+  "s": "PX4 Pro",
+  "c": "MockLinkSettings"
+ },
+ {
+  "i": 1921,
+  "s": "Generic MAVLink",
+  "c": "MockLinkSettings"
+ },
+ {
+  "i": 1922,
+  "s": "Vehicle Type",
+  "c": "MockLinkSettings"
+ },
+ {
+  "i": 1923,
+  "s": "ArduCopter",
+  "c": "MockLinkSettings"
+ },
+ {
+  "i": 1924,
+  "s": "ArduPlane",
+  "c": "MockLinkSettings"
+ },
+ {
+  "i": 1925,
+  "s": "<br />No motors are assigned yet.\nBy saying yes, all motors will be assigned to the first %1 channels of the selected output (%2)\n (you can also first assign all motors, then start the identification).<br />",
+  "c": "MotorAssignment"
+ },
+ {
+  "i": 1926,
+  "s": "<br />Motors are currently assigned to a different output.\nBy saying yes, all motors will be reassigned to the first %1 channels of the selected output (%2).<br />",
+  "c": "MotorAssignment"
+ },
+ {
+  "i": 1927,
+  "s": "Not all motors are assigned yet. Either clear all existing assignments or assign all motors to an output.",
+  "c": "MotorAssignment"
+ },
+ {
+  "i": 1928,
+  "s": "This will automatically spin individual motors at 15% thrust.<br /><br />\n<b>Warning: Only proceed if you removed all propellers</b>.<br />\n%1\n<br />\nThe procedure is as following:<br />\n- After confirming, the first motor starts to spin for 0.5 seconds.<br />\n- Then click on the motor that was spinning.<br />\n- The above steps are repeated for all motors.<br />\n- The motor output functions will automatically be reassigned by the selected order.<br />\n<br />\nDo you wish to proceed?",
+  "c": "MotorAssignment"
+ },
+ {
+  "i": 1929,
+  "s": "Actuator test command failed",
+  "c": "MotorAssignment"
+ },
+ {
+  "i": 1932,
+  "s": "%",
+  "c": "MotorComponent"
+ },
+ {
+  "i": 1933,
+  "s": "Make sure you remove all props.",
+  "c": "MotorComponent"
+ },
+ {
+  "i": 1936,
+  "s": "Careful : Motors are enabled",
+  "c": "MotorComponent"
+ },
+ {
+  "i": 1937,
+  "s": "Propellers are removed - Enable slider and motors",
+  "c": "MotorComponent"
+ },
+ {
+  "i": 1961,
+  "s": "Enable Multi-Vehicle Panel",
+  "c": "MultiVehicleSelector"
+ },
+ {
+  "i": 1962,
+  "s": "System Wide Tile Cache",
+  "c": "OfflineMapEditor"
+ },
+ {
+  "i": 1963,
+  "s": "Zoom Levels:",
+  "c": "OfflineMapEditor"
+ },
+ {
+  "i": 1964,
+  "s": "Total:",
+  "c": "OfflineMapEditor"
+ },
+ {
+  "i": 1965,
+  "s": "Unique:",
+  "c": "OfflineMapEditor"
+ },
+ {
+  "i": 1966,
+  "s": "Downloaded:",
+  "c": "OfflineMapEditor"
+ },
+ {
+  "i": 1967,
+  "s": "Error Count:",
+  "c": "OfflineMapEditor"
+ },
+ {
+  "i": 1968,
+  "s": "Size:",
+  "c": "OfflineMapEditor"
+ },
+ {
+  "i": 1969,
+  "s": "Tile Count:",
+  "c": "OfflineMapEditor"
+ },
+ {
+  "i": 1970,
+  "s": "Resume Download",
+  "c": "OfflineMapEditor"
+ },
+ {
+  "i": 1971,
+  "s": "Cancel Download",
+  "c": "OfflineMapEditor"
+ },
+ {
+  "i": 1973,
+  "s": "Ok",
+  "c": "OfflineMapEditor"
+ },
+ {
+  "i": 1974,
+  "s": "Close",
+  "c": "OfflineMapEditor"
+ },
+ {
+  "i": 1976,
+  "s": "Show zoom previews",
+  "c": "OfflineMapEditor"
+ },
+ {
+  "i": 1977,
+  "s": "Min Zoom: %1",
+  "c": "OfflineMapEditor"
+ },
+ {
+  "i": 1978,
+  "s": "Max Zoom: %1",
+  "c": "OfflineMapEditor"
+ },
+ {
+  "i": 1979,
+  "s": "Add New Set",
+  "c": "OfflineMapEditor"
+ },
+ {
+  "i": 1980,
+  "s": "Name:",
+  "c": "OfflineMapEditor"
+ },
+ {
+  "i": 1981,
+  "s": "Map type:",
+  "c": "OfflineMapEditor"
+ },
+ {
+  "i": 1982,
+  "s": "Fetch elevation data",
+  "c": "OfflineMapEditor"
+ },
+ {
+  "i": 1983,
+  "s": "Min/Max Zoom Levels",
+  "c": "OfflineMapEditor"
+ },
+ {
+  "i": 1984,
+  "s": "Est Size:",
+  "c": "OfflineMapEditor"
+ },
+ {
+  "i": 1985,
+  "s": "Too many tiles",
+  "c": "OfflineMapEditor"
+ },
+ {
+  "i": 1987,
+  "s": "Error Message",
+  "c": "OfflineMapEditor"
+ },
+ {
+  "i": 1988,
+  "s": "Confirm Delete",
+  "c": "OfflineMapEditor"
+ },
+ {
+  "i": 1989,
+  "s": "This will delete all tiles INCLUDING the tile sets you have created yourself.\n\nIs this really what you want?",
+  "c": "OfflineMapEditor"
+ },
+ {
+  "i": 1990,
+  "s": "Delete %1 and all its tiles.\n\nIs this really what you want?",
+  "c": "OfflineMapEditor"
+ },
+ {
+  "i": 1996,
+  "s": "Optical Flow Camera",
+  "c": "OpticalFlowSensor"
+ },
+ {
+  "i": 1997,
+  "s": "Select Tuning:",
+  "c": "PIDTuning"
+ },
+ {
+  "i": 2002,
+  "s": "sec",
+  "c": "PIDTuning"
+ },
+ {
+  "i": 2008,
+  "s": "Use auto-tuning",
+  "c": "PIDTuning"
+ },
+ {
+  "i": 2009,
+  "s": "Use manual tuning",
+  "c": "PIDTuning"
+ },
+ {
+  "i": 2013,
+  "s": "Warning Level",
+  "c": "PX4BatteryIndicator"
+ },
+ {
+  "i": 2014,
+  "s": "Critical Level",
+  "c": "PX4BatteryIndicator"
+ },
+ {
+  "i": 2015,
+  "s": "Emergency Level",
+  "c": "PX4BatteryIndicator"
+ },
+ {
+  "i": 2037,
+  "s": "Unable to pause vehicle.",
+  "c": "PX4FirmwarePlugin"
+ },
+ {
+  "i": 2040,
+  "s": "Vehicle does not support guided rotate",
+  "c": "PX4FirmwarePlugin"
+ },
+ {
+  "i": 2041,
+  "s": "Unable to start takeoff: Vehicle rejected arming.",
+  "c": "PX4FirmwarePlugin"
+ },
+ {
+  "i": 2042,
+  "s": "Unable to start takeoff: Vehicle not changing to %1 flight mode.",
+  "c": "PX4FirmwarePlugin"
+ },
+ {
+  "i": 2049,
+  "s": "Rebooting board",
+  "c": "PX4FirmwareUpgradeThreadWorker"
+ },
+ {
+  "i": 2052,
+  "s": "Flight Behavior",
+  "c": "PX4FlightBehavior"
+ },
+ {
+  "i": 2053,
+  "s": "Flight Behavior is used to configure flight characteristics.",
+  "c": "PX4FlightBehavior"
+ },
+ {
+  "i": 2054,
+  "s": "Enable responsiveness slider (if enabled, acceleration limit parameters and others are automatically set)",
+  "c": "PX4FlightBehaviorCopter"
+ },
+ {
+  "i": 2055,
+  "s": "Responsiveness",
+  "c": "PX4FlightBehaviorCopter"
+ },
+ {
+  "i": 2056,
+  "s": "A higher value makes the vehicle react faster. Be aware that this affects braking as well, and a combination of slow responsiveness with high maximum velocity will lead to long braking distances.",
+  "c": "PX4FlightBehaviorCopter"
+ },
+ {
+  "i": 2057,
+  "s": "Warning: a high responsiveness requires a vehicle with large thrust-to-weight ratio. The vehicle might lose altitude otherwise.",
+  "c": "PX4FlightBehaviorCopter"
+ },
+ {
+  "i": 2058,
+  "s": "Enable horizontal velocity slider (if enabled, individual velocity limit parameters are automatically set)",
+  "c": "PX4FlightBehaviorCopter"
+ },
+ {
+  "i": 2059,
+  "s": "Horizontal velocity (m/s)",
+  "c": "PX4FlightBehaviorCopter"
+ },
+ {
+  "i": 2060,
+  "s": "Limit the horizonal velocity (applies to all modes).",
+  "c": "PX4FlightBehaviorCopter"
+ },
+ {
+  "i": 2061,
+  "s": "Enable vertical velocity slider (if enabled, individual velocity limit parameters are automatically set)",
+  "c": "PX4FlightBehaviorCopter"
+ },
+ {
+  "i": 2062,
+  "s": "Vertical velocity (m/s)",
+  "c": "PX4FlightBehaviorCopter"
+ },
+ {
+  "i": 2063,
+  "s": "Limit the vertical velocity (applies to all modes).",
+  "c": "PX4FlightBehaviorCopter"
+ },
+ {
+  "i": 2064,
+  "s": "Mission Turning Radius",
+  "c": "PX4FlightBehaviorCopter"
+ },
+ {
+  "i": 2065,
+  "s": "Increasing this leads to rounder turns in missions (corner cutting). Use the minimum value for accurate corner tracking.",
+  "c": "PX4FlightBehaviorCopter"
+ },
+ {
+  "i": 2066,
+  "s": "RTL Altitude",
+  "c": "PX4FlightModeIndicator"
+ },
+ {
+  "i": 2068,
+  "s": "Breach Action",
+  "c": "PX4FlightModeIndicator"
+ },
+ {
+  "i": 2069,
+  "s": "Max Distance",
+  "c": "PX4FlightModeIndicator"
+ },
+ {
+  "i": 2070,
+  "s": "Max Altitude",
+  "c": "PX4FlightModeIndicator"
+ },
+ {
+  "i": 2071,
+  "s": "MAVLink Logging",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2072,
+  "s": "Please enter an email address before uploading MAVLink log files.",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2073,
+  "s": "MAVLink 2.0 Logging (PX4 Pro Only)",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2074,
+  "s": "Manual Start/Stop:",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2075,
+  "s": "Start Logging",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2076,
+  "s": "Stop Logging",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2077,
+  "s": "Enable automatic logging",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2078,
+  "s": "MAVLink 2.0 Log Uploads (PX4 Pro Only)",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2079,
+  "s": "Email address for Log Upload:",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2080,
+  "s": "Default Description:",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2081,
+  "s": "Default Upload URL",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2082,
+  "s": "Video URL:",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2083,
+  "s": "Wind Speed:",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2084,
+  "s": "Please Select",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2085,
+  "s": "Calm",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2086,
+  "s": "Breeze",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2087,
+  "s": "Gale",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2088,
+  "s": "Storm",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2089,
+  "s": "Flight Rating:",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2090,
+  "s": "Crashed (Pilot Error)",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2091,
+  "s": "Crashed (Software or Hardware issue)",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2092,
+  "s": "Unsatisfactory",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2093,
+  "s": "Good",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2094,
+  "s": "Great",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2095,
+  "s": "Additional Feedback:",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2096,
+  "s": "Make this log publicly available",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2097,
+  "s": "Enable automatic log uploads",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2098,
+  "s": "Delete log file after uploading",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2099,
+  "s": "Saved Log Files",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2100,
+  "s": "Uploaded",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2101,
+  "s": "Check All",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2102,
+  "s": "Check None",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2103,
+  "s": "Delete Selected",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2104,
+  "s": "Delete Selected Log Files",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2105,
+  "s": "Confirm deleting selected log files?",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2106,
+  "s": "Upload Selected",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2107,
+  "s": "Upload Selected Log Files",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2108,
+  "s": "Confirm uploading selected log files?",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2110,
+  "s": "Cancel Upload",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2111,
+  "s": "Confirm canceling the upload process?",
+  "c": "PX4LogTransferSettings"
+ },
+ {
+  "i": 2112,
+  "s": "Ground Control Comm Loss Failsafe",
+  "c": "PX4MainStatusIndicatorContentItem"
+ },
+ {
+  "i": 2114,
+  "s": "Loss Timeout",
+  "c": "PX4MainStatusIndicatorContentItem"
+ },
+ {
+  "i": 2132,
+  "s": "PID Tuning",
+  "c": "PX4TuningComponent"
+ },
+ {
+  "i": 2133,
+  "s": "Tuning Setup is used to tune the flight controllers.",
+  "c": "PX4TuningComponent"
+ },
+ {
+  "i": 2134,
+  "s": "Rate Controller",
+  "c": "PX4TuningComponentCopterAll"
+ },
+ {
+  "i": 2135,
+  "s": "Attitude Controller",
+  "c": "PX4TuningComponentCopterAll"
+ },
+ {
+  "i": 2136,
+  "s": "Velocity Controller",
+  "c": "PX4TuningComponentCopterAll"
+ },
+ {
+  "i": 2137,
+  "s": "Position Controller",
+  "c": "PX4TuningComponentCopterAll"
+ },
+ {
+  "i": 2139,
+  "s": "Proportional Gain (MC_ROLL_P)",
+  "c": "PX4TuningComponentCopterAttitude"
+ },
+ {
+  "i": 2140,
+  "s": "Increase for more responsiveness, reduce if the attitude overshoots.",
+  "c": "PX4TuningComponentCopterAttitude"
+ },
+ {
+  "i": 2142,
+  "s": "Proportional Gain (MC_PITCH_P)",
+  "c": "PX4TuningComponentCopterAttitude"
+ },
+ {
+  "i": 2144,
+  "s": "Proportional Gain (MC_YAW_P)",
+  "c": "PX4TuningComponentCopterAttitude"
+ },
+ {
+  "i": 2145,
+  "s": "Increase for more responsiveness, reduce if the attitude overshoots (there is only a setpoint when yaw is fixed, i.e. when centering the stick).",
+  "c": "PX4TuningComponentCopterAttitude"
+ },
+ {
+  "i": 2146,
+  "s": "Position control mode (set this to 'simple' during tuning):",
+  "c": "PX4TuningComponentCopterPosition"
+ },
+ {
+  "i": 2147,
+  "s": "Horizontal",
+  "c": "PX4TuningComponentCopterPosition"
+ },
+ {
+  "i": 2148,
+  "s": "Horizontal (Y direction, sidewards)",
+  "c": "PX4TuningComponentCopterPosition"
+ },
+ {
+  "i": 2149,
+  "s": "Proportional gain (MPC_XY_P)",
+  "c": "PX4TuningComponentCopterPosition"
+ },
+ {
+  "i": 2150,
+  "s": "Increase for more responsiveness, reduce if the position overshoots (there is only a setpoint when hovering, i.e. when centering the stick).",
+  "c": "PX4TuningComponentCopterPosition"
+ },
+ {
+  "i": 2151,
+  "s": "Vertical",
+  "c": "PX4TuningComponentCopterPosition"
+ },
+ {
+  "i": 2152,
+  "s": "Proportional gain (MPC_Z_P)",
+  "c": "PX4TuningComponentCopterPosition"
+ },
+ {
+  "i": 2153,
+  "s": "Airmode (disable during tuning) <b><a href=\"https://docs.px4.io/master/en/config_mc/pid_tuning_guide_multicopter.html#airmode-mixer-saturation\">?</a></b>",
+  "c": "PX4TuningComponentCopterRate"
+ },
+ {
+  "i": 2154,
+  "s": "Thrust curve <b><a href=\"https://docs.px4.io/master/en/config_mc/pid_tuning_guide_multicopter.html#thrust-curve\">?</a></b>",
+  "c": "PX4TuningComponentCopterRate"
+ },
+ {
+  "i": 2155,
+  "s": "Rate",
+  "c": "PX4TuningComponentCopterRate"
+ },
+ {
+  "i": 2156,
+  "s": "deg/s",
+  "c": "PX4TuningComponentCopterRate"
+ },
+ {
+  "i": 2158,
+  "s": "Overall Multiplier (MC_ROLLRATE_K)",
+  "c": "PX4TuningComponentCopterRate"
+ },
+ {
+  "i": 2159,
+  "s": "Multiplier for P, I and D gains: increase for more responsiveness, reduce if the rates overshoot (and increasing D does not help).",
+  "c": "PX4TuningComponentCopterRate"
+ },
+ {
+  "i": 2160,
+  "s": "Differential Gain (MC_ROLLRATE_D)",
+  "c": "PX4TuningComponentCopterRate"
+ },
+ {
+  "i": 2161,
+  "s": "Damping: increase to reduce overshoots and oscillations, but not higher than really needed.",
+  "c": "PX4TuningComponentCopterRate"
+ },
+ {
+  "i": 2162,
+  "s": "Integral Gain (MC_ROLLRATE_I)",
+  "c": "PX4TuningComponentCopterRate"
+ },
+ {
+  "i": 2163,
+  "s": "Generally does not need much adjustment, reduce this when seeing slow oscillations.",
+  "c": "PX4TuningComponentCopterRate"
+ },
+ {
+  "i": 2165,
+  "s": "Overall Multiplier (MC_PITCHRATE_K)",
+  "c": "PX4TuningComponentCopterRate"
+ },
+ {
+  "i": 2166,
+  "s": "Differential Gain (MC_PITCHRATE_D)",
+  "c": "PX4TuningComponentCopterRate"
+ },
+ {
+  "i": 2167,
+  "s": "Integral Gain (MC_PITCHRATE_I)",
+  "c": "PX4TuningComponentCopterRate"
+ },
+ {
+  "i": 2169,
+  "s": "Overall Multiplier (MC_YAWRATE_K)",
+  "c": "PX4TuningComponentCopterRate"
+ },
+ {
+  "i": 2170,
+  "s": "Integral Gain (MC_YAWRATE_I)",
+  "c": "PX4TuningComponentCopterRate"
+ },
+ {
+  "i": 2171,
+  "s": "Position control mode (set this to 'simple' during tuning):",
+  "c": "PX4TuningComponentCopterVelocity"
+ },
+ {
+  "i": 2172,
+  "s": "Horizontal",
+  "c": "PX4TuningComponentCopterVelocity"
+ },
+ {
+  "i": 2173,
+  "s": "Horizontal (Y direction, sidewards)",
+  "c": "PX4TuningComponentCopterVelocity"
+ },
+ {
+  "i": 2174,
+  "s": "Proportional gain (MPC_XY_VEL_P_ACC)",
+  "c": "PX4TuningComponentCopterVelocity"
+ },
+ {
+  "i": 2175,
+  "s": "Increase for more responsiveness, reduce if the velocity overshoots (and increasing D does not help).",
+  "c": "PX4TuningComponentCopterVelocity"
+ },
+ {
+  "i": 2176,
+  "s": "Integral gain (MPC_XY_VEL_I_ACC)",
+  "c": "PX4TuningComponentCopterVelocity"
+ },
+ {
+  "i": 2177,
+  "s": "Increase to reduce steady-state error (e.g. wind)",
+  "c": "PX4TuningComponentCopterVelocity"
+ },
+ {
+  "i": 2178,
+  "s": "Differential gain (MPC_XY_VEL_D_ACC)",
+  "c": "PX4TuningComponentCopterVelocity"
+ },
+ {
+  "i": 2179,
+  "s": "Damping: increase to reduce overshoots and oscillations, but not higher than really needed.",
+  "c": "PX4TuningComponentCopterVelocity"
+ },
+ {
+  "i": 2180,
+  "s": "Vertical",
+  "c": "PX4TuningComponentCopterVelocity"
+ },
+ {
+  "i": 2181,
+  "s": "Proportional gain (MPC_Z_VEL_P_ACC)",
+  "c": "PX4TuningComponentCopterVelocity"
+ },
+ {
+  "i": 2182,
+  "s": "Integral gain (MPC_Z_VEL_I_ACC)",
+  "c": "PX4TuningComponentCopterVelocity"
+ },
+ {
+  "i": 2183,
+  "s": "Increase to reduce steady-state error",
+  "c": "PX4TuningComponentCopterVelocity"
+ },
+ {
+  "i": 2184,
+  "s": "Differential gain (MPC_Z_VEL_D_ACC)",
+  "c": "PX4TuningComponentCopterVelocity"
+ },
+ {
+  "i": 2185,
+  "s": "Rate Controller",
+  "c": "PX4TuningComponentPlaneAll"
+ },
+ {
+  "i": 2187,
+  "s": "Time constant (FW_R_TC)",
+  "c": "PX4TuningComponentPlaneAttitude"
+ },
+ {
+  "i": 2188,
+  "s": "The latency between a roll step input and the achieved setpoint (inverse to a P gain)",
+  "c": "PX4TuningComponentPlaneAttitude"
+ },
+ {
+  "i": 2190,
+  "s": "Time Constant (FW_P_TC)",
+  "c": "PX4TuningComponentPlaneAttitude"
+ },
+ {
+  "i": 2191,
+  "s": "The latency between a pitch step input and the achieved setpoint (inverse to a P gain)",
+  "c": "PX4TuningComponentPlaneAttitude"
+ },
+ {
+  "i": 2193,
+  "s": "Porportional gain (FW_RR_P)",
+  "c": "PX4TuningComponentPlaneRate"
+ },
+ {
+  "i": 2194,
+  "s": "Porportional gain.",
+  "c": "PX4TuningComponentPlaneRate"
+ },
+ {
+  "i": 2195,
+  "s": "Differential Gain (FW_RR_D)",
+  "c": "PX4TuningComponentPlaneRate"
+ },
+ {
+  "i": 2196,
+  "s": "Damping: increase to reduce overshoots and oscillations, but not higher than really needed.",
+  "c": "PX4TuningComponentPlaneRate"
+ },
+ {
+  "i": 2197,
+  "s": "Integral Gain (FW_RR_I)",
+  "c": "PX4TuningComponentPlaneRate"
+ },
+ {
+  "i": 2198,
+  "s": "Generally does not need much adjustment, reduce this when seeing slow oscillations.",
+  "c": "PX4TuningComponentPlaneRate"
+ },
+ {
+  "i": 2199,
+  "s": "Feedforward Gain (FW_RR_FF)",
+  "c": "PX4TuningComponentPlaneRate"
+ },
+ {
+  "i": 2200,
+  "s": "Feedforward gused to compensate for aerodynamic damping.",
+  "c": "PX4TuningComponentPlaneRate"
+ },
+ {
+  "i": 2202,
+  "s": "Porportional Gain (FW_PR_P)",
+  "c": "PX4TuningComponentPlaneRate"
+ },
+ {
+  "i": 2203,
+  "s": "Porportional Gain.",
+  "c": "PX4TuningComponentPlaneRate"
+ },
+ {
+  "i": 2204,
+  "s": "Differential Gain (FW_PR_D)",
+  "c": "PX4TuningComponentPlaneRate"
+ },
+ {
+  "i": 2205,
+  "s": "Integral Gain (FW_PR_I)",
+  "c": "PX4TuningComponentPlaneRate"
+ },
+ {
+  "i": 2206,
+  "s": "Feedforward Gain (FW_PR_FF)",
+  "c": "PX4TuningComponentPlaneRate"
+ },
+ {
+  "i": 2208,
+  "s": "Porportional Gain (FW_YR_P)",
+  "c": "PX4TuningComponentPlaneRate"
+ },
+ {
+  "i": 2209,
+  "s": "Integral Gain (FW_YR_D)",
+  "c": "PX4TuningComponentPlaneRate"
+ },
+ {
+  "i": 2210,
+  "s": "Integral Gain (FW_YR_I)",
+  "c": "PX4TuningComponentPlaneRate"
+ },
+ {
+  "i": 2211,
+  "s": "Feedforward Gain (FW_YR_FF)",
+  "c": "PX4TuningComponentPlaneRate"
+ },
+ {
+  "i": 2212,
+  "s": "Roll control to yaw feedforward (FW_RLL_TO_YAW_FF)",
+  "c": "PX4TuningComponentPlaneRate"
+ },
+ {
+  "i": 2213,
+  "s": "Used to counteract the adverse yaw effect for fixed wings.",
+  "c": "PX4TuningComponentPlaneRate"
+ },
+ {
+  "i": 2214,
+  "s": "Altitude & Airspeed",
+  "c": "PX4TuningComponentPlaneTECS"
+ },
+ {
+  "i": 2215,
+  "s": "Height rate feed forward (FW_T_HRATE_FF)",
+  "c": "PX4TuningComponentPlaneTECS"
+ },
+ {
+  "i": 2216,
+  "s": "TODO",
+  "c": "PX4TuningComponentPlaneTECS"
+ },
+ {
+  "i": 2217,
+  "s": "Multirotor",
+  "c": "PX4TuningComponentVTOL"
+ },
+ {
+  "i": 2219,
+  "s": "The following parameters from the loaded file differ from what is currently set on the Vehicle. Click 'Ok' to update them on the Vehicle.",
+  "c": "ParameterDiffDialog"
+ },
+ {
+  "i": 2220,
+  "s": "There are no differences between the file loaded and the current settings on the Vehicle.",
+  "c": "ParameterDiffDialog"
+ },
+ {
+  "i": 2221,
+  "s": "Comp ID",
+  "c": "ParameterDiffDialog"
+ },
+ {
+  "i": 2238,
+  "s": "Search",
+  "c": "ParameterEditor"
+ },
+ {
+  "i": 2239,
+  "s": "Select Reset to reset all parameters to their defaults.\n\nNote that this will also completely reset everything, including UAVCAN nodes, all vehicle settings, setup and calibrations.",
+  "c": "ParameterEditor"
+ },
+ {
+  "i": 2240,
+  "s": "Load from file for review...",
+  "c": "ParameterEditor"
+ },
+ {
+  "i": 2247,
+  "s": "Reset To Default",
+  "c": "ParameterEditorDialog"
+ },
+ {
+  "i": 2251,
+  "s": "Value Editor",
+  "c": "ParameterEditorDialog"
+ },
+ {
+  "i": 2252,
+  "s": "Vehicle reboot required after change",
+  "c": "ParameterEditorDialog"
+ },
+ {
+  "i": 2253,
+  "s": "Application restart required after change",
+  "c": "ParameterEditorDialog"
+ },
+ {
+  "i": 2267,
+  "s": "Camera Tracking",
+  "c": "PhotoVideoControl"
+ },
+ {
+  "i": 2268,
+  "s": "Free Space: ",
+  "c": "PhotoVideoControl"
+ },
+ {
+  "i": 2269,
+  "s": "Zoom",
+  "c": "PhotoVideoControl"
+ },
+ {
+  "i": 2270,
+  "s": "Battery: ",
+  "c": "PhotoVideoControl"
+ },
+ {
+  "i": 2271,
+  "s": "Settings",
+  "c": "PhotoVideoControl"
+ },
+ {
+  "i": 2273,
+  "s": "Video Stream",
+  "c": "PhotoVideoControl"
+ },
+ {
+  "i": 2274,
+  "s": "Thermal View Mode",
+  "c": "PhotoVideoControl"
+ },
+ {
+  "i": 2275,
+  "s": "Blend Opacity",
+  "c": "PhotoVideoControl"
+ },
+ {
+  "i": 2276,
+  "s": "Photo Mode",
+  "c": "PhotoVideoControl"
+ },
+ {
+  "i": 2277,
+  "s": "Photo Interval (seconds)",
+  "c": "PhotoVideoControl"
+ },
+ {
+  "i": 2278,
+  "s": "Video Grid Lines",
+  "c": "PhotoVideoControl"
+ },
+ {
+  "i": 2279,
+  "s": "Video Screen Fit",
+  "c": "PhotoVideoControl"
+ },
+ {
+  "i": 2280,
+  "s": "Reset Camera Defaults",
+  "c": "PhotoVideoControl"
+ },
+ {
+  "i": 2283,
+  "s": "Blend",
+  "c": "PhotoVideoControl"
+ },
+ {
+  "i": 2284,
+  "s": "Full",
+  "c": "PhotoVideoControl"
+ },
+ {
+  "i": 2285,
+  "s": "Picture In Picture",
+  "c": "PhotoVideoControl"
+ },
+ {
+  "i": 2286,
+  "s": "Single",
+  "c": "PhotoVideoControl"
+ },
+ {
+  "i": 2287,
+  "s": "Time Lapse",
+  "c": "PhotoVideoControl"
+ },
+ {
+  "i": 2289,
+  "s": "Reset Camera to Factory Settings",
+  "c": "PhotoVideoControl"
+ },
+ {
+  "i": 2290,
+  "s": "Confirm resetting all settings?",
+  "c": "PhotoVideoControl"
+ },
+ {
+  "i": 2291,
+  "s": "Format",
+  "c": "PhotoVideoControl"
+ },
+ {
+  "i": 2292,
+  "s": "Format Camera Storage",
+  "c": "PhotoVideoControl"
+ },
+ {
+  "i": 2293,
+  "s": "Confirm erasing all files?",
+  "c": "PhotoVideoControl"
+ },
+ {
+  "i": 2341,
+  "s": " deg",
+  "c": "PlanToolBarIndicators"
+ },
+ {
+  "i": 2343,
+  "s": "Dist prev WP:",
+  "c": "PlanToolBarIndicators"
+ },
+ {
+  "i": 2365,
+  "s": "Apply new altitude",
+  "c": "PlanView"
+ },
+ {
+  "i": 2366,
+  "s": "Plan View - Vehicle Disconnected",
+  "c": "PlanView"
+ },
+ {
+  "i": 2367,
+  "s": "Plan View - Vehicle Changed",
+  "c": "PlanView"
+ },
+ {
+  "i": 2368,
+  "s": "The vehicle associated with the plan in the Plan View is no longer available. What would you like to do with that plan?",
+  "c": "PlanView"
+ },
+ {
+  "i": 2369,
+  "s": "The plan being worked on in the Plan View is not from the current vehicle. What would you like to do with that plan?",
+  "c": "PlanView"
+ },
+ {
+  "i": 2370,
+  "s": "Discard Unsaved Changes",
+  "c": "PlanView"
+ },
+ {
+  "i": 2371,
+  "s": "Discard Unsaved Changes, Load New Plan From Vehicle",
+  "c": "PlanView"
+ },
+ {
+  "i": 2372,
+  "s": "Load New Plan From Vehicle",
+  "c": "PlanView"
+ },
+ {
+  "i": 2373,
+  "s": "Keep Current Plan",
+  "c": "PlanView"
+ },
+ {
+  "i": 2374,
+  "s": "Keep Current Plan, Don't Update From Vehicle",
+  "c": "PlanView"
+ },
+ {
+  "i": 2375,
+  "s": "This Plan was created for a different firmware or vehicle type than the firmware/vehicle type of vehicle you are uploading to. This can lead to errors or incorrect behavior. It is recommended to recreate the Plan for the correct firmware/vehicle type.\n\nClick 'Ok' to upload the Plan anyway.",
+  "c": "PlanView"
+ },
+ {
+  "i": 2376,
+  "s": "Send To Vehicle",
+  "c": "PlanView"
+ },
+ {
+  "i": 2377,
+  "s": "Current mission must be paused prior to uploading a new Plan",
+  "c": "PlanView"
+ },
+ {
+  "i": 2382,
+  "s": "Alt Land",
+  "c": "PlanView"
+ },
+ {
+  "i": 2387,
+  "s": "UTM-Adapter",
+  "c": "PlanView"
+ },
+ {
+  "i": 2388,
+  "s": "Powered by %1",
+  "c": "PlanView"
+ },
+ {
+  "i": 2400,
+  "s": "Plan overwrite",
+  "c": "PlanView"
+ },
+ {
+  "i": 2410,
+  "s": "Default Mission Altitude",
+  "c": "PlanViewSettings"
+ },
+ {
+  "i": 2411,
+  "s": "VTOL TransitionDistance",
+  "c": "PlanViewSettings"
+ },
+ {
+  "i": 2412,
+  "s": "Use MAV_CMD_CONDITION_GATE for pattern generation",
+  "c": "PlanViewSettings"
+ },
+ {
+  "i": 2413,
+  "s": "Missions do not require takeoff item",
+  "c": "PlanViewSettings"
+ },
+ {
+  "i": 2414,
+  "s": "Allow configuring multiple landing sequences",
+  "c": "PlanViewSettings"
+ },
+ {
+  "i": 2415,
+  "s": "Exit Plan",
+  "c": "PlanViewToolBar"
+ },
+ {
+  "i": 2416,
+  "s": "Syncing Mission",
+  "c": "PlanViewToolBar"
+ },
+ {
+  "i": 2418,
+  "s": "Click anywhere to hide",
+  "c": "PlanViewToolBar"
+ },
+ {
+  "i": 2424,
+  "s": "ESC Calibration failed. ",
+  "c": "PowerComponent"
+ },
+ {
+  "i": 2429,
+  "s": "Battery ",
+  "c": "PowerComponent"
+ },
+ {
+  "i": 2430,
+  "s": "Source",
+  "c": "PowerComponent"
+ },
+ {
+  "i": 2483,
+  "s": "(Passed)",
+  "c": "PreFlightCheckList"
+ },
+ {
+  "i": 2484,
+  "s": "In Progress",
+  "c": "PreFlightCheckList"
+ },
+ {
+  "i": 2504,
+  "s": "--.--",
+  "c": "ProximityRadarValues"
+ },
+ {
+  "i": 2508,
+  "s": "There is a newer version of %1 available. You can download it from %2.",
+  "c": "QGCApplication"
+ },
+ {
+  "i": 2509,
+  "s": "New Version Available",
+  "c": "QGCApplication"
+ },
+ {
+  "i": 2510,
+  "s": "Database Not Initialized",
+  "c": "QGCCacheWorker"
+ },
+ {
+  "i": 2526,
+  "s": "Unabled to find writable download location. Tried downloads and temp directory.",
+  "c": "QGCFileDownload"
+ },
+ {
+  "i": 2531,
+  "s": "Unable to reopen log file %1: %2",
+  "c": "QGCLogging"
+ },
+ {
+  "i": 2532,
+  "s": "Open console log output file failed %1 : %2",
+  "c": "QGCLogging"
+ },
+ {
+  "i": 2533,
+  "s": "Generic micro air vehicle",
+  "c": "QGCMAVLink"
+ },
+ {
+  "i": 2534,
+  "s": "Fixed wing aircraft",
+  "c": "QGCMAVLink"
+ },
+ {
+  "i": 2535,
+  "s": "Quadrotor",
+  "c": "QGCMAVLink"
+ },
+ {
+  "i": 2536,
+  "s": "Coaxial helicopter",
+  "c": "QGCMAVLink"
+ },
+ {
+  "i": 2537,
+  "s": "Normal helicopter with tail rotor.",
+  "c": "QGCMAVLink"
+ },
+ {
+  "i": 2538,
+  "s": "Ground installation",
+  "c": "QGCMAVLink"
+ },
+ {
+  "i": 2539,
+  "s": "Operator control unit / ground control station",
+  "c": "QGCMAVLink"
+ },
+ {
+  "i": 2540,
+  "s": "Airship, controlled",
+  "c": "QGCMAVLink"
+ },
+ {
+  "i": 2541,
+  "s": "Free balloon, uncontrolled",
+  "c": "QGCMAVLink"
+ },
+ {
+  "i": 2542,
+  "s": "Rocket",
+  "c": "QGCMAVLink"
+ },
+ {
+  "i": 2543,
+  "s": "Ground rover",
+  "c": "QGCMAVLink"
+ },
+ {
+  "i": 2544,
+  "s": "Surface vessel, boat, ship",
+  "c": "QGCMAVLink"
+ },
+ {
+  "i": 2545,
+  "s": "Submarine",
+  "c": "QGCMAVLink"
+ },
+ {
+  "i": 2546,
+  "s": "Hexarotor",
+  "c": "QGCMAVLink"
+ },
+ {
+  "i": 2547,
+  "s": "Octorotor",
+  "c": "QGCMAVLink"
+ },
+ {
+  "i": 2548,
+  "s": "trirotor",
+  "c": "QGCMAVLink"
+ },
+ {
+  "i": 2549,
+  "s": "Flapping wing",
+  "c": "QGCMAVLink"
+ },
+ {
+  "i": 2550,
+  "s": "Kite",
+  "c": "QGCMAVLink"
+ },
+ {
+  "i": 2551,
+  "s": "Onboard companion controller",
+  "c": "QGCMAVLink"
+ },
+ {
+  "i": 2552,
+  "s": "Two-rotor VTOL using control surfaces in vertical operation in addition. Tailsitter",
+  "c": "QGCMAVLink"
+ },
+ {
+  "i": 2553,
+  "s": "Quad-rotor VTOL using a V-shaped quad config in vertical operation. Tailsitter",
+  "c": "QGCMAVLink"
+ },
+ {
+  "i": 2554,
+  "s": "Tiltrotor VTOL",
+  "c": "QGCMAVLink"
+ },
+ {
+  "i": 2555,
+  "s": "VTOL Fixedrotor",
+  "c": "QGCMAVLink"
+ },
+ {
+  "i": 2556,
+  "s": "VTOL Tailsitter",
+  "c": "QGCMAVLink"
+ },
+ {
+  "i": 2557,
+  "s": "VTOL Tiltwing",
+  "c": "QGCMAVLink"
+ },
+ {
+  "i": 2558,
+  "s": "VTOL reserved 5",
+  "c": "QGCMAVLink"
+ },
+ {
+  "i": 2559,
+  "s": "Onboard gimbal",
+  "c": "QGCMAVLink"
+ },
+ {
+  "i": 2560,
+  "s": "Onboard ADSB peripheral",
+  "c": "QGCMAVLink"
+ },
+ {
+  "i": 2561,
+  "s": "Comp All",
+  "c": "QGCMAVLinkSystem"
+ },
+ {
+  "i": 2562,
+  "s": "Comp %1",
+  "c": "QGCMAVLinkSystem"
+ },
+ {
+  "i": 2578,
+  "s": "Select Polyline File",
+  "c": "QGCMapPolylineVisuals"
+ },
+ {
+  "i": 2586,
+  "s": "Ok",
+  "c": "QGCPopupDialog"
+ },
+ {
+  "i": 2587,
+  "s": "Open",
+  "c": "QGCPopupDialog"
+ },
+ {
+  "i": 2589,
+  "s": "Apply",
+  "c": "QGCPopupDialog"
+ },
+ {
+  "i": 2590,
+  "s": "Save All",
+  "c": "QGCPopupDialog"
+ },
+ {
+  "i": 2591,
+  "s": "Yes",
+  "c": "QGCPopupDialog"
+ },
+ {
+  "i": 2592,
+  "s": "Yes to All",
+  "c": "QGCPopupDialog"
+ },
+ {
+  "i": 2593,
+  "s": "Retry",
+  "c": "QGCPopupDialog"
+ },
+ {
+  "i": 2595,
+  "s": "Restore to Defaults",
+  "c": "QGCPopupDialog"
+ },
+ {
+  "i": 2596,
+  "s": "Ignore",
+  "c": "QGCPopupDialog"
+ },
+ {
+  "i": 2598,
+  "s": "Close",
+  "c": "QGCPopupDialog"
+ },
+ {
+  "i": 2599,
+  "s": "No",
+  "c": "QGCPopupDialog"
+ },
+ {
+  "i": 2600,
+  "s": "No to All",
+  "c": "QGCPopupDialog"
+ },
+ {
+  "i": 2601,
+  "s": "Abort",
+  "c": "QGCPopupDialog"
+ },
+ {
+  "i": 2603,
+  "s": "The Offline Map Cache database has been upgraded. Your old map cache sets have been reset.",
+  "c": "QGeoFileTileCacheQGC"
+ },
+ {
+  "i": 2604,
+  "s": "Unexpected Error",
+  "c": "QGeoTiledMapReplyQGC"
+ },
+ {
+  "i": 2605,
+  "s": "Empty Reply",
+  "c": "QGeoTiledMapReplyQGC"
+ },
+ {
+  "i": 2606,
+  "s": "Image is Empty",
+  "c": "QGeoTiledMapReplyQGC"
+ },
+ {
+  "i": 2607,
+  "s": "Bing Tile Above Zoom Level",
+  "c": "QGeoTiledMapReplyQGC"
+ },
+ {
+  "i": 2608,
+  "s": "Failed to Serialize Terrain Tile",
+  "c": "QGeoTiledMapReplyQGC"
+ },
+ {
+  "i": 2609,
+  "s": "Unknown Format",
+  "c": "QGeoTiledMapReplyQGC"
+ },
+ {
+  "i": 2610,
+  "s": "Invalid Reply",
+  "c": "QGeoTiledMapReplyQGC"
+ },
+ {
+  "i": 2611,
+  "s": "Invalid Cache Tile",
+  "c": "QGeoTiledMapReplyQGC"
+ },
+ {
+  "i": 2612,
+  "s": "Network Not Available",
+  "c": "QGeoTiledMapReplyQGC"
+ },
+ {
+  "i": 2615,
+  "s": "(AMSL)",
+  "c": "QGroundControlQmlGlobal"
+ },
+ {
+  "i": 2616,
+  "s": "(CalcT)",
+  "c": "QGroundControlQmlGlobal"
+ },
+ {
+  "i": 2617,
+  "s": "AMSL",
+  "c": "QGroundControlQmlGlobal"
+ },
+ {
+  "i": 2618,
+  "s": "Calc Above Terrain",
+  "c": "QGroundControlQmlGlobal"
+ },
+ {
+  "i": 2619,
+  "s": "Mixed Modes",
+  "c": "QGroundControlQmlGlobal"
+ },
+ {
+  "i": 2620,
+  "s": "(TerrF)",
+  "c": "QGroundControlQmlGlobal"
+ },
+ {
+  "i": 2621,
+  "s": "Relative To Launch",
+  "c": "QGroundControlQmlGlobal"
+ },
+ {
+  "i": 2622,
+  "s": "Terrain Frame",
+  "c": "QGroundControlQmlGlobal"
+ },
+ {
+  "i": 2629,
+  "s": "File open failed: file:error %1 %2",
+  "c": "QObject"
+ },
+ {
+  "i": 2633,
+  "s": "Unable to open file: '%1', error: %2",
+  "c": "QObject"
+ },
+ {
+  "i": 2634,
+  "s": "Unable to parse json file: %1 error: %2 offset: %3",
+  "c": "QObject"
+ },
+ {
+  "i": 2635,
+  "s": "Root of json file is not object: %1",
+  "c": "QObject"
+ },
+ {
+  "i": 2636,
+  "s": "Json file: '%1'. %2",
+  "c": "QObject"
+ },
+ {
+  "i": 2641,
+  "s": "You are running %1 as root. You should not do this since it will cause other issues with %1.%1 will now exit.<br/><br/>",
+  "c": "QObject"
+ },
+ {
+  "i": 2642,
+  "s": "No error",
+  "c": "QSerialPort"
+ },
+ {
+  "i": 2643,
+  "s": "Device is already open",
+  "c": "QSerialPort"
+ },
+ {
+  "i": 2644,
+  "s": "Device is not open",
+  "c": "QSerialPort"
+ },
+ {
+  "i": 2645,
+  "s": "Operation timed out",
+  "c": "QSerialPort"
+ },
+ {
+  "i": 2646,
+  "s": "Error reading from device",
+  "c": "QSerialPort"
+ },
+ {
+  "i": 2647,
+  "s": "Error writing to device",
+  "c": "QSerialPort"
+ },
+ {
+  "i": 2648,
+  "s": "Device disappeared from the system",
+  "c": "QSerialPort"
+ },
+ {
+  "i": 2649,
+  "s": "Unsupported open mode",
+  "c": "QSerialPort"
+ },
+ {
+  "i": 2650,
+  "s": "Closing device failed",
+  "c": "QSerialPort"
+ },
+ {
+  "i": 2651,
+  "s": "Failed to start async read",
+  "c": "QSerialPort"
+ },
+ {
+  "i": 2652,
+  "s": "Failed to stop async read",
+  "c": "QSerialPort"
+ },
+ {
+  "i": 2653,
+  "s": "Timeout while waiting for ready read",
+  "c": "QSerialPort"
+ },
+ {
+  "i": 2654,
+  "s": "Timeout while waiting for bytes written",
+  "c": "QSerialPort"
+ },
+ {
+  "i": 2655,
+  "s": "Invalid data or size",
+  "c": "QSerialPort"
+ },
+ {
+  "i": 2656,
+  "s": "Failed to write data",
+  "c": "QSerialPort"
+ },
+ {
+  "i": 2657,
+  "s": "Failed to flush",
+  "c": "QSerialPort"
+ },
+ {
+  "i": 2658,
+  "s": "Failed to set DTR",
+  "c": "QSerialPort"
+ },
+ {
+  "i": 2659,
+  "s": "Failed to set RTS",
+  "c": "QSerialPort"
+ },
+ {
+  "i": 2660,
+  "s": "Failed to set parameters",
+  "c": "QSerialPort"
+ },
+ {
+  "i": 2661,
+  "s": "Invalid baud rate value",
+  "c": "QSerialPort"
+ },
+ {
+  "i": 2662,
+  "s": "Custom baud rate direction is unsupported",
+  "c": "QSerialPort"
+ },
+ {
+  "i": 2663,
+  "s": "Invalid Baud Rate",
+  "c": "QSerialPort"
+ },
+ {
+  "i": 2664,
+  "s": "Failed to set baud rate",
+  "c": "QSerialPort"
+ },
+ {
+  "i": 2665,
+  "s": "Failed to set data bits",
+  "c": "QSerialPort"
+ },
+ {
+  "i": 2666,
+  "s": "Failed to set parity",
+  "c": "QSerialPort"
+ },
+ {
+  "i": 2667,
+  "s": "Failed to set StopBits",
+  "c": "QSerialPort"
+ },
+ {
+  "i": 2668,
+  "s": "Failed to set Flow Control",
+  "c": "QSerialPort"
+ },
+ {
+  "i": 2669,
+  "s": "Failed to set Break Enabled",
+  "c": "QSerialPort"
+ },
+ {
+  "i": 2671,
+  "s": "Channel Monitor",
+  "c": "RCChannelMonitor"
+ },
+ {
+  "i": 2673,
+  "s": "RSSI",
+  "c": "RCRSSIIndicator"
+ },
+ {
+  "i": 2688,
+  "s": "Click Ok to place your Spektrum receiver in the bind mode.",
+  "c": "RadioComponent"
+ },
+ {
+  "i": 2689,
+  "s": "Select the specific receiver type below:",
+  "c": "RadioComponent"
+ },
+ {
+  "i": 2690,
+  "s": "CRSF Bind",
+  "c": "RadioComponent"
+ },
+ {
+  "i": 2691,
+  "s": "Click Ok to place your CRSF receiver in the bind mode.",
+  "c": "RadioComponent"
+ },
+ {
+  "i": 2709,
+  "s": "Radio Not Ready",
+  "c": "RadioComponent"
+ },
+ {
+  "i": 2710,
+  "s": "Ready to calibrate.",
+  "c": "RadioComponent"
+ },
+ {
+  "i": 2711,
+  "s": "Zero Trims",
+  "c": "RadioComponent"
+ },
+ {
+  "i": 2741,
+  "s": "RemoteID Status",
+  "c": "RemoteIDIndicatorPage"
+ },
+ {
+  "i": 2742,
+  "s": "ARM STATUS",
+  "c": "RemoteIDIndicatorPage"
+ },
+ {
+  "i": 2743,
+  "s": "RID COMMS",
+  "c": "RemoteIDIndicatorPage"
+ },
+ {
+  "i": 2744,
+  "s": "NOT CONNECTED",
+  "c": "RemoteIDIndicatorPage"
+ },
+ {
+  "i": 2745,
+  "s": "GCS GPS",
+  "c": "RemoteIDIndicatorPage"
+ },
+ {
+  "i": 2746,
+  "s": "BASIC ID",
+  "c": "RemoteIDIndicatorPage"
+ },
+ {
+  "i": 2747,
+  "s": "OPERATOR ID",
+  "c": "RemoteIDIndicatorPage"
+ },
+ {
+  "i": 2748,
+  "s": "EMERGENCY HAS BEEN DECLARED, Press and Hold for 3 seconds to cancel",
+  "c": "RemoteIDIndicatorPage"
+ },
+ {
+  "i": 2749,
+  "s": "Press and Hold below button to declare emergency",
+  "c": "RemoteIDIndicatorPage"
+ },
+ {
+  "i": 2750,
+  "s": "Clear Emergency",
+  "c": "RemoteIDIndicatorPage"
+ },
+ {
+  "i": 2751,
+  "s": "EMERGENCY",
+  "c": "RemoteIDIndicatorPage"
+ },
+ {
+  "i": 2752,
+  "s": "Arm Status Error",
+  "c": "RemoteIDIndicatorPage"
+ },
+ {
+  "i": 2753,
+  "s": "Self ID",
+  "c": "RemoteIDIndicatorPage"
+ },
+ {
+  "i": 2754,
+  "s": "If an emergency is declared, Emergency Text will be broadcast even if Broadcast setting is not enabled.",
+  "c": "RemoteIDIndicatorPage"
+ },
+ {
+  "i": 2755,
+  "s": "Broadcast",
+  "c": "RemoteIDIndicatorPage"
+ },
+ {
+  "i": 2756,
+  "s": "Broadcast Message",
+  "c": "RemoteIDIndicatorPage"
+ },
+ {
+  "i": 2757,
+  "s": "Remote ID",
+  "c": "RemoteIDIndicatorPage"
+ },
+ {
+  "i": 2758,
+  "s": "Configure",
+  "c": "RemoteIDIndicatorPage"
+ },
+ {
+  "i": 2759,
+  "s": "ARM STATUS",
+  "c": "RemoteIDSettings"
+ },
+ {
+  "i": 2760,
+  "s": "RID COMMS",
+  "c": "RemoteIDSettings"
+ },
+ {
+  "i": 2761,
+  "s": "NOT CONNECTED",
+  "c": "RemoteIDSettings"
+ },
+ {
+  "i": 2762,
+  "s": "GCS GPS",
+  "c": "RemoteIDSettings"
+ },
+ {
+  "i": 2763,
+  "s": "BASIC ID",
+  "c": "RemoteIDSettings"
+ },
+ {
+  "i": 2764,
+  "s": "OPERATOR ID",
+  "c": "RemoteIDSettings"
+ },
+ {
+  "i": 2765,
+  "s": "Arm Status Error",
+  "c": "RemoteIDSettings"
+ },
+ {
+  "i": 2766,
+  "s": "Basic ID",
+  "c": "RemoteIDSettings"
+ },
+ {
+  "i": 2767,
+  "s": "If Basic ID is already set on the RID device, this will be registered as Basic ID 2",
+  "c": "RemoteIDSettings"
+ },
+ {
+  "i": 2768,
+  "s": "Broadcast",
+  "c": "RemoteIDSettings"
+ },
+ {
+  "i": 2769,
+  "s": "If an emergency is declared, Emergency Text will be broadcast even if Broadcast setting is not enabled.",
+  "c": "RemoteIDSettings"
+ },
+ {
+  "i": 2770,
+  "s": "Broadcast Message",
+  "c": "RemoteIDSettings"
+ },
+ {
+  "i": 2771,
+  "s": "GroundStation Location",
+  "c": "RemoteIDSettings"
+ },
+ {
+  "i": 2772,
+  "s": "EU Vehicle Info",
+  "c": "RemoteIDSettings"
+ },
+ {
+  "i": 2773,
+  "s": "Provide Information",
+  "c": "RemoteIDSettings"
+ },
+ {
+  "i": 2774,
+  "s": "NMEA External GPS Device",
+  "c": "RemoteIDSettings"
+ },
+ {
+  "i": 2775,
+  "s": "NMEA GPS Baudrate",
+  "c": "RemoteIDSettings"
+ },
+ {
+  "i": 2776,
+  "s": "NMEA stream UDP port",
+  "c": "RemoteIDSettings"
+ },
+ {
+  "i": 2777,
+  "s": "Operator ID",
+  "c": "RemoteIDSettings"
+ },
+ {
+  "i": 2778,
+  "s": "Broadcast%1",
+  "c": "RemoteIDSettings"
+ },
+ {
+  "i": 2779,
+  "s": " (%1)",
+  "c": "RemoteIDSettings"
+ },
+ {
+  "i": 2780,
+  "s": "Invalid Operator ID",
+  "c": "RemoteIDSettings"
+ },
+ {
+  "i": 2781,
+  "s": "Self ID",
+  "c": "RemoteIDSettings"
+ },
+ {
+  "i": 2795,
+  "s": "File is not a .shp file: %1",
+  "c": "SHP"
+ },
+ {
+  "i": 2796,
+  "s": "File not found: %1",
+  "c": "SHP"
+ },
+ {
+  "i": 2797,
+  "s": "PRJ file open failed: %1",
+  "c": "SHP"
+ },
+ {
+  "i": 2798,
+  "s": "UTM projection is not in supported format. Must be PROJCS[\"WGS_1984_UTM_Zone_##N/S",
+  "c": "SHP"
+ },
+ {
+  "i": 2799,
+  "s": "Only WGS84 or UTM projections are supported.",
+  "c": "SHP"
+ },
+ {
+  "i": 2800,
+  "s": "SHPOpen failed.",
+  "c": "SHP"
+ },
+ {
+  "i": 2801,
+  "s": "More than one entity found.",
+  "c": "SHP"
+ },
+ {
+  "i": 2802,
+  "s": "No supported types found.",
+  "c": "SHP"
+ },
+ {
+  "i": 2803,
+  "s": "File does not contain a polygon.",
+  "c": "SHP"
+ },
+ {
+  "i": 2804,
+  "s": "Failed to read polygon object.",
+  "c": "SHP"
+ },
+ {
+  "i": 2805,
+  "s": "Only single part polygons are supported.",
+  "c": "SHP"
+ },
+ {
+  "i": 2806,
+  "s": "File does not contain a polyline.",
+  "c": "SHP"
+ },
+ {
+  "i": 2807,
+  "s": "Failed to read polyline object.",
+  "c": "SHP"
+ },
+ {
+  "i": 2808,
+  "s": "Only single part polylines are supported.",
+  "c": "SHP"
+ },
+ {
+  "i": 2821,
+  "s": "Show obstacle distance overlay",
+  "c": "SafetyComponent"
+ },
+ {
+  "i": 2867,
+  "s": "Reset successful",
+  "c": "SensorsComponentController"
+ },
+ {
+  "i": 2868,
+  "s": "Reset failed",
+  "c": "SensorsComponentController"
+ },
+ {
+  "i": 2895,
+  "s": "To level the horizon you need to place the vehicle in its level flight position and leave still.",
+  "c": "SensorsSetup"
+ },
+ {
+  "i": 2896,
+  "s": "Autopilot Orientation",
+  "c": "SensorsSetup"
+ },
+ {
+  "i": 2897,
+  "s": "ROTATION_NONE indicates component points in direction of flight.",
+  "c": "SensorsSetup"
+ },
+ {
+  "i": 2898,
+  "s": "Click Ok to start calibration.",
+  "c": "SensorsSetup"
+ },
+ {
+  "i": 2899,
+  "s": "Reboot the vehicle prior to flight.",
+  "c": "SensorsSetup"
+ },
+ {
+  "i": 2900,
+  "s": "Adjust orientations as needed.\n\nROTATION_NONE indicates component points in direction of flight.",
+  "c": "SensorsSetup"
+ },
+ {
+  "i": 2901,
+  "s": "Mag %1 Orientation",
+  "c": "SensorsSetup"
+ },
+ {
+  "i": 2913,
+  "s": "Orientations",
+  "c": "SensorsSetup"
+ },
+ {
+  "i": 2917,
+  "s": "Factory reset",
+  "c": "SensorsSetup"
+ },
+ {
+  "i": 2919,
+  "s": "Serial Link Error",
+  "c": "SerialLink"
+ },
+ {
+  "i": 2920,
+  "s": "Link %1: (Port: %2) %3",
+  "c": "SerialLink"
+ },
+ {
+  "i": 2923,
+  "s": "Serial Port",
+  "c": "SerialSettings"
+ },
+ {
+  "i": 2924,
+  "s": "None Available",
+  "c": "SerialSettings"
+ },
+ {
+  "i": 2925,
+  "s": "Baud Rate",
+  "c": "SerialSettings"
+ },
+ {
+  "i": 2926,
+  "s": "Advanced Settings",
+  "c": "SerialSettings"
+ },
+ {
+  "i": 2927,
+  "s": "Parity",
+  "c": "SerialSettings"
+ },
+ {
+  "i": 2931,
+  "s": "Data Bits",
+  "c": "SerialSettings"
+ },
+ {
+  "i": 2932,
+  "s": "Stop Bits",
+  "c": "SerialSettings"
+ },
+ {
+  "i": 2933,
+  "s": "Not connecting to a bootloader",
+  "c": "SerialWorker"
+ },
+ {
+  "i": 2934,
+  "s": "Could not open port: %1",
+  "c": "SerialWorker"
+ },
+ {
+  "i": 2935,
+  "s": "Data to Send is Empty",
+  "c": "SerialWorker"
+ },
+ {
+  "i": 2936,
+  "s": "Port is not Connected",
+  "c": "SerialWorker"
+ },
+ {
+  "i": 2937,
+  "s": "Port is not Writable",
+  "c": "SerialWorker"
+ },
+ {
+  "i": 2938,
+  "s": "Could Not Send Data - Write Failed: %1",
+  "c": "SerialWorker"
+ },
+ {
+  "i": 2939,
+  "s": "Could Not Send Data - Write Returned 0 Bytes",
+  "c": "SerialWorker"
+ },
+ {
+  "i": 2941,
+  "s": "Fly View",
+  "c": "SettingsPagesModel"
+ },
+ {
+  "i": 2942,
+  "s": "Plan View",
+  "c": "SettingsPagesModel"
+ },
+ {
+  "i": 2945,
+  "s": "ADSB Server",
+  "c": "SettingsPagesModel"
+ },
+ {
+  "i": 2946,
+  "s": "Comm Links",
+  "c": "SettingsPagesModel"
+ },
+ {
+  "i": 2947,
+  "s": "Maps",
+  "c": "SettingsPagesModel"
+ },
+ {
+  "i": 2948,
+  "s": "PX4 Log Transfer",
+  "c": "SettingsPagesModel"
+ },
+ {
+  "i": 2949,
+  "s": "Remote ID",
+  "c": "SettingsPagesModel"
+ },
+ {
+  "i": 2950,
+  "s": "Console",
+  "c": "SettingsPagesModel"
+ },
+ {
+  "i": 2951,
+  "s": "Help",
+  "c": "SettingsPagesModel"
+ },
+ {
+  "i": 2953,
+  "s": "Debug",
+  "c": "SettingsPagesModel"
+ },
+ {
+  "i": 2954,
+  "s": "Palette Test",
+  "c": "SettingsPagesModel"
+ },
+ {
+  "i": 2957,
+  "s": "%1 Config",
+  "c": "SetupPage"
+ },
+ {
+  "i": 2969,
+  "s": "Optical Flow",
+  "c": "SetupView"
+ },
+ {
+  "i": 2971,
+  "s": "Buttons",
+  "c": "SetupView"
+ },
+ {
+  "i": 2974,
+  "s": "Unsupported file type. Only .%1 and .%2 are supported.",
+  "c": "ShapeFileHelper"
+ },
+ {
+  "i": 2975,
+  "s": "KML Files (*.%1)",
+  "c": "ShapeFileHelper"
+ },
+ {
+  "i": 2976,
+  "s": "KML/SHP Files (*.%1 *.%2)",
+  "c": "ShapeFileHelper"
+ },
+ {
+  "i": 2977,
+  "s": "Move '%1' %2 to the %3 location. %4",
+  "c": "SimpleItemEditor"
+ },
+ {
+  "i": 2982,
+  "s": "Transition Direction",
+  "c": "SimpleItemEditor"
+ },
+ {
+  "i": 2986,
+  "s": "Ensure distance from launch to transition direction is far enough to complete transition.",
+  "c": "SimpleItemEditor"
+ },
+ {
+  "i": 2992,
+  "s": "Actual AMSL alt sent: %1 %2",
+  "c": "SimpleItemEditor"
+ },
+ {
+  "i": 2998,
+  "s": "Transition Direction",
+  "c": "SimpleMissionItem"
+ },
+ {
+  "i": 3002,
+  "s": "Time lapse capture not supported by this camera",
+  "c": "SimulatedCameraControl"
+ },
+ {
+  "i": 3003,
+  "s": "EMERGENCY",
+  "c": "StatusTextHandler"
+ },
+ {
+  "i": 3004,
+  "s": "ALERT",
+  "c": "StatusTextHandler"
+ },
+ {
+  "i": 3005,
+  "s": "Critical",
+  "c": "StatusTextHandler"
+ },
+ {
+  "i": 3007,
+  "s": "Warning",
+  "c": "StatusTextHandler"
+ },
+ {
+  "i": 3008,
+  "s": "Notice",
+  "c": "StatusTextHandler"
+ },
+ {
+  "i": 3009,
+  "s": "Info",
+  "c": "StatusTextHandler"
+ },
+ {
+  "i": 3010,
+  "s": "Debug",
+  "c": "StatusTextHandler"
+ },
+ {
+  "i": 3011,
+  "s": " ... ",
+  "c": "StatusTextHandler"
+ },
+ {
+  "i": 3066,
+  "s": "Normal",
+  "c": "SysStatusSensorInfo"
+ },
+ {
+  "i": 3071,
+  "s": "Address in hex. Default is E7E7E7E7E7.",
+  "c": "SyslinkComponent"
+ },
+ {
+  "i": 3077,
+  "s": "TCP Link Error",
+  "c": "TCPLink"
+ },
+ {
+  "i": 3078,
+  "s": "Link %1: (Host: %2 Port: %3) %4",
+  "c": "TCPLink"
+ },
+ {
+  "i": 3079,
+  "s": "Connection Failed: %1",
+  "c": "TCPWorker"
+ },
+ {
+  "i": 3080,
+  "s": "Data to Send is Empty",
+  "c": "TCPWorker"
+ },
+ {
+  "i": 3081,
+  "s": "Socket is not connected",
+  "c": "TCPWorker"
+ },
+ {
+  "i": 3082,
+  "s": "Could Not Send Data - Write Failed: %1",
+  "c": "TCPWorker"
+ },
+ {
+  "i": 3083,
+  "s": "Could Not Send Data - Write Returned 0 Bytes",
+  "c": "TCPWorker"
+ },
+ {
+  "i": 3084,
+  "s": "",
+  "c": "TaisyncSettings"
+ },
+ {
+  "i": 3086,
+  "s": "Server Address",
+  "c": "TcpSettings"
+ },
+ {
+  "i": 3087,
+  "s": "Port",
+  "c": "TcpSettings"
+ },
+ {
+  "i": 3090,
+  "s": "dBm",
+  "c": "TelemetryRSSIIndicator"
+ },
+ {
+  "i": 3097,
+  "s": "Not Connected",
+  "c": "TelemetrySettings"
+ },
+ {
+  "i": 3098,
+  "s": "Ground Station",
+  "c": "TelemetrySettings"
+ },
+ {
+  "i": 3099,
+  "s": "Emit heartbeat",
+  "c": "TelemetrySettings"
+ },
+ {
+  "i": 3100,
+  "s": "MAVLink System ID",
+  "c": "TelemetrySettings"
+ },
+ {
+  "i": 3101,
+  "s": "MAVLink 2 Signing",
+  "c": "TelemetrySettings"
+ },
+ {
+  "i": 3102,
+  "s": "Signing keys should only be sent to the vehicle over secure links.",
+  "c": "TelemetrySettings"
+ },
+ {
+  "i": 3103,
+  "s": "Key",
+  "c": "TelemetrySettings"
+ },
+ {
+  "i": 3104,
+  "s": "Send to Vehicle",
+  "c": "TelemetrySettings"
+ },
+ {
+  "i": 3105,
+  "s": "Signing key has changed. Don't forget to send to Vehicle(s) if needed.",
+  "c": "TelemetrySettings"
+ },
+ {
+  "i": 3106,
+  "s": "MAVLink Forwarding",
+  "c": "TelemetrySettings"
+ },
+ {
+  "i": 3107,
+  "s": "Enable",
+  "c": "TelemetrySettings"
+ },
+ {
+  "i": 3108,
+  "s": "Host name",
+  "c": "TelemetrySettings"
+ },
+ {
+  "i": 3109,
+  "s": "Logging",
+  "c": "TelemetrySettings"
+ },
+ {
+  "i": 3110,
+  "s": "Save log after each flight",
+  "c": "TelemetrySettings"
+ },
+ {
+  "i": 3111,
+  "s": "Save logs even if vehicle was not armed",
+  "c": "TelemetrySettings"
+ },
+ {
+  "i": 3112,
+  "s": "Save CSV log of telemetry data",
+  "c": "TelemetrySettings"
+ },
+ {
+  "i": 3113,
+  "s": "Stream Rates (ArduPilot Only)",
+  "c": "TelemetrySettings"
+ },
+ {
+  "i": 3114,
+  "s": "Controlled By vehicle",
+  "c": "TelemetrySettings"
+ },
+ {
+  "i": 3115,
+  "s": "Raw Sensors",
+  "c": "TelemetrySettings"
+ },
+ {
+  "i": 3116,
+  "s": "Extended Status",
+  "c": "TelemetrySettings"
+ },
+ {
+  "i": 3117,
+  "s": "RC Channels",
+  "c": "TelemetrySettings"
+ },
+ {
+  "i": 3119,
+  "s": "Extra 1",
+  "c": "TelemetrySettings"
+ },
+ {
+  "i": 3120,
+  "s": "Extra 2",
+  "c": "TelemetrySettings"
+ },
+ {
+  "i": 3121,
+  "s": "Extra 3",
+  "c": "TelemetrySettings"
+ },
+ {
+  "i": 3122,
+  "s": "Link Status (Current Vehicle))",
+  "c": "TelemetrySettings"
+ },
+ {
+  "i": 3123,
+  "s": "Total messages sent (computed)",
+  "c": "TelemetrySettings"
+ },
+ {
+  "i": 3124,
+  "s": "Total messages received",
+  "c": "TelemetrySettings"
+ },
+ {
+  "i": 3125,
+  "s": "Total message loss",
+  "c": "TelemetrySettings"
+ },
+ {
+  "i": 3126,
+  "s": "Loss rate:",
+  "c": "TelemetrySettings"
+ },
+ {
+  "i": 3127,
+  "s": "Signing:",
+  "c": "TelemetrySettings"
+ },
+ {
+  "i": 3131,
+  "s": "Waiting for parameters...",
+  "c": "ToolIndicatorPage"
+ },
+ {
+  "i": 3138,
+  "s": "Trigger Dist",
+  "c": "TransectStyleComplexItemEditor"
+ },
+ {
+  "i": 3139,
+  "s": "Spacing",
+  "c": "TransectStyleComplexItemEditor"
+ },
+ {
+  "i": 3140,
+  "s": "Rotate Entry Point",
+  "c": "TransectStyleComplexItemEditor"
+ },
+ {
+  "i": 3142,
+  "s": "Presets",
+  "c": "TransectStyleComplexItemEditor"
+ },
+ {
+  "i": 3143,
+  "s": "Apply Preset",
+  "c": "TransectStyleComplexItemEditor"
+ },
+ {
+  "i": 3144,
+  "s": "Delete Preset",
+  "c": "TransectStyleComplexItemEditor"
+ },
+ {
+  "i": 3145,
+  "s": "Are you sure you want to delete '%1' preset?",
+  "c": "TransectStyleComplexItemEditor"
+ },
+ {
+  "i": 3146,
+  "s": "Save Settings As New Preset",
+  "c": "TransectStyleComplexItemEditor"
+ },
+ {
+  "i": 3147,
+  "s": "Save Preset",
+  "c": "TransectStyleComplexItemEditor"
+ },
+ {
+  "i": 3148,
+  "s": "Save the current settings as a named preset.",
+  "c": "TransectStyleComplexItemEditor"
+ },
+ {
+  "i": 3149,
+  "s": "Preset Name",
+  "c": "TransectStyleComplexItemEditor"
+ },
+ {
+  "i": 3150,
+  "s": "Enter preset name",
+  "c": "TransectStyleComplexItemEditor"
+ },
+ {
+  "i": 3151,
+  "s": "Preset name cannot be blank.",
+  "c": "TransectStyleComplexItemEditor"
+ },
+ {
+  "i": 3152,
+  "s": "Preset name cannot include the \"/\" character.",
+  "c": "TransectStyleComplexItemEditor"
+ },
+ {
+  "i": 3158,
+  "s": "Tolerance",
+  "c": "TransectStyleComplexItemTerrainFollow"
+ },
+ {
+  "i": 3159,
+  "s": "Max Climb Rate",
+  "c": "TransectStyleComplexItemTerrainFollow"
+ },
+ {
+  "i": 3160,
+  "s": "Max Descent Rate",
+  "c": "TransectStyleComplexItemTerrainFollow"
+ },
+ {
+  "i": 3163,
+  "s": "Link %1: %2",
+  "c": "UDPLink"
+ },
+ {
+  "i": 3164,
+  "s": "Failed to bind UDP socket to port",
+  "c": "UDPWorker"
+ },
+ {
+  "i": 3165,
+  "s": "Could Not Send Data - Link is Disconnected!",
+  "c": "UDPWorker"
+ },
+ {
+  "i": 3166,
+  "s": "Could Not Read Data - Link is Disconnected!",
+  "c": "UDPWorker"
+ },
+ {
+  "i": 3167,
+  "s": "Could Not Read Data - No Data Available!",
+  "c": "UDPWorker"
+ },
+ {
+  "i": 3168,
+  "s": "Zeroconf Register Error: %1",
+  "c": "UDPWorker"
+ },
+ {
+  "i": 3169,
+  "s": "Error Registering Zeroconf: %1",
+  "c": "UDPWorker"
+ },
+ {
+  "i": 3170,
+  "s": "Invalid sockfd",
+  "c": "UDPWorker"
+ },
+ {
+  "i": 3171,
+  "s": "DNSServiceProcessResult Error: %1",
+  "c": "UDPWorker"
+ },
+ {
+  "i": 3172,
+  "s": "UTM Service Editor",
+  "c": "UTMSPAdapterEditor"
+ },
+ {
+  "i": 3175,
+  "s": "Logout",
+  "c": "UTMSPAdapterEditor"
+ },
+ {
+  "i": 3176,
+  "s": "User ID",
+  "c": "UTMSPAdapterEditor"
+ },
+ {
+  "i": 3177,
+  "s": "Password:",
+  "c": "UTMSPAdapterEditor"
+ },
+ {
+  "i": 3178,
+  "s": "Login",
+  "c": "UTMSPAdapterEditor"
+ },
+ {
+  "i": 3179,
+  "s": "Forgot Your Password?",
+  "c": "UTMSPAdapterEditor"
+ },
+ {
+  "i": 3180,
+  "s": "New User? Register Now",
+  "c": "UTMSPAdapterEditor"
+ },
+ {
+  "i": 3181,
+  "s": "Insert Geofence",
+  "c": "UTMSPAdapterEditor"
+ },
+ {
+  "i": 3182,
+  "s": "Min Altitude",
+  "c": "UTMSPAdapterEditor"
+ },
+ {
+  "i": 3183,
+  "s": "Max Altitude",
+  "c": "UTMSPAdapterEditor"
+ },
+ {
+  "i": 3184,
+  "s": "Date & Time",
+  "c": "UTMSPAdapterEditor"
+ },
+ {
+  "i": 3187,
+  "s": "Start Time",
+  "c": "UTMSPAdapterEditor"
+ },
+ {
+  "i": 3188,
+  "s": "End Time",
+  "c": "UTMSPAdapterEditor"
+ },
+ {
+  "i": 3189,
+  "s": "Mission Altitude",
+  "c": "UTMSPAdapterEditor"
+ },
+ {
+  "i": 3190,
+  "s": "Register Flight Plan",
+  "c": "UTMSPAdapterEditor"
+ },
+ {
+  "i": 3191,
+  "s": "Remove Flight Plan",
+  "c": "UTMSPAdapterEditor"
+ },
+ {
+  "i": 3192,
+  "s": "Option",
+  "c": "UTMSPMapPolygonVisuals"
+ },
+ {
+  "i": 3193,
+  "s": "Click on the map to add vertices. Click 'Done Fencing' when finished.",
+  "c": "UTMSPMapPolygonVisuals"
+ },
+ {
+  "i": 3198,
+  "s": "Automatic",
+  "c": "UTMSPMapPolygonVisuals"
+ },
+ {
+  "i": 3199,
+  "s": "Done fencing",
+  "c": "UTMSPMapPolygonVisuals"
+ },
+ {
+  "i": 3200,
+  "s": "Mannual",
+  "c": "UTMSPMapPolygonVisuals"
+ },
+ {
+  "i": 3201,
+  "s": "Note: For best perfomance, please disable AutoConnect to UDP devices on the General page.",
+  "c": "UdpSettings"
+ },
+ {
+  "i": 3202,
+  "s": "Port",
+  "c": "UdpSettings"
+ },
+ {
+  "i": 3203,
+  "s": "Server Addresses (optional)",
+  "c": "UdpSettings"
+ },
+ {
+  "i": 3205,
+  "s": "Example: 127.0.0.1:14550",
+  "c": "UdpSettings"
+ },
+ {
+  "i": 3206,
+  "s": "Add Server",
+  "c": "UdpSettings"
+ },
+ {
+  "i": 3217,
+  "s": "Feet",
+  "c": "UnitsSettings"
+ },
+ {
+  "i": 3218,
+  "s": "Meters",
+  "c": "UnitsSettings"
+ },
+ {
+  "i": 3221,
+  "s": "SquareFeet",
+  "c": "UnitsSettings"
+ },
+ {
+  "i": 3222,
+  "s": "SquareMeters",
+  "c": "UnitsSettings"
+ },
+ {
+  "i": 3223,
+  "s": "SquareKilometers",
+  "c": "UnitsSettings"
+ },
+ {
+  "i": 3224,
+  "s": "Hectares",
+  "c": "UnitsSettings"
+ },
+ {
+  "i": 3225,
+  "s": "Acres",
+  "c": "UnitsSettings"
+ },
+ {
+  "i": 3226,
+  "s": "SquareMiles",
+  "c": "UnitsSettings"
+ },
+ {
+  "i": 3228,
+  "s": "Knots",
+  "c": "UnitsSettings"
+ },
+ {
+  "i": 3230,
+  "s": "Celsius",
+  "c": "UnitsSettings"
+ },
+ {
+  "i": 3231,
+  "s": "Fahrenheit",
+  "c": "UnitsSettings"
+ },
+ {
+  "i": 3233,
+  "s": "Grams",
+  "c": "UnitsSettings"
+ },
+ {
+  "i": 3234,
+  "s": "Kilograms",
+  "c": "UnitsSettings"
+ },
+ {
+  "i": 3235,
+  "s": "Ounces",
+  "c": "UnitsSettings"
+ },
+ {
+  "i": 3236,
+  "s": "Pounds",
+  "c": "UnitsSettings"
+ },
+ {
+  "i": 3237,
+  "s": "Weight",
+  "c": "UnitsSettings"
+ },
+ {
+  "i": 3254,
+  "s": "VTOL Landing",
+  "c": "VTOLLandingComplexItem"
+ },
+ {
+  "i": 3258,
+  "s": "Final approach",
+  "c": "VTOLLandingPatternEditor"
+ },
+ {
+  "i": 3259,
+  "s": "Use loiter to altitude",
+  "c": "VTOLLandingPatternEditor"
+ },
+ {
+  "i": 3269,
+  "s": "* Avoid tailwind on approach to land.",
+  "c": "VTOLLandingPatternEditor"
+ },
+ {
+  "i": 3270,
+  "s": "* Ensure landing distance is enough to complete transition.",
+  "c": "VTOLLandingPatternEditor"
+ },
+ {
+  "i": 3276,
+  "s": "Approach",
+  "c": "VTOLLandingPatternMapVisual"
+ },
+ {
+  "i": 3281,
+  "s": "battery %1 level low",
+  "c": "Vehicle"
+ },
+ {
+  "i": 3282,
+  "s": "battery %1 level is critical",
+  "c": "Vehicle"
+ },
+ {
+  "i": 3283,
+  "s": "battery %1 level emergency",
+  "c": "Vehicle"
+ },
+ {
+  "i": 3284,
+  "s": "battery %1 failed",
+  "c": "Vehicle"
+ },
+ {
+  "i": 3285,
+  "s": "battery %1 unhealthy",
+  "c": "Vehicle"
+ },
+ {
+  "i": 3286,
+  "s": "warning",
+  "c": "Vehicle"
+ },
+ {
+  "i": 3287,
+  "s": "Set Home failed, terrain data not available for selected coordinate",
+  "c": "Vehicle"
+ },
+ {
+  "i": 3288,
+  "s": "minimum altitude",
+  "c": "Vehicle"
+ },
+ {
+  "i": 3289,
+  "s": "maximum altitude",
+  "c": "Vehicle"
+ },
+ {
+  "i": 3290,
+  "s": "boundary",
+  "c": "Vehicle"
+ },
+ {
+  "i": 3291,
+  "s": "fence breached",
+  "c": "Vehicle"
+ },
+ {
+  "i": 3292,
+  "s": "Waiting for previous operator control request",
+  "c": "Vehicle"
+ },
+ {
+  "i": 3293,
+  "s": "No response to operator control request",
+  "c": "Vehicle"
+ },
+ {
+  "i": 3294,
+  "s": "Vehicle %1 ",
+  "c": "Vehicle"
+ },
+ {
+  "i": 3295,
+  "s": "Vehicle reboot failed.",
+  "c": "Vehicle"
+ },
+ {
+  "i": 3299,
+  "s": "Change Heading not supported by Vehicle.",
+  "c": "Vehicle"
+ },
+ {
+  "i": 3300,
+  "s": "Unable to send command: %1.",
+  "c": "Vehicle"
+ },
+ {
+  "i": 3301,
+  "s": "Internal error - MAV_COMP_ID_ALL not supported",
+  "c": "Vehicle"
+ },
+ {
+  "i": 3302,
+  "s": "Waiting on previous response to same command.",
+  "c": "Vehicle"
+ },
+ {
+  "i": 3309,
+  "s": "Airship",
+  "c": "Vehicle Class"
+ },
+ {
+  "i": 3310,
+  "s": "Fixed Wing",
+  "c": "Vehicle Class"
+ },
+ {
+  "i": 3311,
+  "s": "Rover-Boat",
+  "c": "Vehicle Class"
+ },
+ {
+  "i": 3312,
+  "s": "Sub",
+  "c": "Vehicle Class"
+ },
+ {
+  "i": 3313,
+  "s": "Multi-Rotor",
+  "c": "Vehicle Class"
+ },
+ {
+  "i": 3314,
+  "s": "VTOL",
+  "c": "Vehicle Class"
+ },
+ {
+  "i": 3315,
+  "s": "Generic",
+  "c": "Vehicle Class"
+ },
+ {
+  "i": 3317,
+  "s": "%1Communication regained on %2 link",
+  "c": "VehicleLinkManager"
+ },
+ {
+  "i": 3318,
+  "s": "primary",
+  "c": "VehicleLinkManager"
+ },
+ {
+  "i": 3319,
+  "s": "secondary",
+  "c": "VehicleLinkManager"
+ },
+ {
+  "i": 3320,
+  "s": "%1Communication regained",
+  "c": "VehicleLinkManager"
+ },
+ {
+  "i": 3321,
+  "s": "%1Switching communication to new primary link",
+  "c": "VehicleLinkManager"
+ },
+ {
+  "i": 3322,
+  "s": "%1Communication lost on %2 link.",
+  "c": "VehicleLinkManager"
+ },
+ {
+  "i": 3323,
+  "s": "%1Switching communication to secondary link.",
+  "c": "VehicleLinkManager"
+ },
+ {
+  "i": 3324,
+  "s": "%1Communication lost",
+  "c": "VehicleLinkManager"
+ },
+ {
+  "i": 3325,
+  "s": "Comm Lost",
+  "c": "VehicleLinkManager"
+ },
+ {
+  "i": 3327,
+  "s": "No Messages",
+  "c": "VehicleMessageList"
+ },
+ {
+  "i": 3328,
+  "s": "Edit Parameter",
+  "c": "VehicleMessageList"
+ },
+ {
+  "i": 3336,
+  "s": "Analyze vibration associated with your vehicle.",
+  "c": "VibrationPage"
+ },
+ {
+  "i": 3337,
+  "s": "X (%1)",
+  "c": "VibrationPage"
+ },
+ {
+  "i": 3338,
+  "s": "Y (%1)",
+  "c": "VibrationPage"
+ },
+ {
+  "i": 3339,
+  "s": "Z (%1)",
+  "c": "VibrationPage"
+ },
+ {
+  "i": 3340,
+  "s": "Accel 1: %1",
+  "c": "VibrationPage"
+ },
+ {
+  "i": 3341,
+  "s": "Accel 2: %1",
+  "c": "VibrationPage"
+ },
+ {
+  "i": 3342,
+  "s": "Accel 3: %1",
+  "c": "VibrationPage"
+ },
+ {
+  "i": 3343,
+  "s": "Clip count",
+  "c": "VibrationPage"
+ },
+ {
+  "i": 3344,
+  "s": "Not Available",
+  "c": "VibrationPage"
+ },
+ {
+  "i": 3347,
+  "s": "No Video Available",
+  "c": "VideoSettings"
+ },
+ {
+  "i": 3348,
+  "s": "Video Stream Disabled",
+  "c": "VideoSettings"
+ },
+ {
+  "i": 3349,
+  "s": "RTSP Video Stream",
+  "c": "VideoSettings"
+ },
+ {
+  "i": 3350,
+  "s": "UDP h.264 Video Stream",
+  "c": "VideoSettings"
+ },
+ {
+  "i": 3351,
+  "s": "UDP h.265 Video Stream",
+  "c": "VideoSettings"
+ },
+ {
+  "i": 3352,
+  "s": "TCP-MPEG2 Video Stream",
+  "c": "VideoSettings"
+ },
+ {
+  "i": 3353,
+  "s": "MPEG-TS Video Stream",
+  "c": "VideoSettings"
+ },
+ {
+  "i": 3354,
+  "s": "3DR Solo (requires restart)",
+  "c": "VideoSettings"
+ },
+ {
+  "i": 3355,
+  "s": "Parrot Discovery",
+  "c": "VideoSettings"
+ },
+ {
+  "i": 3356,
+  "s": "Yuneec Mantis G",
+  "c": "VideoSettings"
+ },
+ {
+  "i": 3357,
+  "s": "Herelink AirUnit",
+  "c": "VideoSettings"
+ },
+ {
+  "i": 3358,
+  "s": "Herelink Hotspot",
+  "c": "VideoSettings"
+ },
+ {
+  "i": 3359,
+  "s": "Video Source",
+  "c": "VideoSettings"
+ },
+ {
+  "i": 3360,
+  "s": "Mavlink camera stream is automatically configured",
+  "c": "VideoSettings"
+ },
+ {
+  "i": 3361,
+  "s": "Source",
+  "c": "VideoSettings"
+ },
+ {
+  "i": 3362,
+  "s": "Connection",
+  "c": "VideoSettings"
+ },
+ {
+  "i": 3363,
+  "s": "RTSP URL",
+  "c": "VideoSettings"
+ },
+ {
+  "i": 3364,
+  "s": "TCP URL",
+  "c": "VideoSettings"
+ },
+ {
+  "i": 3365,
+  "s": "UDP URL",
+  "c": "VideoSettings"
+ },
+ {
+  "i": 3366,
+  "s": "Settings",
+  "c": "VideoSettings"
+ },
+ {
+  "i": 3367,
+  "s": "Aspect Ratio",
+  "c": "VideoSettings"
+ },
+ {
+  "i": 3368,
+  "s": "Stop recording when disarmed",
+  "c": "VideoSettings"
+ },
+ {
+  "i": 3369,
+  "s": "Low Latency Mode",
+  "c": "VideoSettings"
+ },
+ {
+  "i": 3370,
+  "s": "Video decode priority",
+  "c": "VideoSettings"
+ },
+ {
+  "i": 3371,
+  "s": "Local Video Storage",
+  "c": "VideoSettings"
+ },
+ {
+  "i": 3372,
+  "s": "Record File Format",
+  "c": "VideoSettings"
+ },
+ {
+  "i": 3373,
+  "s": "Auto-Delete Saved Recordings",
+  "c": "VideoSettings"
+ },
+ {
+  "i": 3374,
+  "s": "Max Storage Usage",
+  "c": "VideoSettings"
+ },
+ {
+  "i": 3375,
+  "s": "Downloading Imageries: ",
+  "c": "Viewer3DModel"
+ },
+ {
+  "i": 3376,
+  "s": "Progress",
+  "c": "Viewer3DProgressBar"
+ },
+ {
+  "i": 3379,
+  "s": "W",
+  "c": "Viewer3DVehicleItems"
+ },
+ {
+  "i": 3381,
+  "s": "null",
+  "c": "Viewer3DVehicleItems"
+ }
+]
