@@ -1,6 +1,8 @@
-# QGC Android Builds
+# QGroundCtrol5_Android
 
-QGroundControl 的 Android 构建脚本、中文汉化成果与构建产物归档。这个仓库记录了两套完整可复现的
+**QGroundControl Android 完整中文版，修复中文切换问题。**
+
+这里收录中文汉化成果、可复现的 Android 构建脚本与构建产物归档。仓库记录了两套完整可复现的
 Android 构建：一套面向现代设备，一套面向 **Android 4.4** 老设备。
 
 > **APK 不放在仓库里**，请到 [Releases](../../releases) 下载。
